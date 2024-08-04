@@ -82,12 +82,11 @@ public sealed class PresetIdCardSystem : EntitySystem
 
         _cardSystem.TryChangeJobTitle(uid, job.LocalizedName);
         _cardSystem.TryChangeJobDepartment(uid, job);
-        _cardSystem.TryChangeJobColor(uid, GetJobColor(_prototypeManager, job), job.RadioIsBold); // Genesis-End
+        _cardSystem.TryChangeJobColor(uid, GetJobColor(_prototypeManager, job), job.RadioIsBold); // Sunrise-End
 
         if (_prototypeManager.TryIndex(job.Icon, out var jobIcon))
             _cardSystem.TryChangeJobIcon(uid, jobIcon);
     }
-}
 
     // Genesis-Start
     public static string GetJobColor(IPrototypeManager prototypeManager, IPrototype job)
@@ -108,3 +107,4 @@ public sealed class PresetIdCardSystem : EntitySystem
         return string.Empty;
     }
     // Genesis-End
+}

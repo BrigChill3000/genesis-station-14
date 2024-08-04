@@ -133,13 +133,6 @@ public sealed class IdCardConsoleSystem : SharedIdCardConsoleSystem
         {
             _idCard.TryChangeJobIcon(targetId, jobIcon, player: player);
             _idCard.TryChangeJobDepartment(targetId, job);
-            // Genesis-Start
-            _idCard.TryChangeJobColor(
-                targetId,
-                PresetIdCardSystem.GetJobColor(_prototype, job),
-                job.RadioIsBold
-            );
-            // Genesis-End
         }
 
         UpdateStationRecord(uid, targetId, newFullName, newJobTitle, job);

@@ -6,6 +6,7 @@ using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Content.Server.Administration.Managers;
+using Content.Server.Backmen.Administration.Bwoink.Gpt;
 using Content.Server.Afk;
 using Content.Server.Discord;
 using Content.Server.GameTicking;
@@ -22,6 +23,8 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Robust.Shared.Console;
+using Content.Server.Administration.Commands;
 
 namespace Content.Server.Administration.Systems
 {
@@ -428,7 +431,8 @@ namespace Content.Server.Administration.Systems
             }
             else if (senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp))
             {
-                bwoinkText = $"[color=red]{senderSession.Name}[/color]";
+                
+                bwoinkText = $"\\[{senderAdmin.Title}\\][color=red]{senderSession.Name}[/color]: {escapedText}";
             }
             else
             {
@@ -500,6 +504,8 @@ namespace Content.Server.Administration.Systems
                 _messageQueues[msg.UserId].Enqueue(GenerateAHelpMessage(senderSession.Name, str, !personalChannel, _gameTicker.RoundDuration().ToString("hh\\:mm\\:ss"), _gameTicker.RunLevel, playedSound: playSound, noReceivers: nonAfkAdmins.Count == 0));
             }
 
+            EntityManager.SystemOrNull<GptAhelpSystem>()?.AddUserMessage(message.UserId, personalChannel, escapedText); // backmen: gpt
+
             if (admins.Count != 0 || sendsWebhook)
                 return;
 
@@ -546,4 +552,3 @@ namespace Content.Server.Administration.Systems
         }
     }
 }
-

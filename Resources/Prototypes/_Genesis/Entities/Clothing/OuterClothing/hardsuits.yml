@@ -193,11 +193,11 @@
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndicate.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndicate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndicate.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndicate.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -232,9 +232,9 @@
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiemedic.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiemedic.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiemedic.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiemedic.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieMedicCorvax
   - type: Tag
@@ -250,9 +250,9 @@
   description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndieelite.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndieelite.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndieelite.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndieelite.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -288,9 +288,9 @@
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiecommander.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiecommander.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiecommander.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/syndiecommander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -320,9 +320,9 @@
   description: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/cybersun.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/cybersun.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/cybersun.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Corvax/cybersun.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
@@ -353,11 +353,11 @@
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndicate.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndicate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndicate.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndicate.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -392,9 +392,9 @@
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiemedic.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiemedic.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiemedic.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiemedic.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieMedicSunRise
   - type: Tag
@@ -410,9 +410,9 @@
   description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndieelite.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndieelite.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndieelite.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndieelite.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -448,9 +448,9 @@
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiecommander.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiecommander.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiecommander.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/SunRise/syndiecommander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -481,11 +481,11 @@
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndicate.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndicate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndicate.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndicate.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -520,9 +520,9 @@
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiemedic.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiemedic.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiemedic.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiemedic.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieMedicXeno
   - type: Tag
@@ -538,9 +538,9 @@
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiecommander.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiecommander.rsi
   - type: Clothing
-    sprite: ERTAcademy/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiecommander.rsi
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/XenoStation/syndiecommander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000

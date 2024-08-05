@@ -51,11 +51,11 @@
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndicate.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/syndicate.rsi #backmen resprite
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndicate.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/syndicate.rsi #backmen resprite
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -90,9 +90,9 @@
   description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndieelite.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/syndieelite.rsi #backmen resprite
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndieelite.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/syndieelite.rsi #backmen resprite
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -128,9 +128,9 @@
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/syndiecommander.rsi #backmen resprite
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/syndiecommander.rsi #backmen resprite
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -160,9 +160,9 @@
   description: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
   components:
   - type: Sprite
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/cybersun.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/cybersun.rsi #backmen resprite
   - type: Clothing
-    sprite: Backmen/Clothing/OuterClothing/Hardsuits/cybersun.rsi #backmen resprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/NukeOps/Backmen/cybersun.rsi #backmen resprite
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000

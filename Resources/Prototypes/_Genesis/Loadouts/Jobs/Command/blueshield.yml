@@ -122,11 +122,11 @@
 
 # Belt
 - type: loadout
-  id: UniversalSlim
-  equipment: UniversalSlim
+  id: UniversalSlimBelt
+  equipment: UniversalSlimBelt
 
 - type: startingGear
-  id: UniversalSlim
+  id: UniversalSlimBelt
   equipment:
     belt: ClothingBeltUniversalSlimFilled
 

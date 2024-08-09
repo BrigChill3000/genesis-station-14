@@ -22,7 +22,7 @@
 
 - type: entity
   parent: ClothingBeltStorageBase
-  id: СlothingBeltUniversalSlim
+  id: ClothingBeltUniversalSlim
   name: universal slim belt
   description: Universal belt, can hold almost everything.
   components:

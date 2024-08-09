@@ -44,7 +44,6 @@
     shoes: ClothingShoesBootsSpetsnazFilled
     eyes: ClothingEyesGlassesSunglassesBlueShield
     gloves: ClothingHandsTacticalBlueShield
-    outerClothing: ClothingOuterArmorBlueShield
     id: BlueShieldPDA
     ears: ClothingHeadsetAltCommand
   storage:

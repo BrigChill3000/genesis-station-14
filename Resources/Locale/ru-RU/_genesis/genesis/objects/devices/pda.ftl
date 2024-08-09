@@ -1,25 +1,4 @@
-ent-BlueShieldPDA = КПК офицера синего щита
+ent-BlueShieldPDA = ПДА офицера "Синий Щит"
     .desc = Покрыт кровью прошлых глав.
-    .suffix = { "" }
-ent-HoSPDABlue = { ent-HoSPDA }
-    .desc = { ent-HoSPDA.desc }
-    .suffix = Синий
-ent-WardenPDABlue = { ent-WardenPDA }
-    .desc = { ent-WardenPDA.desc }
-    .suffix = Синий
-ent-SecurityPDABlue = { ent-SecurityPDA }
-    .desc = { ent-SecurityPDA.desc }
-    .suffix = Синий
-ent-SeniorOfficerPDABlue = { ent-SeniorOfficerPDA }
-    .desc = { ent-SeniorOfficerPDA.desc }
-    .suffix = Синий
-ent-HoSAPDA = КПК начальника безопасности академии
-    .desc = Очень похож на КПК гсб.
-    .suffix = { "" }
-ent-HoSAPDABlue = { ent-HoSAPDA }
-    .desc = { ent-HoSAPDA.desc }
-    .suffix = Синий
-ent-RecruitPDA = КПК новобранца
-    .desc = Почему он не серый?
     .suffix = { "" }
 

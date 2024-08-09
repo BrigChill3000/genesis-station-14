@@ -83,7 +83,7 @@
   id: BlueShieldBelt
   name: loadout-group-belt
   loadouts:
-  - SecurityBelt
+  - UniversalSlimBelt
   - BlueShieldWebbing
 
 - type: loadoutGroup

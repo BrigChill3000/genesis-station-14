@@ -10,3 +10,16 @@
     - id: Stunbaton
     - id: Handcuffs
     - id: Handcuffs
+
+- type: entity
+  id: ClothingBeltUniversalSlimFilled
+  parent: ClothingBeltUniversalSlim
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: GrenadeFlashBang
+    - id: TearGasGrenade
+    - id: Stunbaton
+    - id: Handcuffs
+    - id: Handcuffs

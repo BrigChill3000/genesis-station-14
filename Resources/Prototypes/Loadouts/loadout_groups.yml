@@ -974,6 +974,7 @@
   loadouts:
   - CombatBoots
   - JackBoots
+  - SpetsnazBoots
   - SecurityWinterBoots
 
 - type: loadoutGroup

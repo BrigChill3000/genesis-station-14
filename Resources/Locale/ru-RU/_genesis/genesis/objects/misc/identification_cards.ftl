@@ -1,9 +1,3 @@
 ent-BlueShieldIDCard = ID карта офицера синего щита
     .desc = { ent-IDCardStandard.desc }
     .suffix = { "" }
-ent-HoSAIDCard = ID карта начальника безопасности академии
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-RecruitIDCard = ID карта новобранца
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }

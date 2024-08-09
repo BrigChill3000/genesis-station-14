@@ -10,7 +10,7 @@
     sprite: Genesis/Clothing/Belt/miningwebbing.rsi
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: СlothingBeltUniversalSlim
   id: ClothingBeltBlueShieldWebbing
   name: blueshield webbing
   description: Unique and versatile chest rig, can hold security gear.
@@ -30,3 +30,124 @@
     sprite: Genesis/Clothing/Belt/universalslim.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Belt/universalslim.rsi
+  - type: ItemMapper
+    mapLayers:
+      drill:
+        whitelist:
+          tags:
+          - Powerdrill
+      cutters_red:
+        whitelist:
+          tags:
+          - Wirecutter
+      crowbar:
+        whitelist:
+          tags:
+          - Crowbar
+      crowbar_red:
+        whitelist:
+          tags:
+          - CrowbarRed
+      jaws:
+        whitelist:
+          tags:
+          - JawsOfLife
+      screwdriver_nuke:
+        whitelist:
+          tags:
+          - Screwdriver
+      wrench:
+        whitelist:
+          tags:
+          - Wrench
+      multitool:
+        whitelist:
+          tags:
+            - Multitool
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          components:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+      bottle:
+        whitelist:
+          tags:
+          - Bottle
+      bottle_spray:
+        whitelist:
+          tags:
+          - Spray
+      hypo:
+        whitelist:
+          components:
+          - Hypospray
+      pill:
+        whitelist:
+          components:
+          - Pill
+          tags:
+          - PillCanister
+          - BotanyHatchet
+      # hydro:
+      #   whitelist:
+      #     tags:
+      #     - PlantAnalyzer # Dunno what to put here, should be aight.
+      hoe:
+        whitelist:
+          tags:
+          - BotanyHoe
+      secateurs: # We don't have secateurs and this looks similar enough.
+        whitelist:
+          tags:
+          - BotanyShovel
+      plantbgone:
+        whitelist:
+          tags:
+          - PlantBGone
+      kitchenknife:
+        whitelist:
+          tags:
+          - KitchenKnife
+      cleaver:
+        whitelist:
+          tags:
+          - Cleaver
+      rollingpin:
+        whitelist:
+          tags:
+          - RollingPin
+      coldsauce:
+        whitelist:
+          tags:
+          - Coldsauce
+      enzyme:
+        whitelist:
+          tags:
+          - Enzyme
+      hotsauce:
+        whitelist:
+          tags:
+          - Hotsauce
+      ketchup:
+        whitelist:
+          tags:
+          - Ketchup
+      bbqsauce:
+        whitelist:
+          tags:
+          - BBQsauce
+      saltshaker:
+        whitelist:
+          tags:
+          - SaltShaker
+      peppershaker:
+        whitelist:
+          tags:
+          - PepperShaker

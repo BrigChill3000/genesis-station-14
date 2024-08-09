@@ -122,6 +122,15 @@
 
 # Belt
 - type: loadout
+  id: UniversalSlim
+  equipment: UniversalSlim
+
+- type: startingGear
+  id: UniversalSlim
+  equipment:
+    belt: ClothingBeltUniversalSlimFilled
+
+- type: loadout
   id: BlueShieldWebbing
   equipment: BlueShieldWebbing
 

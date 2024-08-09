@@ -83,6 +83,16 @@
   equipment:
     jumpsuit: ClothingUniformHECU
 
+# Shoes
+- type: loadout
+  id: SpetsnazBoots
+  equipment: SpetsnazBoots
+
+- type: startingGear
+  id: SpetsnazBoots
+  equipment:
+    shoes: ClothingShoesBootsSpetsnazFilled
+
 # Mask
 - type: loadout
   id: SecurityMask

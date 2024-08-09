@@ -19,3 +19,14 @@
     sprite: Genesis/Clothing/Belt/blueshieldwebbing.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Belt/blueshieldwebbing.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltUniversalSlim
+  name: universal slim belt
+  description: Universal belt, can hold almost everything.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Belt/universalslim.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Belt/universalslim.rsi

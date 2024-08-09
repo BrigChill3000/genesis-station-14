@@ -10,7 +10,7 @@
     sprite: Genesis/Clothing/Belt/miningwebbing.rsi
 
 - type: entity
-  parent: СlothingBeltUniversalSlim
+  parent: ClothingBeltUniversalSlim
   id: ClothingBeltBlueShieldWebbing
   name: blueshield webbing
   description: Unique and versatile chest rig, can hold security gear.

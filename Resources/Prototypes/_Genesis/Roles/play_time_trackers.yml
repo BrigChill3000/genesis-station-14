@@ -2,6 +2,12 @@
   id: JobBlueShield
 
 - type: playTimeTracker
+  id: JobCentComOfficial
+
+- type: playTimeTracker
+  id: JobCentComOperator
+
+- type: playTimeTracker
   id: JobCentComConsultant
 
 - type: playTimeTracker

@@ -34,6 +34,37 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetModsuitStandard
 
+# BlueShield
+- type: entity
+  parent: ClothingOuterModsuitBodyBase
+  id: ClothingOuterModsuitBodyBlueShield
+  name: blueshield MOD chestplate
+  description: A chestplate for a MODsuit. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/blueshield.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/blueshield.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitBlueShield
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Heat: 0.6
+        Piercing: 0.6
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+
 # Security
 - type: entity
   parent: ClothingOuterModsuitBodyBase

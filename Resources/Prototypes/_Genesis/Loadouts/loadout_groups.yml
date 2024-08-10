@@ -6,6 +6,7 @@
   - CentComBackpack
   - CentComSatchel
   - CentComDuffel
+  - CentComModSuit
 
 # Consultant
 - type: loadoutGroup
@@ -69,6 +70,7 @@
   - BlueShieldBackpack
   - BlueShieldSatchel
   - BlueShieldDuffel
+  - BlueShieldModSuit
 
 - type: loadoutGroup
   id: BlueShieldOuterClothing

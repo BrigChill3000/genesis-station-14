@@ -964,6 +964,7 @@
   id: SecurityOuterClothing
   name: loadout-group-outerclothing
   loadouts:
+  - ArmorVestSec
   - ArmorVest
   - ArmorVestSlim
   - SecurityOfficerWintercoat

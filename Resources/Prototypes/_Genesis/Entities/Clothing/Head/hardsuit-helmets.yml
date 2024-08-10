@@ -10,7 +10,7 @@
   - type: Clothing
     sprite: Genesis/Clothing/Head/Hardsuits/blueshield.rsi
   - type: PointLight
-    color: "#6088FF"
+    color: "#ffffff"
 
 #QM Hardsuit
 - type: entity

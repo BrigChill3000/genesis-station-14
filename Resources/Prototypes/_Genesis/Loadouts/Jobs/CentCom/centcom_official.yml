@@ -59,7 +59,7 @@
   equipment: HeadHatCentcomcap
 
 - type: startingGear
-  id: HeadHatCentcomCap
+  id: HeadHatCentcomcap
   equipment:
     head: ClothingHeadHatCentcomcap
 

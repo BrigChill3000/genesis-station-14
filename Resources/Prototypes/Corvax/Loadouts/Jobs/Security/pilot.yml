@@ -2,7 +2,7 @@
 #Head
 - type: loadout
   id: PilotHead
-  equipment: HelmetPilot
+  equipment: PilotHead
 
 - type: startingGear
   id: PilotHead

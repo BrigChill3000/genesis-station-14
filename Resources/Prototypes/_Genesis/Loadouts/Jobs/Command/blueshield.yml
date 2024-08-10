@@ -83,6 +83,15 @@
   equipment:
     back: ClothingBackpackDuffelBlueShield
 
+- type: loadout
+  id: BlueShieldModSuit
+  equipment: BlueShieldModSuit
+
+- type: startingGear
+  id: BlueShieldModSuit
+  equipment:
+    back: ClothingModsuitBackBlueShield
+
 # Outer clothing
 - type: loadout
   id: BlueShieldOuterClothing

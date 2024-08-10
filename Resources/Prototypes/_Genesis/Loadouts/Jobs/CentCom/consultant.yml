@@ -83,6 +83,15 @@
   equipment:
     back: ClothingBackpackDuffelCentCom
 
+- type: loadout
+  id: CentComModSuit
+  equipment: CentComModSuit
+
+- type: startingGear
+  id: CentComModSuit
+  equipment:
+    back: ClothingModsuitBackCorp
+
 # Outer clothing
 - type: loadout
   id: ConsultantOuterClothing

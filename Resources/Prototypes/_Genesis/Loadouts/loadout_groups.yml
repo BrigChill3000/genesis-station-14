@@ -75,6 +75,7 @@
   name: loadout-group-outerclothing
   loadouts:
   - BlueShieldOuterClothing
+  - ArmorVest
   - BlueShieldJacket
   - BlueShieldArmorSlim
   - BlueShieldWintercoat

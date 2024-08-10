@@ -2,7 +2,7 @@
   id: CentComOperator
   name: job-name-centcomop
   description: job-description-centcomop
-  playTimeTracker: JobCentCommOperator
+  playTimeTracker: JobCentComOperator
   requirements:
     - !type:DepartmentTimeRequirement
       department: Command

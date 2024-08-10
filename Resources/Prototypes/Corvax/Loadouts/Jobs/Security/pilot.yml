@@ -1,11 +1,11 @@
 #Genesis Station
 #Head
 - type: loadout
-  id: HelmetPilot
+  id: PilotHead
   equipment: HelmetPilot
 
 - type: startingGear
-  id: HelmetPilot
+  id: PilotHead
   equipment:
     head: ClothingHeadHelmetPilot
 

@@ -61,7 +61,6 @@
   - type: CommunicationsConsole
     title: comms-console-announcement-title-prison
     canShuttle: false
-    announceVoice: Voljin
   - type: Computer
     board: PrisonCommsComputerCircuitboard
   - type: PointLight

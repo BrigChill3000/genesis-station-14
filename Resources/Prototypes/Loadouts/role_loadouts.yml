@@ -338,8 +338,8 @@
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
   - SecurityBackpack
-  - SecurityBelt
   - HeadofSecurityOuterClothing
+  - SecurityBelt
   - SecurityShoes
   - SecurityOfficerPocket
   - SecurityOfficerPocket2
@@ -353,8 +353,8 @@
   - WardenHead
   - WardenJumpsuit
   - SecurityBackpack
-  - SecurityBelt
   - WardenOuterClothing
+  - SecurityBelt
   - SecurityShoes
   - SecurityPocket
   - SecurityPocket2
@@ -372,6 +372,7 @@
   - SecurityShoes
   - SecurityPDA
   - SecurityBelt
+  - SecurityShoes
   - SecurityPocket
   - SecurityPocket2
   - SurvivalSecurity

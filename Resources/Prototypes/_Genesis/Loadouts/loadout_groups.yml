@@ -18,7 +18,7 @@
   - CentComOfficialJumpskirt
 
 - type: loadoutGroup
-  id: CentComHats
+  id: CentComHead
   name: loadout-group-head
   loadouts:
   - HeadHatBeretCentcomNaval
@@ -30,8 +30,8 @@
   name: loadout-group-neck
   minLimit: 0
   loadouts:
-  - CentComScarf
-  - CentComCloak
+  - CentcomScarf
+  - CentcomCloak
 
 - type: loadoutGroup
   id: CentComOuterClothing

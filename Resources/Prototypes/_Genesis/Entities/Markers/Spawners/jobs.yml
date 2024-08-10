@@ -23,3 +23,27 @@
     layers:
       - state: green
       - state: consultant
+
+- type: entity
+  id: SpawnPointCentComOfficial
+  parent: SpawnPointJobBase
+  name: centcom member
+  components:
+  - type: SpawnPoint
+    job_id: CentComOfficial
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom
+
+- type: entity
+  id: SpawnPointCentComOperator
+  parent: SpawnPointJobBase
+  name: centcom operator
+  components:
+  - type: SpawnPoint
+    job_id: CentComOperator
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom

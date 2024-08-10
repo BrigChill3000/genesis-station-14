@@ -1,5 +1,5 @@
-using Content.Server._Genesis.Carrying;
-using Content.Server.Carrying;
+//using Content.Server._Genesis.Carrying;
+//using Content.Server.Carrying;
 using Content.Server.Popups;
 using Content.Shared.Storage.Components;
 using Content.Shared.ActionBlocker;
@@ -21,7 +21,7 @@ public sealed class EscapeInventorySystem : EntitySystem
     [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
     [Dependency] private readonly ActionBlockerSystem _actionBlockerSystem = default!;
     [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
-    [Dependency] private readonly CarryingSystem _carryingSystem = default!;
+//    [Dependency] private readonly CarryingSystem _carryingSystem = default!;
 
     public override void Initialize()
     {
@@ -59,7 +59,8 @@ public sealed class EscapeInventorySystem : EntitySystem
             AttemptEscape(uid, container.Owner, component);
     }
 
-    public void AttemptEscape(EntityUid user, EntityUid container, CanEscapeInventoryComponent component, float multiplier = 1f)
+    //public void AttemptEscape(EntityUid user, EntityUid container, CanEscapeInventoryComponent component, float multiplier = 1f)
+    private void AttemptEscape(EntityUid user, EntityUid container, CanEscapeInventoryComponent component, float multiplier = 1f)
     {
         if (component.IsEscaping)
             return;
@@ -86,11 +87,11 @@ public sealed class EscapeInventorySystem : EntitySystem
             return;
 
         // Genesis-Start
-        if (TryComp<BeingCarriedComponent>(uid, out var carried))
-        {
-            _carryingSystem.DropCarried(carried.Carrier, uid);
-            return;
-        }
+        //if (TryComp<BeingCarriedComponent>(uid, out var carried))
+        //{
+        //    _carryingSystem.DropCarried(carried.Carrier, uid);
+        //    return;
+        //}
         // Genesis-End
 
         _containerSystem.AttachParentToContainerOrGrid((uid, Transform(uid)));

@@ -11,6 +11,8 @@
 - type: roleLoadout
   id: JobPilot
   groups:
+  - PilotHead
+  - PilotMask
   - SecurityJumpsuit
   - SecurityBackpack
   - SecurityOuterClothing

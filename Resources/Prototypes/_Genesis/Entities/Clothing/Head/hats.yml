@@ -56,3 +56,14 @@
     - ClothMade
     - HamsterWearable
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetPilot
+  name: pilot helmet
+  description: Standard pilot's helmet. 
+  components:
+  - type: Sprite
+    sprite:  Genesis/Clothing/Head/Hats/pilothelmet.rsi
+  - type: Clothing
+    sprite:  Genesis/Clothing/Head/Hats/pilothelmet.rsi

@@ -230,8 +230,8 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
-  - type: Carriable # Genesis-edit
-  - type: CanEscapeInventory # Genesis-edit
+#  - type: Carriable # Genesis-edit
+#  - type: CanEscapeInventory # Genesis-edit
   - type: Barotrauma
     damage:
       types:

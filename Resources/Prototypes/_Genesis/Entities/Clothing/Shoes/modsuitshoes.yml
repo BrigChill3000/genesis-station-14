@@ -30,11 +30,15 @@
     equipSound: /Audio/Items/ballin.ogg
     unequipSound: /Audio/Items/ballout.ogg
   - type: Magboots
-    toggleAction: ActionToggleMagbootsModsuitShoesAdmin
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
-    enabled: false
 
 # Security
 - type: entity
@@ -64,7 +68,12 @@
   - type: Clothing
     sprite: Genesis/Clothing/Shoes/Modsuit/atmospheric.rsi
   - type: Magboots
-    toggleAction: ActionToggleMagbootsModsuitShoesAtmospheric
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
 
 - type: entity
   parent: ClothingModsuitShoesMagBase
@@ -79,7 +88,12 @@
   - type: Clothing
     sprite: Genesis/Clothing/Shoes/Modsuit/engineering.rsi
   - type: Magboots
-    toggleAction: ActionToggleMagbootsModsuitShoesEngineering
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
 
 # Medical
 - type: entity
@@ -167,7 +181,12 @@
   - type: Clothing
     sprite: Genesis/Clothing/Shoes/Modsuit/admin.rsi
   - type: Magboots
-    toggleAction: ActionToggleMagbootsModsuitShoesAdmin
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
 
 - type: entity
   parent: ClothingModsuitShoesMagBase
@@ -183,7 +202,12 @@
   - type: Clothing
     sprite: Genesis/Clothing/Shoes/Modsuit/chrono.rsi
   - type: Magboots
-    toggleAction: ActionToggleMagbootsModsuitShoesChrono
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
 
 - type: entity
   parent: ClothingModsuitShoesBase
@@ -197,40 +221,3 @@
     state: icon
   - type: Clothing
     sprite: Genesis/Clothing/Shoes/Modsuit/corp.rsi
-
-# Actions (Remove when the system is done)
-- type: entity
-  id: ActionToggleMagbootsModsuitShoesAdmin
-  parent: ActionToggleMagboots
-  noSpawn: true
-  components:
-  - type: InstantAction
-    icon: { sprite: Genesis/Clothing/Shoes/Modsuit/admin.rsi, state: icon }
-    iconOn: Genesis/Clothing/Shoes/Modsuit/admin.rsi/icon-on.png
-
-- type: entity
-  id: ActionToggleMagbootsModsuitShoesChrono
-  parent: ActionToggleMagboots
-  noSpawn: true
-  components:
-  - type: InstantAction
-    icon: { sprite: Genesis/Clothing/Shoes/Modsuit/chrono.rsi, state: icon }
-    iconOn: Genesis/Clothing/Shoes/Modsuit/chrono.rsi/icon-on.png
-
-- type: entity
-  id: ActionToggleMagbootsModsuitShoesAtmospheric
-  parent: ActionToggleMagboots
-  noSpawn: true
-  components:
-  - type: InstantAction
-    icon: { sprite: Genesis/Clothing/Shoes/Modsuit/atmospheric.rsi, state: icon }
-    iconOn: Genesis/Clothing/Shoes/Modsuit/atmospheric.rsi/icon-on.png
-
-- type: entity
-  id: ActionToggleMagbootsModsuitShoesEngineering
-  parent: ActionToggleMagboots
-  noSpawn: true
-  components:
-  - type: InstantAction
-    icon: { sprite: Genesis/Clothing/Shoes/Modsuit/engineering.rsi, state: icon }
-    iconOn: Genesis/Clothing/Shoes/Modsuit/engineering.rsi/icon-on.png

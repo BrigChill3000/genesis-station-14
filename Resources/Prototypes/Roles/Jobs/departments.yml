@@ -22,7 +22,6 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -38,7 +37,6 @@
   color: "#334E6D"
   roles:
   - Captain
-  - IAA # Corvax-IAA
   - CentralCommandOfficial
   - ChiefEngineer
   - ChiefMedicalOfficer
@@ -79,7 +77,7 @@
   roles:
   - HeadOfSecurity
   - SecurityCadet
-  - Pilot # Corvax-Pilot
+  - Pilot # Corvax-Pilot Edit by Genesis
   - SecurityOfficer
   - Detective
   - Brigmedic # Genesis-Station
@@ -104,5 +102,5 @@
   - Reporter
   - Zookeeper
   - Psychologist
-  - Pilot # Corvax-Pilot
+  - Pilot # Corvax-Pilot Edit by Genesis
   primary: false

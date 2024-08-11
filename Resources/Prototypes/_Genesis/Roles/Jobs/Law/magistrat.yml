@@ -52,5 +52,5 @@
     head: ClothingHeadHatPwig
   storage:
     back:
-    - RubberStampMagistrat
+    #- RubberStampMagistrat
     - ClothingNeckLawyerbadge

@@ -142,7 +142,7 @@
     groups:
       shuttles:
         addComponents:
-        - type: CentComShuttle
+        - type: CentCommShuttle
         paths:
         - /Maps/_Genesis/Shuttles/centcom_shuttle.yml
 

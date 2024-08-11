@@ -23,3 +23,16 @@
     - state: centcom
   - type: PresetIdCard
     job: CentComConsultant
+
+ - type: entity
+  parent: IDCardStandard
+  id: MagistratIDCard
+  name: magistrat ID card
+  components:
+    - type: Sprite
+      sprite: Corvax/Objects/Misc/id_cards.rsi
+      layers:
+        - state: silver
+        - state: idiaa
+    - type: PresetIdCard
+      job: Magistrat

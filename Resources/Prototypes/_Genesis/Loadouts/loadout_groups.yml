@@ -45,6 +45,7 @@
   id: CentComOuterClothing
   name: loadout-group-outerclothing
   loadouts:
+  - ArmorVest
   - ArmorCentcomCarapace
 
 # Consultant

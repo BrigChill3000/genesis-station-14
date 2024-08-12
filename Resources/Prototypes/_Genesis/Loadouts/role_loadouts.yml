@@ -46,6 +46,19 @@
   - Glasses
   - Trinkets
 
+# Law
+- type: roleLoadout
+  id: JobMagistrat
+  groups:
+  - MagistratHead
+  - LawyerNeck
+  - LawyerJumpsuit
+  - CommonBackpack
+  - MagistratOuterClothing
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
 # Security
 - type: roleLoadout
   id: JobBrigmedic

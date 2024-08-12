@@ -206,6 +206,20 @@
   - MagazinePistolHighCapacity
   - SpeedLoaderMagnum
 
+# Law
+- type: loadoutGroup
+  id: MagistratHead
+  name: loadout-group-head
+  minLimit: 0
+  loadouts:
+  - MagistratHead
+
+- type: loadoutGroup
+  id: MagistratOuterClothing
+  name: loadout-group-outerclothing
+  loadouts:
+  - MagistratOuterClothing
+
 # NukeOps
 - type: loadoutGroup
   id: NukeOpsJumpsuit

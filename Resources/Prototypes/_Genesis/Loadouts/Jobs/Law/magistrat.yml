@@ -1,1 +1,21 @@
-#WIP
+#Genesis
+#MagistratUniformSuit
+# Head
+- type: loadout
+  id: MagistratHead
+  equipment: MagistratHead
+
+- type: startingGear
+  id: MagistratHead
+  equipment:
+    head: ClothingHeadHatPwig
+
+# Outer clothing
+- type: loadout
+  id: MagistratOuterClothing
+  equipment: MagistratOuterClothing
+
+- type: startingGear
+  id: MagistratOuterClothing
+  equipment:
+    outerClothing: ClothingOuterRobesJudge

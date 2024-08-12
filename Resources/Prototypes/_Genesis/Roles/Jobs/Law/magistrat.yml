@@ -42,15 +42,15 @@
 - type: startingGear
   id: MagistratGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerBlack #MagistratUniformSuit fix idk when do it zaaamn
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesColorWhite
-    outerClothing: ClothingOuterRobesJudge
     id: MagistratPDA
     ears: ClothingHeadsetAltCommand
-    head: ClothingHeadHatPwig
+    pocket2: BookSpaceLaw
+  inhand:
+    - BriefcaseIAAFilled
   storage:
     back:
     #- RubberStampMagistrat
-    - ClothingNeckLawyerbadge
+    - BoxSurvival

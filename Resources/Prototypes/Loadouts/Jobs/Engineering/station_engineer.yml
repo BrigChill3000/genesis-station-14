@@ -86,30 +86,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitEngineeringHazard
 
-- type: loadout
-  id: SeniorEngineerJumpsuit
-  equipment: SeniorEngineerJumpsuit
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorEngineering
-
-- type: startingGear
-  id: SeniorEngineerJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSeniorEngineer
-
-- type: loadout
-  id: SeniorEngineerJumpskirt
-  equipment: SeniorEngineerJumpskirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorEngineering
-
-- type: startingGear
-  id: SeniorEngineerJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSeniorEngineer
-
 # Back
 - type: loadout
   id: StationEngineerBackpack
@@ -175,25 +151,3 @@
   id: EngineeringWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinterEngi
-
-# ID
-- type: loadout
-  id: StationEngineerPDA
-  equipment: StationEngineerPDA
-
-- type: startingGear
-  id: StationEngineerPDA
-  equipment:
-    id: EngineerPDA
-
-- type: loadout
-  id: SeniorEngineerPDA
-  equipment: SeniorEngineerPDA
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorEngineering
-
-- type: startingGear
-  id: SeniorEngineerPDA
-  equipment:
-    id: SeniorEngineerPDA

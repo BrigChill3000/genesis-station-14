@@ -35,6 +35,16 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtCentcomOfficial
 
+# Gloves
+- type: loadout
+  id: CentComGloves
+  equipment: CentComGloves
+
+- type: startingGear
+  id: CentComGloves
+  equipment:
+    gloves: ClothingHandsGlovesCentcomNaval
+
 # Head
 - type: loadout
   id: HeadHatCentcom

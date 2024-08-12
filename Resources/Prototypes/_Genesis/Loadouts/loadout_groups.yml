@@ -18,6 +18,14 @@
   - CentComOfficialJumpskirt
 
 - type: loadoutGroup
+  id: CentComGloves
+  name: loadout-group-gloves
+  loadouts:
+  - BlackGloves
+  - CombatGloves
+  - CentComGloves
+
+- type: loadoutGroup
   id: CentComHead
   name: loadout-group-head
   loadouts:

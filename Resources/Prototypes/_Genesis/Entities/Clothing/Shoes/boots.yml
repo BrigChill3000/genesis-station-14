@@ -29,3 +29,35 @@
         collection: FootstepSoldier
         params:
           volume: -2
+
+﻿- type: entity
+  parent: ClothingShoesBootsJack
+  id: ClothingShoesBootsJackBlueShield
+  components:
+    - type: Sprite
+      sprite: Genesis/Clothing/Shoes/Boots/jackboots_blueshield.rsi
+    - type: Clothing
+      sprite: Genesis/Clothing/Shoes/Boots/jackboots_blueshield.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.90
+          Slash: 0.90
+          Piercing: 0.95
+          Heat: 0.95
+    - type: ContainerContainer
+      containers:
+        item: !type:ContainerSlot
+        storagebase: !type:Container
+    - type: Storage
+      grid:
+      - 0,0,2,1
+      whitelist:
+        tags:
+        - Knife
+        - Sidearm
+    - type: FootstepModifier
+      footstepSoundCollection:
+        collection: FootstepSoldier
+        params:
+          volume: -2

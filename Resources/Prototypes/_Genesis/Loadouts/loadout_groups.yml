@@ -368,6 +368,15 @@
   loadouts:
   - JumpsuitSalvage
 
+- type: loadoutGroup
+  id: CargoGloves
+  name: loadout-group-gloves
+  loadouts:
+  - BlackGloves
+  - FingerlessGloves
+  - BrownGloves
+  - LightBrownGloves
+
 # NukeOps
 - type: loadoutGroup
   id: NukeOpsJumpsuit

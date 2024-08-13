@@ -196,6 +196,7 @@
   - QuartermasterOuterClothing
   - CargoGloves
   - QuartermasterShoes
+  - CargoBelt
   - Glasses
   - Survival
   - Trinkets
@@ -211,6 +212,7 @@
   - CargoTechnicianOuterClothing
   - CargoGloves
   - CargoTechnicianShoes
+  - CargoBelt
   - Glasses
   - Survival
   - Trinkets
@@ -226,6 +228,7 @@
   - SalvageSpecialistOuterClothing
   - CargoGloves
   - SalvageSpecialistShoes
+  - SalvageSpecialistBelt
   - Glasses
   - Survival
   - Trinkets

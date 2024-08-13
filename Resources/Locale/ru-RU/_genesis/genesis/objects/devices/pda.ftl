@@ -10,6 +10,6 @@ ent-SeniorSalvagePDA = ПДА ведущего утилизатора
 ent-SeniorServicePDA = ПДА ведущего сервисного отдела
     .desc = ПДА ведущего просто копирка ПДА сервисного работника.
     .suffix = { "" }
-ent-MinerPDA = ПДА шахтера
+ent-MinerPDA = ПДА шахтёра
     .desc = Пахнет пеплом.
     .suffix = { "" }

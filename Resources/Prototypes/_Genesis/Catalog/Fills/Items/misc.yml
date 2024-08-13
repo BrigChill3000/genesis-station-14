@@ -7,3 +7,13 @@
     containers:
       item:
       - CombatKnife
+
+- type: entity
+  parent: ClothingShoesBootsJackBlueShield
+  id: ClothingShoesBootsJackBlueShieldFilled
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - CombatKnife

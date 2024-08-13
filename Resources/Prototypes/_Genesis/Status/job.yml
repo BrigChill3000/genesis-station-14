@@ -25,3 +25,10 @@
   icon:
     sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
     state: SeniorService
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSalvage
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: Salvage

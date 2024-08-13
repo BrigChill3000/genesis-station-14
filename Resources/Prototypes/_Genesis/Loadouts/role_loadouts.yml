@@ -155,6 +155,7 @@
   groups:
   - GroupTankHarness
   - SeniorSalvageHead
+  - SeniorSalvageNeck
   - SeniorSalvageJumpsuit
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing

@@ -953,9 +953,10 @@
   id: SecurityShoes
   name: loadout-group-shoes
   loadouts:
+  - JackSecBoots # Genesis-Edit
   - CombatBoots
   - JackBoots
-  - SpetsnazBoots # Genesis-Edit
+#  - SpetsnazBoots # Genesis-Edit
   - SecurityWinterBoots
 
 - type: loadoutGroup

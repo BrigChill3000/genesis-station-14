@@ -10,6 +10,6 @@ ent-SeniorSalvageIDCard = ID карта ведущего утилизатора�
 ent-SeniorServiceIDCard = ID карта ведущего сервисного отдела
     .desc = { ent-IDCardStandard.desc }
     .suffix = { "" }
-ent-MinerIDCard = ID карта шахтера
+ent-MinerIDCard = ID карта шахтёра
     .desc = { ent-IDCardStandard.desc }
     .suffix = { "" }

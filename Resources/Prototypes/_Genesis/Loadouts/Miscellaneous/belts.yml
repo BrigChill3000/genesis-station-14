@@ -1,1 +1,18 @@
-#shas bydet lmao
+# Belt
+- type: loadout
+  id: SalvageWebbing
+  equipment: SalvageWebbing
+
+- type: startingGear
+  id: SalvageWebbing
+  equipment:
+    belt: ClothingBeltSalvageWebbingFilled
+
+- type: loadout
+  id: MiningWebbingBelt
+  equipment: MiningWebbingBelt
+
+- type: startingGear
+  id: MiningWebbingBelt
+  equipment:
+    belt: ClothingBeltMiningWebbingFilled

@@ -34,6 +34,7 @@
   - Glasses
   - GlassesJamjar
   - GlassesJensen
+  - CheapSunglasses #Genesis-Edit
 
 - type: loadoutGroup
   id: GroupTankHarness
@@ -943,7 +944,7 @@
   id: SecurityOuterClothing
   name: loadout-group-outerclothing
   loadouts:
-  - ArmorVestSec
+  - ArmorVestSec # Genesis-Edit
   - ArmorVest
   - ArmorVestSlim
   - SecurityOfficerWintercoat
@@ -954,7 +955,7 @@
   loadouts:
   - CombatBoots
   - JackBoots
-  - SpetsnazBoots
+  - SpetsnazBoots # Genesis-Edit
   - SecurityWinterBoots
 
 - type: loadoutGroup

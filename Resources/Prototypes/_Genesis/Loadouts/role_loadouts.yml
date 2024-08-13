@@ -170,6 +170,7 @@
   id: JobSeniorService
   groups:
   - GroupTankHarness
+  - BartenderHead
   - BartenderJumpsuit
   - CommonBackpack
   - Glasses

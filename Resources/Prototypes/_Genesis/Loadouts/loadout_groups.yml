@@ -215,6 +215,21 @@
   - MagazinePistolHighCapacity
   - SpeedLoaderMagnum
 
+- type: loadoutGroup
+  id: SecurityCadetGloves
+  name: loadout-group-gloves
+  loadouts:
+  - BlackGloves
+  - FingerlessGloves
+
+- type: loadoutGroup
+  id: SecurityGloves
+  name: loadout-group-gloves
+  loadouts:
+  - BlackGloves
+  - CombatGloves
+  - FingerlessGloves
+
 # Law
 - type: loadoutGroup
   id: MagistratHead
@@ -376,6 +391,29 @@
   - FingerlessGloves
   - BrownGloves
   - LightBrownGloves
+
+# Engineering
+
+- type: loadoutGroup
+  id: EngineeringGloves
+  name: loadout-group-gloves
+  loadouts:
+  - YellowGloves
+
+- type: loadoutGroup
+  id: AtmosGloves
+  name: loadout-group-gloves
+  loadouts:
+  - YellowGloves
+  - AtmosGloves
+
+- type: loadoutGroup
+  id: ChiefEngineerGloves
+  name: loadout-group-gloves
+  loadouts:
+  - YellowGloves
+  - AtmosGloves
+  - ChiefEngineerGloves
 
 # NukeOps
 - type: loadoutGroup

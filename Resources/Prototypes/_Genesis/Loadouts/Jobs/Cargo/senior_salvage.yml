@@ -13,4 +13,14 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorSalvage
 
+# Neck
+- type: loadout
+  id: MinerCloak
+  equipment: MinerCloak
+
+- type: startingGear
+  id: MinerCloak
+  equipment:
+    neck: ClothingNeckCloakMiner
+
 

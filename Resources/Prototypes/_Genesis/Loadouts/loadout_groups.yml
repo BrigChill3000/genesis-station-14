@@ -393,7 +393,6 @@
   - LightBrownGloves
 
 # Engineering
-
 - type: loadoutGroup
   id: EngineeringGloves
   name: loadout-group-gloves

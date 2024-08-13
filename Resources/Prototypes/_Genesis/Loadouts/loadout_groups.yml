@@ -261,6 +261,7 @@
   - StationEngineerHardhatYellow
   - StationEngineerHardhatOrange
   - StationEngineerHardhatRed
+  - ChiefEngineerHead
   - SeniorEngineerBeret
 
 - type: loadoutGroup

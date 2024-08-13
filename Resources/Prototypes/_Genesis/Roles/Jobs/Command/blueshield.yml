@@ -41,7 +41,6 @@
 - type: startingGear
   id: BlueShieldGear
   equipment:
-    shoes: ClothingShoesBootsSpetsnazFilled
     eyes: ClothingEyesGlassesSunglassesBlueShield
     gloves: ClothingHandsTacticalBlueShield
     id: BlueShieldPDA

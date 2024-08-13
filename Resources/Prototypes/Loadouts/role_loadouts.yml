@@ -194,6 +194,7 @@
   - QuartermasterJumpsuit
   - CargoTechnicianBackpack
   - QuartermasterOuterClothing
+  - CargoGloves
   - QuartermasterShoes
   - Glasses
   - Survival
@@ -208,6 +209,7 @@
   - CargoTechnicianJumpsuit
   - CargoTechnicianBackpack
   - CargoTechnicianOuterClothing
+  - CargoGloves
   - CargoTechnicianShoes
   - Glasses
   - Survival
@@ -222,6 +224,7 @@
   - SalvageSpecialistJumpsuit
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
+  - CargoGloves
   - SalvageSpecialistShoes
   - Glasses
   - Survival

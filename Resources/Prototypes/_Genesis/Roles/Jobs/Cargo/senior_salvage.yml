@@ -28,6 +28,6 @@
 - type: startingGear
   id: SeniorSalvageGear
   equipment:
-    shoes: ClothingShoesBootsJackSecFilled
+    shoes: ClothingShoesBootsCombatFilled
     id: SeniorSalvagePDA
     ears: ClothingHeadsetCargo

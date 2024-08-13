@@ -30,7 +30,7 @@
         params:
           volume: -2
 
-﻿- type: entity
+- type: entity
   parent: ClothingShoesBootsJack
   id: ClothingShoesBootsJackBlueShield
   components:

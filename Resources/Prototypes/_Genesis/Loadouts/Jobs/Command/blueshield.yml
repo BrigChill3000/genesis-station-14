@@ -45,6 +45,15 @@
   equipment:
     head: ClothingHeadHatBlueShieldBeret
 
+- type: loadout
+  id: SWATHelmet
+  equipment: SWATHelmet
+
+- type: startingGear
+  id: SWATHelmet
+  equipment:
+    head: ClothingHeadHelmetSwat
+
 # Neck
 - type: loadout
   id: BlueShieldMantle

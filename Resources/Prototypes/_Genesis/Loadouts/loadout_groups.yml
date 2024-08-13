@@ -399,6 +399,20 @@
   - BrownGloves
   - LightBrownGloves
 
+- type: loadoutGroup
+  id: CargoBelt
+  name: loadout-group-belt
+  loadouts:
+  - UtilityBelt
+
+- type: loadoutGroup
+  id: SalvageSpecialistBelt
+  name: loadout-group-belt
+  loadouts:
+  - UtilityBelt
+  - SalvageWebbing
+  - MiningWebbingBelt
+
 # Engineering
 - type: loadoutGroup
   id: EngineeringGloves

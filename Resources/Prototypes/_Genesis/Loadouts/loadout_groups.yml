@@ -294,6 +294,13 @@
   - SeniorSalvageBeret
 
 - type: loadoutGroup
+  id: SeniorSalvageNeck
+  name: loadout-group-neck
+  minLimit: 0
+  loadouts:
+  - MinerCloak
+
+- type: loadoutGroup
   id: SeniorOfficerJumpsuit
   name: loadout-group-jumpsuit
   loadouts:

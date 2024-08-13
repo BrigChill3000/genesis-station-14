@@ -90,6 +90,7 @@
   id: JobSeniorOfficer
   groups:
   - GroupTankHarness
+  - SecurityHead
   - SeniorOfficerJumpsuit
   - SecurityBackpack
   - SecurityOuterClothing
@@ -106,7 +107,7 @@
   id: JobSeniorResearcher
   groups:
   - GroupTankHarness
-  - ScientistHead
+  - SeniorResearcherHead
   - ScientistNeck
   - SeniorResearcherJumpsuit
   - ScientistBackpack
@@ -138,7 +139,7 @@
   id: JobSeniorEngineer
   groups:
   - GroupTankHarness
-  - StationEngineerHead
+  - SeniorEngineerHead
   - SeniorEngineerJumpsuit
   - StationEngineerBackpack
   - StationEngineerOuterClothing

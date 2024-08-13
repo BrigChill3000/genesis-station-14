@@ -30,7 +30,6 @@
         params:
           volume: -2
 
-#BlueShield Zaaamn
 ﻿- type: entity
   parent: ClothingShoesBootsJack
   id: ClothingShoesBootsJackBlueShield

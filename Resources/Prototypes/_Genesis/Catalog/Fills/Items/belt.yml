@@ -23,3 +23,31 @@
     - id: Stunbaton
     - id: Handcuffs
     - id: Handcuffs
+
+- type: entity
+  id: ClothingBeltSalvageWebbingFilled
+  parent: ClothingBeltSalvageWebbing
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: Crowbar
+      - id: Wrench
+      - id: Screwdriver
+      - id: Wirecutter
+      - id: Welder
+      - id: NetworkConfigurator
+
+- type: entity
+  id: ClothingBeltMiningWebbingFilled
+  parent: ClothingBeltMiningWebbing
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: Crowbar
+      - id: Wrench
+      - id: Screwdriver
+      - id: Wirecutter
+      - id: Welder
+      - id: NetworkConfigurator

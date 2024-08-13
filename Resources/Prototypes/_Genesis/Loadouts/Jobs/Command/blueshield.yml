@@ -129,6 +129,16 @@
   equipment:
     outerClothing: ClothingOuterArmorBlueShieldSlim
 
+# Shoes
+- type: loadout
+  id: JackBootsBlueShield
+  equipment: JackBootsBlueShield
+
+- type: startingGear
+  id: JackBootsBlueShield
+  equipment:
+    shoes: ClothingShoesBootsJackBlueShieldFilled
+
 # Belt
 - type: loadout
   id: UniversalSlimBelt

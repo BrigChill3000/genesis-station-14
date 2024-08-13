@@ -210,9 +210,10 @@
   name: salvage ID card
   components:
   - type: Sprite
+    sprite: Genesis/Objects/Misc/id_cards.rsi
     layers:
     - state: default
-    - state: idshaftminer
+    - state: idsalvage
   - type: PresetIdCard
     job: SalvageSpecialist
 

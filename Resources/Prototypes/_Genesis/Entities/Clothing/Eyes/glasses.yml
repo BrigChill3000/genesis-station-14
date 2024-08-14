@@ -33,3 +33,36 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingEyesBase, ShowMedicalIcons]
+  id: ClothingEyesMessonMedical
+  name: medical messon
+  description: Messon for medical work.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Eyes/Glasses/meson_medical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Eyes/Glasses/meson_medical.rsi
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Tag
+    tags:
+    - HudMedical
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: ClothingEyesMessonSecurity
+  name: security messon
+  description: A heads-up messon that scans the humanoids in view and provides accurate data about their ID status and security records.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Eyes/Glasses/meson_security.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Eyes/Glasses/meson_security.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Tag
+    tags:
+    - HudSecurity

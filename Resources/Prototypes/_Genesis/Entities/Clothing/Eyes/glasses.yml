@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons]
   id: ClothingEyesGlassesSunglassesBlueShield
-  name: sun glasses
+  name: blueshield sunglasses
   description: Useful both for security and cargonia.
   components:
   - type: Sprite

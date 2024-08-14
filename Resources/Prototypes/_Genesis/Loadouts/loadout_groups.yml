@@ -235,8 +235,9 @@
   name: loadout-group-gloves
   loadouts:
   - BlackGloves
-  - CombatGloves
   - FingerlessGloves
+  - CombatGloves
+  - SecurityGloves
 
 # Law
 - type: loadoutGroup

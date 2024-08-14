@@ -102,3 +102,16 @@
   id: SecurityMask
   equipment:
     mask: ClothingMaskGasSecurity
+
+# Gloves
+- type: loadout
+  id: SecurityGloves
+  equipment: SecurityGloves
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer
+
+- type: startingGear
+  id: SecurityGloves
+  equipment:
+    gloves: ClothingHandsTacticalSecurity

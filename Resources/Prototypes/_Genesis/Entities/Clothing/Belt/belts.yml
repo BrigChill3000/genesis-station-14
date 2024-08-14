@@ -30,3 +30,14 @@
     sprite: Genesis/Clothing/Belt/universalslim.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Belt/universalslim.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltBlueShieldWebbingAlt
+  name: blueshield webbing
+  description: Unique and versatile chest rig, can hold security gear.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Belt/blueshieldwebbingalt.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Belt/blueshieldwebbingalt.rsi

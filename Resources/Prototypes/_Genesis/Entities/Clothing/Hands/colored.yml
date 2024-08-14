@@ -44,3 +44,16 @@
     sprite: Genesis/Clothing/Hands/Gloves/blueshield.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Hands/Gloves/blueshield.rsi
+
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: ClothingHandsTacticalSecurity
+  name: tactical security gloves
+  description: Tactical security gloves, every self-respecting security officer should be able to discreetly eliminate his goals.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Hands/Gloves/security.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Hands/Gloves/security.rsi
+  - type: GloveHeatResistance
+    heatResistance: 6000

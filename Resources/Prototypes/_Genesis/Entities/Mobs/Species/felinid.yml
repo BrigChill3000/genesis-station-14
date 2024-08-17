@@ -51,6 +51,7 @@
     critThreshold: 85
   - type: PseudoItem
   - type: WoundLicking
+  - type: OwOAccent
   - type: Vocal
     sounds:
       Male: MaleFelinid

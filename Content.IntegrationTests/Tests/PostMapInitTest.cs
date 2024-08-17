@@ -49,6 +49,7 @@ namespace Content.IntegrationTests.Tests
         {
             // Genesis-Start
             "CentCommGenesis",
+            "GenesisDelta",
             // Genesis-End
             "Dev",
             "TestTeg",

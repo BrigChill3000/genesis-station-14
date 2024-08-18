@@ -41,7 +41,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitQM
 
-# carprate hardsuit
+#Carprate Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCentcomCarporate
@@ -71,6 +71,35 @@
     sprintModifier: 0.85
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCentcomCarporate
+
+#Senior Salvage
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSeniorSalvage
+  name: senior's salvage hardsuit
+  description: A lightweight hardsuit designed for industrial EVA in zero gravity.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.7
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Radiation: 0.3 
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSeniorSalvage
 
 #ANTAG HARDSUITS
 #Backmen

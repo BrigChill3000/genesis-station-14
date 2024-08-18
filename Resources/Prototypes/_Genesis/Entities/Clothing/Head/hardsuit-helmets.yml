@@ -31,7 +31,7 @@
     radius: 7
     energy: 3
 
-# carporate hardsuit
+#Carporate Hardsuit
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCentcomCarporate
@@ -57,6 +57,29 @@
         Piercing: 0.9
         Heat: 0.9
         Radiation: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSeniorSalvage
+  name: senior's salvage hardsuit
+  description: Lightweight hardsuit helmet that doesn't restrict your head movements.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/medical.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/medical.rsi
+  - type: PointLight
+    color: "#adf1ff"
+  - type: PressureProtection
+    highPressureMultiplier: 0.6
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
 
 #ANTAG HARDSUITS
 #Backmen

@@ -5,7 +5,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingOuterHardsuitSpatio
+      - id: ClothingOuterHardsuitSeniorSalvage
       - id: DoubleEmergencyOxygenTankFilled
       - id: DoubleEmergencyNitrogenTankFilled
       - id: ClothingShoesBootsMag

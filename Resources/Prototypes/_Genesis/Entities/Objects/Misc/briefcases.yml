@@ -15,6 +15,21 @@
 
 - type: entity
   name: brown briefcase
+  parent: BriefcaseSyndie
+  id: WeaponcaseSyndie
+  description: A handy briefcase.
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Storage/Briefcases/weapon_case_syndie.rsi
+    state: icon
+  - type: Item
+    sprite: Genesis/Objects/Storage/Briefcases/weapon_case_syndie.rsi
+  - type: Storage
+    storageOpenSound:
+      collection: WeaponCaseOpen
+
+- type: entity
+  name: brown briefcase
   parent: BriefcaseNTBase
   id: BriefcaseNT
   description: Case for real patriots NanoTrasen.
@@ -24,6 +39,9 @@
     state: icon
   - type: Item
     sprite: Genesis/Objects/Storage/Briefcases/blueshield_case.rsi
+  - type: Storage
+    storageOpenSound:
+      collection: WeaponCaseOpen
 
 - type: entity
   parent: PresentRandom

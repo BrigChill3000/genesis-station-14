@@ -1,6 +1,6 @@
 - type: entity
   parent: BriefcaseNT
-  id: WeaponCaseRifle
+  id: WeaponCaseSMG
   name: case smg
   description: "Case blueshield officer with Drozd .35 auto"
   components:

@@ -9,7 +9,7 @@
       - id: WeaponSubMachineGunDrozd
       - id: MagazinePistolSubMachineGun
       - id: MagazinePistolSubMachineGun
-      - id: WeaponRevolverPythonAP
+      - id: WeaponAdvancedRevolver
 
 - type: entity
   parent: BriefcaseNT
@@ -22,7 +22,7 @@
       - id: WeaponSubMachineGunVector
       - id: MagazineMagnumSubMachineGun
       - id: MagazineMagnumSubMachineGun
-      - id: WeaponRevolverPythonAP
+      - id: WeaponAdvancedRevolver
 
 - type: entity
   parent: BriefcaseNT
@@ -35,7 +35,7 @@
       - id: WeaponShotgunBulldog
       - id: MagazineShotgun
       - id: MagazineShotgun
-      - id: WeaponRevolverPythonAP
+      - id: WeaponAdvancedRevolver
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -61,7 +61,7 @@
       - id: MagazineUniversal
         amount: 2
       - id: MagazineUniversalShortHv
-      - id: WeaponRevolverRsh18
+      - id: WeaponAdvancedRevolver
 
 - type: entity
   parent: BriefcaseNT
@@ -74,4 +74,4 @@
       - id: WeaponShotgunSaiga
       - id: MagazineShotgunSaiga
         amount: 2
-      - id: WeaponRevolverRsh18
+      - id: WeaponAdvancedRevolver

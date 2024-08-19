@@ -43,3 +43,7 @@
         orGroup: WeaponCaseRandom
       - id: WeaponCaseSaiga
         orGroup: WeaponCaseRandom
+      - id: WeaponCaseSMG
+        orGroup: WeaponCaseRandom
+      - id: WeaponCaseVector
+        orGroup: WeaponCaseRandom

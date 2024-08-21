@@ -621,3 +621,360 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommanderXeno
+
+#CENTCOMM / ERT HARDSUITS
+#Alpha
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTLeaderAlpha
+  name: ERT leader's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertleader.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderAlpha
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTEngineerAlpha
+  name: ERT engineer's hardsuit
+  description: A protective hardsuit worn by the engineers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertengineer.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineerAlpha
+
+#ERT Medic Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieMedic
+  id: ClothingOuterHardsuitERTMedicalAlpha
+  name: ERT medic's hardsuit
+  description: A protective hardsuit worn by the medics of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertmedical.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicalAlpha
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitERTSecurityAlpha
+  name: ERT security's hardsuit
+  description: A protective hardsuit worn by the security officers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertsecurity.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurityAlpha
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTJanitorAlpha
+  name: ERT janitor's hardsuit
+  description: A protective hardsuit worn by the janitors of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/ERTSuits/ertjanitor.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTJanitorAlpha
+
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTSpecialistAlpha
+  name: ERT specialist's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/AlphaSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/AlphaSquad/ertspecial.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSpecialistAlpha
+
+#Delta
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTLeaderDelta
+  name: ERT leader's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertleader.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderDelta
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTEngineerDelta
+  name: ERT engineer's hardsuit
+  description: A protective hardsuit worn by the engineers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertengineer.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineerDelta
+
+#ERT Medic Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieMedic
+  id: ClothingOuterHardsuitERTMedicalDelta
+  name: ERT medic's hardsuit
+  description: A protective hardsuit worn by the medics of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertmedical.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicalDelta
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitERTSecurityDelta
+  name: ERT security's hardsuit
+  description: A protective hardsuit worn by the security officers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertsecurity.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurityDelta
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTJanitorDelta
+  name: ERT janitor's hardsuit
+  description: A protective hardsuit worn by the janitors of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertjanitor.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTJanitorDelta
+
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTSpecialistDelta
+  name: ERT specialist's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/DeltaSquad/ertspecial.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSpecialistDelta
+
+#Bravo
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTLeaderBravo
+  name: ERT leader's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertleader.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderBravo
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTEngineerBravo
+  name: ERT engineer's hardsuit
+  description: A protective hardsuit worn by the engineers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertengineer.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineerBravo
+
+#ERT Medic Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieMedic
+  id: ClothingOuterHardsuitERTMedicalBravo
+  name: ERT medic's hardsuit
+  description: A protective hardsuit worn by the medics of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertmedical.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicalBravo
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitERTSecurityBravo
+  name: ERT security's hardsuit
+  description: A protective hardsuit worn by the security officers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertsecurity.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurityBravo
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTJanitorBravo
+  name: ERT janitor's hardsuit
+  description: A protective hardsuit worn by the janitors of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertjanitor.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTJanitorBravo
+
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTSpecialistBravo
+  name: ERT specialist's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/BravoSquad/ertspecial.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSpecialistBravo
+
+#Charlie
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTLeaderCharlie
+  name: ERT leader's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertleader.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderCharlie
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTEngineerCharlie
+  name: ERT engineer's hardsuit
+  description: A protective hardsuit worn by the engineers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertengineer.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineerCharlie
+
+#ERT Medic Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieMedic
+  id: ClothingOuterHardsuitERTMedicalCharlie
+  name: ERT medic's hardsuit
+  description: A protective hardsuit worn by the medics of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertmedical.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicalCharlie
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitERTSecurityCharlie
+  name: ERT security's hardsuit
+  description: A protective hardsuit worn by the security officers of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertsecurity.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurityCharlie
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitCBURN
+  id: ClothingOuterHardsuitERTJanitorCharlie
+  name: ERT janitor's hardsuit
+  description: A protective hardsuit worn by the janitors of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertjanitor.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTJanitorCharlie
+
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTSpecialistCharlie 
+  name: ERT specialist's hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/CharlieSquad/ertspecial.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTSpecialistCharlie

@@ -479,3 +479,457 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+#CENTCOMM / ERT HARDSUITS
+#Alpha
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTSpecialistAlpha
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/AlphaSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/AlphaSquad/ertspecial.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Delta
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTLeaderDelta
+  name: ERT leader hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertleader.rsi
+  - type: PointLight
+    color: "#addbff"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTEngineerDelta
+  name: ERT engineer hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertengineer.rsi
+  - type: PointLight
+    color: "#f4ffad"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Medical Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedicalDelta
+  name: ERT medic hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertmedical.rsi
+  - type: PointLight
+    color: "#adffec"
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTSecurityDelta
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertsecurity.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTJanitorDelta
+  name: ERT janitor hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertjanitor.rsi
+  - type: PointLight
+    color: "#cbadff"
+
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTSpecialistDelta
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/DeltaSquad/ertspecial.rsi
+  - type: PointLight
+    color: "#addbff"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Bravo
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTLeaderBravo
+  name: ERT leader hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertleader.rsi
+  - type: PointLight
+    color: "#addbff"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTEngineer
+  name: ERT engineer hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertengineer.rsi
+  - type: PointLight
+    color: "#f4ffad"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Medical Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedical
+  name: ERT medic hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertmedical.rsi
+  - type: PointLight
+    color: "#adffec"
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTSecurity
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertsecurity.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTJanitor
+  name: ERT janitor hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertjanitor.rsi
+  - type: PointLight
+    color: "#cbadff"
+
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTSpecialistBravo
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/BravoSquad/ertspecial.rsi
+  - type: PointLight
+    color: "#addbff"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Charlie
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTLeaderCharlie
+  name: ERT leader hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertleader.rsi
+  - type: PointLight
+    color: "#addbff"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTEngineer
+  name: ERT engineer hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertengineer.rsi
+  - type: PointLight
+    color: "#f4ffad"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Medical Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedical
+  name: ERT medic hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertmedical.rsi
+  - type: PointLight
+    color: "#adffec"
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTSecurity
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertsecurity.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTJanitor
+  name: ERT janitor hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertjanitor.rsi
+  - type: PointLight
+    color: "#cbadff"
+
+#ERT Specialist Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTSpecialist
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertspecial.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/CharlieSquad/ertspecial.rsi
+  - type: PointLight
+    color: "#ffffff"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Gamma
+#ERT Leader Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieCommander
+  id: ClothingHeadHelmetHardsuitERTLeaderGamma
+  name: ERT leader hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertleader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertleader.rsi
+  - type: PointLight
+    color: "#addbff"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Engineer Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTEngineerGamma
+  name: ERT engineer hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertengineer.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertengineer.rsi
+  - type: PointLight
+    color: "#f4ffad"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Medical Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedicalGamma
+  name: ERT medic hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertmedical.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertmedical.rsi
+  - type: PointLight
+    color: "#adffec"
+
+#ERT Security Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTSecurityGamma
+  name: ERT security hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertsecurity.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertsecurity.rsi
+  - type: PointLight
+    color: "#ffadc6"
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#ERT Janitor Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTJanitorGamma
+  name: ERT janitor hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertjanitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertjanitor.rsi
+  - type: PointLight
+    color: "#cbadff"

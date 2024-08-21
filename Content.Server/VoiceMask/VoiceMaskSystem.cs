@@ -30,6 +30,7 @@ public sealed partial class VoiceMaskSystem : EntitySystem
         SubscribeLocalEvent<VoiceMaskerComponent, ClothingGotUnequippedEvent>(OnUnequip);
         SubscribeLocalEvent<VoiceMaskSetNameEvent>(OnSetName);
         // SubscribeLocalEvent<VoiceMaskerComponent, GetVerbsEvent<AlternativeVerb>>(GetVerbs);
+        InitializeTTS(); // Genesis-TTS
     }
 
     private void OnSetName(VoiceMaskSetNameEvent ev)

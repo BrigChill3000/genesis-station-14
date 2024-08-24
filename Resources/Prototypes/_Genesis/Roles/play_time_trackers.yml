@@ -39,3 +39,68 @@
 
 - type: playTimeTracker
   id: JobMiner
+
+# ERT
+# Gamma
+- type: playTimeTracker
+  id: JobERTEngineerGamma
+
+- type: playTimeTracker
+  id: JobERTJanitorGamma
+
+- type: playTimeTracker
+  id: JobERTLeaderGamma
+
+- type: playTimeTracker
+  id: JobERTMedicalGamma
+
+- type: playTimeTracker
+  id: JobERTSecurityGamma
+
+# Delta
+- type: playTimeTracker
+  id: JobERTEngineerDelta
+
+- type: playTimeTracker
+  id: JobERTJanitorDelta
+
+- type: playTimeTracker
+  id: JobERTLeaderDelta
+
+- type: playTimeTracker
+  id: JobERTMedicalDelta
+
+- type: playTimeTracker
+  id: JobERTSecurityDelta
+
+# Bravo
+- type: playTimeTracker
+  id: JobERTEngineerBravo
+
+- type: playTimeTracker
+  id: JobERTJanitorBravo
+
+- type: playTimeTracker
+  id: JobERTLeaderBravo
+
+- type: playTimeTracker
+  id: JobERTMedicalBravo
+
+- type: playTimeTracker
+  id: JobERTSecurityBravo
+
+# Charlie
+- type: playTimeTracker
+  id: JobERTEngineerCharlie
+
+- type: playTimeTracker
+  id: JobERTJanitorCharlie
+
+- type: playTimeTracker
+  id: JobERTLeaderCharlie
+
+- type: playTimeTracker
+  id: JobERTMedicalCharlie
+
+- type: playTimeTracker
+  id: JobERTSecurityCharlie

@@ -356,3 +356,54 @@
     sprite: Genesis/Clothing/OuterClothing/Modsuit/corp.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetModsuitCorp
+
+# Captain
+- type: entity
+  parent: ClothingOuterHardsuitCap
+  id: ClothingOuterModsuitBodyCaptain
+  name: captain MOD chestplate
+  description: A chestplate for a MODsuit.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/capspace.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/capspace.rsi
+    equipSound: /Audio/Genesis/Items/ballin.ogg
+    unequipSound: /Audio/Genesis/Items/ballout.ogg
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitCaptain
+
+# Chief Engineer
+- type: entity
+  parent: ClothingOuterHardsuitEngineeringWhite
+  id: ClothingOuterModsuitBodyCE
+  name: cosmohonk MOD chestplate
+  description: A chestplate for a MODsuit.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/engineering-white.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/engineering-white.rsi
+    equipSound: /Audio/Genesis/Items/ballin.ogg
+    unequipSound: /Audio/Genesis/Items/ballout.ogg
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitCE
+
+# Research Director
+- type: entity
+  parent: ClothingOuterHardsuitRd
+  id: ClothingOuterModsuitBodyRD
+  name: research director MOD chestplate
+  description: A chestplate for a MODsuit.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/rd.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/rd.rsi
+    equipSound: /Audio/Genesis/Items/ballin.ogg
+    unequipSound: /Audio/Genesis/Items/ballout.ogg
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitRD

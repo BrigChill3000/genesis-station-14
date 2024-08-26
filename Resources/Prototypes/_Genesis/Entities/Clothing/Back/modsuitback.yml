@@ -206,6 +206,6 @@
   description: The control unit of a Modular Outerwear Device, a powered suit that protects against various environments. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
   components:
   - type: Sprite
-    sprite: Genesis/Clothing/Back/Modsuit/standart.rsi
+    sprite: Genesis/Clothing/Back/Modsuit/standard.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterModsuitBodyRD

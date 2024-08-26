@@ -37,6 +37,7 @@
   id: ClothingHeadHelmetModsuitBlueShield
   noSpawn: true
   name: blueshield modsuit helmet
+  description: A helmet for a MODsuit. A fancy, high-tech suit for Nanotrasen's high ranking officers.
   components:
   - type: Sprite
     sprite: Genesis/Clothing/Head/Modsuit/blueshield.rsi
@@ -231,3 +232,46 @@
     clothingPrototype: ClothingHandsModsuitStandard
   - type: PointLight
     color: "#ffeead"
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetModsuitCaptain
+  noSpawn: true
+  name: captain modsuit helmet
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Modsuit/capspace.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Modsuit/capspace.rsi
+    equipSound: /Audio/Genesis/Items/ballin.ogg
+    unequipSound: /Audio/Genesis/Items/ballout.ogg
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitEngineeringWhite
+  id: ClothingHeadHelmetModsuitCE
+  noSpawn: true
+  name: chief engineer modsuit helmet
+  description: A helmet for a MODsuit. An atmospheric-resistant suit by Nakamura Engineering, offering extreme heat resistance compared to the engineer suit.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Modsuit/engineering-white.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Modsuit/engineering-white.rsi
+    equipSound: /Audio/Genesis/Items/ballin.ogg
+    unequipSound: /Audio/Genesis/Items/ballout.ogg
+  - type: ToggleableClothing
+    clothingPrototype: ClothingShoesBootsMagAdv
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitRd
+  id: ClothingHeadHelmetModsuitRD
+  noSpawn: true
+  name: research director modsuit helmet
+  description: A helmet for a MODsuit.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Modsuit/rd.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Modsuit/rd.rsi
+    equipSound: /Audio/Genesis/Items/ballin.ogg
+    unequipSound: /Audio/Genesis/Items/ballout.ogg

@@ -379,6 +379,15 @@
   - RoboticistCap
   - SkullBandana
 
+- type: loadoutGroup
+  id: ResearchDirecctorBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ScientistBackpack
+  - ScientistSatchel
+  - ScientistDuffel
+  - ResearchDirectorModSuit
+
 # Cargo
 - type: loadoutGroup
   id: SalvageSpecialistHead
@@ -423,6 +432,15 @@
   - MiningWebbingBelt
 
 # Engineering
+- type: loadoutGroup
+  id: ChiefEngineerBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - ChiefEngineerBackpack
+  - ChiefEngineerSatchel
+  - ChiefEngineerDuffel
+  - ChiefEngineerModSuit
+
 - type: loadoutGroup
   id: EngineeringGloves
   name: loadout-group-gloves

@@ -259,6 +259,9 @@
     sprite: Genesis/Clothing/Head/Modsuit/engineering-white.rsi
     equipSound: /Audio/Genesis/Items/ballin.ogg
     unequipSound: /Audio/Genesis/Items/ballout.ogg
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
   - type: ToggleableClothing
     clothingPrototype: ClothingShoesBootsMagAdv
 

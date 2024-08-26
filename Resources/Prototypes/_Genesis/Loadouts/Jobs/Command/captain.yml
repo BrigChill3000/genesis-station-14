@@ -1,0 +1,9 @@
+# Back
+- type: loadout
+  id: CaptainModSuit
+  equipment: CaptainModSuit
+
+- type: startingGear
+  id: CaptainModSuit
+  equipment:
+    back: ClothingModsuitBackCaptain

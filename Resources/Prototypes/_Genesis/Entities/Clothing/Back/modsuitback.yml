@@ -173,3 +173,39 @@
     sprite: Genesis/Clothing/Back/Modsuit/corp.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterModsuitBodyCorp
+
+# Captain
+- type: entity
+  parent: ClothingModsuitBackBase
+  id: ClothingModsuitBackCaptain
+  name: captain MOD control unit
+  description: The control unit of a Modular Outerwear Device, a powered suit that protects against various environments. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Back/Modsuit/blueshield.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterModsuitBodyCaptain
+
+# Chief Engineer
+- type: entity
+  parent: ClothingModsuitBackBase
+  id: ClothingModsuitBackCE
+  name: chief engineer MOD control unit
+  description: The control unit of a Modular Outerwear Device, a powered suit that protects against various environments. A lightweight suit by DeForest Medical Corporation, allows for easier movement.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Back/Modsuit/medical.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterModsuitBodyCE
+
+# Research Director
+- type: entity
+  parent: ClothingModsuitBackBase
+  id: ClothingModsuitBackRD
+  name: research directir MOD control unit
+  description: The control unit of a Modular Outerwear Device, a powered suit that protects against various environments. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Back/Modsuit/standart.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterModsuitBodyRD

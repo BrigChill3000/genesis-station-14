@@ -241,7 +241,7 @@
   - GroupTankHarness
   - ChiefEngineerHead
   - ChiefEngineerJumpsuit
-  - StationEngineerBackpack
+  - ChiefEngineerBackpack # Genesis-Edit
   - ChiefEngineerNeck
   - ChiefEngineerOuterClothing
   - ChiefEngineerGloves
@@ -330,7 +330,7 @@
   - ScientistHead
   - ScientistNeck
   - ResearchAssistantJumpsuit
-  - ScientistBackpack
+  - ResearchDirecctorBackpack # Genesis-Edit
   - ScientistOuterClothing
   - ScientistGloves
   - ScientistShoes

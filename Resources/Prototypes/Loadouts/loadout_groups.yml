@@ -88,6 +88,7 @@
   - CaptainBackpack
   - CaptainSatchel
   - CaptainDuffel
+  - CaptainModSuit # Genesis-Edit
 
 - type: loadoutGroup
   id: CaptainOuterClothing

@@ -24,3 +24,12 @@
   id: ChiefEngineerDuffel
   equipment:
     back: ClothingBackpackDuffelCE
+
+- type: loadout
+  id: ChiefEngineerModSuit
+  equipment: ChiefEngineerModSuit
+
+- type: startingGear
+  id: ChiefEngineerModSuit
+  equipment:
+    back: ClothingModsuitBackCE

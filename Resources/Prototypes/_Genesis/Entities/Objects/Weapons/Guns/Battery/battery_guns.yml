@@ -381,11 +381,7 @@
   - type: Sprite
     sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15A.rsi
     layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-unshaded-4
-      map: ["enum.GunVisualLayers.MagUnshaded"]
-      shader: unshaded
+    - state: icon
   - type: Clothing
     sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15A.rsi
   - type: Gun
@@ -419,11 +415,7 @@
   - type: Sprite
     sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15S.rsi
     layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-unshaded-4
-      map: ["enum.GunVisualLayers.MagUnshaded"]
-      shader: unshaded
+    - state: icon
   - type: Clothing
     sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15S.rsi
   - type: Gun

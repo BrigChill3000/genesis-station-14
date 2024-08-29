@@ -373,9 +373,9 @@
     price: 150
 
 - type: entity
-  name: IK-60 laser carbine
   parent: BaseWeaponBattery
   id: WeaponGunLaserCarbineDC15A
+  name: blaster carbine DC-154
   description: Blaster carbine, which is a variant of the Blaster DC-15 rifle
   components:
   - type: Sprite
@@ -402,7 +402,7 @@
     maxCharge: 2000
     startingCharge: 2000
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletEnergyGunLaser
+    proto: BulletEnergyGunLaserBlue
     fireCost: 100
   - type: MagazineVisuals
     magState: mag
@@ -411,9 +411,9 @@
   - type: Appearance
 
 - type: entity
-  name: IK-60 laser carbine
   parent: BaseWeaponBattery
   id: WeaponGunLaserCarbineDC15S
+  name: blaster rifle DC-15S
   description: A standard blaster rifle used by clone troopers of the Grand Army of the Republic.
   components:
   - type: Sprite

@@ -67,6 +67,51 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
 
+- type: entity
+  parent: BaseWeaponPistol
+  id: WeaponPistolDesertEagle
+  name: desert eagle
+  description: Military weapons used by nuclear operatives, as well as some Syndicate officers. Using .45 magnum
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Weapons/Guns/Pistols/desert_eagle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Genesis/Objects/Weapons/Guns/Pistols/desert_eagle.rsi
+  - type: Gun
+    minAngle: 1
+    maxAngle: 20
+    angleIncrease: 8
+    angleDecay: 9
+    fireRate: 4
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnum
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnum
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
+
 #- type: entity
 #  id: WeaponPistolMk68Nonlethal
 #  parent: WeaponPistolMk68

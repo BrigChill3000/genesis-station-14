@@ -20,10 +20,6 @@
     hideLayersOnEquip:
     - Hair
     - Snout
-# Genesis-start
-    - HeadTop
-    - HeadSide
-# Genesis-end
 
 - type: entity
   parent: BaseSpeciesDummy

@@ -22,7 +22,7 @@
 
 - type: listing
   id: UplinkKR51Bundle
-  name: uplink-bundle-kr51
+  name: uplink-bundle-kr51-name
   description: uplink-bundle-kr51-desc
   icon: { sprite: /Textures/Genesis/Objects/Weapons/Guns/Rifles/kr51.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateBundleKR51
@@ -33,12 +33,33 @@
 
 - type: listing
   id: UplinkMagazineLightRifle
-  name: магазин (.30 винтовочные)
-  description: магазин (.30 винтовочные)
+  name: uplink-magazine-light-rifle-name
+  description: uplink-magazine-light-rifle-desc 
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: base }
   productEntity: MagazineLightRifle
   cost:
     Telecrystal: 8
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkPistolDesertEagle
+  name: uplink-pistol-desert-egale-name
+  description: uplink-pistol-desert-egale-desc
+  productEntity: WeaponPistolDesertEagle
+  cost:
+    Telecrystal: 8
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: UplinkMagazineMagnum
+  name: uplink-magazine-magnum-name
+  description: uplink-magazine-magnum-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
+  productEntity: MagazineMagnum
+  cost:
+    Telecrystal: 3
   categories:
   - UplinkAmmo
 

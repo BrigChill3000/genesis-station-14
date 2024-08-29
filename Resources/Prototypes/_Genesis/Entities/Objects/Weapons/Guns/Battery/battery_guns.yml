@@ -371,3 +371,79 @@
   - type: Appearance
   - type: StaticPrice
     price: 150
+
+- type: entity
+  name: IK-60 laser carbine
+  parent: BaseWeaponBattery
+  id: WeaponGunLaserCarbineDC15A
+  description: Blaster carbine, which is a variant of the Blaster DC-15 rifle
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15A.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15A.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+    selectedMode: SemiAuto
+    fireRate: 3
+    availableModes:
+      - SemiAuto
+      - FullAuto
+  - type: Battery
+    maxCharge: 2000
+    startingCharge: 2000
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergyGunLaser
+    fireCost: 100
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: IK-60 laser carbine
+  parent: BaseWeaponBattery
+  id: WeaponGunLaserCarbineDC15S
+  description: A standard blaster rifle used by clone troopers of the Grand Army of the Republic.
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15S.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15S.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+    selectedMode: SemiAuto
+    fireRate: 3
+    availableModes:
+      - SemiAuto
+      - FullAuto
+  - type: Battery
+    maxCharge: 2000
+    startingCharge: 2000
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergyGunLaser
+    fireCost: 100
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance

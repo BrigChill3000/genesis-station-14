@@ -40,6 +40,9 @@
 - type: playTimeTracker
   id: JobMiner
 
+- type: playTimeTracker
+  id: JobJediNT
+
 # ERT
 # Gamma
 - type: playTimeTracker

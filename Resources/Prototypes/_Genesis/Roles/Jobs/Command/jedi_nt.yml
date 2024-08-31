@@ -32,6 +32,7 @@
 - type: startingGear
   id: JediNTGear
   equipment:
+    shoes: ClothingShoesBootsSpetsnazFilled
     ears: ClothingHeadsetAltSecurity
     gloves: ClothingHandsGlovesCombat
     eyes: ClothingEyesGlassesSunglassesModified

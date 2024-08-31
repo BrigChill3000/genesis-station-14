@@ -8,8 +8,13 @@
       - id: ClothingHeadHatBlueShieldBeret
       - id: ClothingHeadHelmetSwat
       - id: ClothingNeckCloakBlueshield
-      - id: ClothingUniformJumpsuitBlueShieldTurtleneck
+      - id: ClothingBeltBlueShieldWebbing
+      - id: ClothingShoesBootsSpetsnazFilled
+      - id: ClothingUniformJumpsuitBlueShield
+      - id: ClothingUniformJumpskirtBlueShield
       - id: ClothingUniformJumpskirtBlueShieldTurtleneck
+      - id: ClothingUniformJumpsuitBlueShieldTurtleneck
+      - id: ClothingEyesGlassesSunglassesBlueShield
       - id: ClothingHandsTacticalBlueShield
       - id: ClothingNeckMantleBS
       - id: ClothingOuterWinterBS

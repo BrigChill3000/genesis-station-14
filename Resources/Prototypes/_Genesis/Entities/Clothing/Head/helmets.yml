@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetSecurity
+  name: security helmet
+  description: Standard security gear. Protects the head from impacts.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Helmets/security.rsi

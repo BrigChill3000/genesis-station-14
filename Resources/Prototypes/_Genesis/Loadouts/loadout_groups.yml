@@ -78,6 +78,7 @@
   minLimit: 0
   loadouts:
   - BlueShieldHead
+  - BlueShieldHat
   - SecurityHelmet
   - SWATHelmet
 
@@ -150,6 +151,58 @@
   - SpeedLoaderMagnum
   - SpeedLoaderUniversal
   - SpeedLoaderUniversalHV
+
+# JediNT
+- type: loadoutGroup
+  id: JediNTHead
+  name: loadout-group-head
+  minLimit: 0
+  loadouts:
+  - JediNTHead
+  - JediNTHat
+  - SecurityHelmet
+
+- type: loadoutGroup
+  id: JediNTJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - JediNTJumpsuit
+  - JediNTTurtleneck
+
+- type: loadoutGroup
+  id: JediNTNeck
+  name: loadout-group-neck
+  minLimit: 0
+  loadouts:
+  - JediNTMantle
+
+- type: loadoutGroup
+  id: JediNTBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - JediNTBackpack
+  - JediNTSatchel
+  - JediNTDuffel
+
+- type: loadoutGroup
+  id: JediNTOuterClothing
+  name: loadout-group-outerclothing
+  loadouts:
+  - JediNTOuterClothing
+
+- type: loadoutGroup
+  id: JediNTBelt
+  name: loadout-group-belt
+  loadouts:
+  - JediNTBelt
+  - JediNTWebbing
+
+- type: loadoutGroup
+  id: JediNTPocket
+  name: loadout-group-security-pocket
+  loadouts:
+  - WeaponPistolMk58
+  - WeaponPistolMk68
 
 # Brigmedic
 - type: loadoutGroup

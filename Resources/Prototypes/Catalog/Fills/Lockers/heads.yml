@@ -292,6 +292,7 @@
       - id: BookSecretDocuments
       - id: BookSpaceLaw
       - id: PrinterDocFlatpack # Corvax-Printer
+      - id: WeaponEnergyGunMultiphase # Genesis-Edit
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -317,6 +318,7 @@
       - id: BookSecretDocuments
       - id: BookSpaceLaw
       - id: PrinterDocFlatpack # Corvax-Printer
+      - id: WeaponEnergyGunMultiphase # Genesis-Edit
 
 - type: entity
   id: LockerFreezerVaultFilled

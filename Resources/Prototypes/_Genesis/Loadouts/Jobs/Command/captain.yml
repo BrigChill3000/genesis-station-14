@@ -1,3 +1,13 @@
+# Head
+- type: loadout
+  id: CaptainBeret
+  equipment: CaptainBeret
+
+- type: startingGear
+  id: CaptainBeret
+  equipment:
+    head: ClothingHeadHatCaptainBeret
+
 # Back
 - type: loadout
   id: CaptainModSuit

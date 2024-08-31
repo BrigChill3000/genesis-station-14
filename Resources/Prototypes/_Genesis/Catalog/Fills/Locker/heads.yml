@@ -13,13 +13,22 @@
       - id: Handcuffs
       - id: Flash
       - id: ClothingMaskGasBlueShield
-      - id: ClothingBeltBlueShieldWebbing
-      - id: ClothingShoesBootsSpetsnazFilled
-      - id: ClothingUniformJumpsuitBlueShield
-      - id: ClothingUniformJumpskirtBlueShield
-      - id: ClothingUniformJumpskirtBlueShieldTurtleneck
-      - id: ClothingUniformJumpsuitBlueShieldTurtleneck
-      - id: ClothingEyesGlassesSunglassesBlueShield
+      - id: ClothingHeadsetAltCommand
+      - id: PrinterDocFlatpack # Corvax-Printer
+
+- type: entity
+  id: LockerBlueShieldFilledNoneHardsuit
+  suffix: Filled, No Hardsuit
+  parent: LockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: MysteryWeaponBox
+      - id: BoxCardboardTrackImp
+      - id: MedkitCombatFilled
+      - id: Handcuffs
+      - id: Flash
+      - id: ClothingMaskGasBlueShield
       - id: ClothingHeadsetAltCommand
       - id: PrinterDocFlatpack # Corvax-Printer
 

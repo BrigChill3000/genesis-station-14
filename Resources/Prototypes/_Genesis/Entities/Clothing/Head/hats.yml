@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadBase
+  parent: ClothingHeadHelmetBasic
   id: ClothingHeadHatBlueShieldBeret
   name: blueshield beret
   description: Beret for a officer blueshield.
@@ -94,6 +94,70 @@
     sprite: Genesis/Clothing/Head/Hats/beret_salvage.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Head/Hats/beret_salvage.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCaptainBeret
+  name: captain beret
+  description: Beret for a captain.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hats/beret_captain.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hats/beret_captain.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHatJediNTBeret
+  name: jedi nt beret
+  description: Beret for a jedi nt.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hats/beret_jedi_nt.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hats/beret_jedi_nt.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+    
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHatBlueShieldHat
+  name: blueshield cap
+  description: The robust standard-issue cap of the BlueShield. For showing the officers who's in charge.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hats/blueshield_hat.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hats/blueshield_hat.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHatJediNTHat
+  name: jedi nt cap
+  description: The robust standard-issue cap of the Jedi NT. For showing the officers who's in charge.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hats/jedi_nt_hat.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hats/jedi_nt_hat.rsi
   - type: Tag
     tags:
     - ClothMade

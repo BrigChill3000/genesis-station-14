@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons]
+  parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesGlassesSunglassesBlueShield
   name: blueshield sunglasses
   description: Useful both for security and cargonia.
@@ -66,3 +66,16 @@
   - type: Tag
     tags:
     - HudSecurity
+
+- type: entity
+  parent: [ClothingEyesGlassesSunglasses, ShowSecurityIcons, ShowMedicalIcons]
+  id: ClothingEyesGlassesSunglassesModified
+  name: sunglasses
+  description: Sunglasses with modifications displays
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection

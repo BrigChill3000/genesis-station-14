@@ -62,6 +62,7 @@
   loadouts:
   - CaptainHead
   - CaptainCap
+  - CaptainBeret # Genesis-Edit
 
 - type: loadoutGroup
   id: CaptainJumpsuit

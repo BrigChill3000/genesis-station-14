@@ -15,3 +15,12 @@
   components:
   - type: Sprite
     sprite: Genesis/Clothing/Back/Duffels/centcom.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelJediNT
+  name: jedi nt duffel bag
+  description: A duffel bag for storing expensive items of Jedi NT.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Back/Duffels/jedi_nt.rsi

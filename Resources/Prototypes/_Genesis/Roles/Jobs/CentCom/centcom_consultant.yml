@@ -57,7 +57,7 @@
   id: ConsultantGear
   equipment:
     shoes: ClothingShoesBootsLaceup
-    eyes: ClothingEyesGlassesSunglasses
+    eyes: ClothingEyesGlassesSunglassesModified
     gloves: ClothingHandsGlovesLatex
     id: CentcomConsultantPDA
     ears: ClothingHeadsetCentCom

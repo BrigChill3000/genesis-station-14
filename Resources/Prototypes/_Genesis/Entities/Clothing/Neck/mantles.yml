@@ -8,3 +8,14 @@
     sprite: Genesis/Clothing/Neck/mantles/bsmantle.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Neck/mantles/bsmantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleJediNT
+  name: jedi nt's mantle
+  description: Shootouts with nukies are just another Tuesday for this Jedi NT. This mantle is a symbol of commitment to the station.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Neck/mantles/jedi_nt.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Neck/mantles/jedi_nt.rsi

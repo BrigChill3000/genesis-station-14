@@ -41,3 +41,25 @@
     sprite: Genesis/Clothing/Belt/blueshieldwebbingalt.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Belt/blueshieldwebbingalt.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltJediNTBelt
+  name: jedi nt belt
+  description: Universal belt, can hold almost everything.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Belt/jedi_belt.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Belt/jedi_belt.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltJediNTWebbing
+  name: jedi nt webbing
+  description: Unique and versatile chest rig, can hold security gear.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Belt/jediwebbing.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Belt/jediwebbing.rsi

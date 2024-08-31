@@ -92,14 +92,14 @@
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+      path: /Audio/_Sunrise/Weapons/Guns/deagle/deagle_shot_1.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineMagnum
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        insertSound: /Audio/_Sunrise/Weapons/Guns/deagle/deagle_reload.ogg
+        ejectSound: /Audio/_Sunrise/Weapons/Guns/deagle/deagle_unload.ogg
         priority: 2
         whitelist:
           tags:

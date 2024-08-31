@@ -36,7 +36,7 @@
   id: CaptainGear
   equipment:
     shoes: ClothingShoesBootsLaceup
-    eyes: ClothingEyesGlassesSunglasses
+    eyes: ClothingEyesGlassesSunglassesModified # Genesis-Edit
     gloves: ClothingHandsGlovesCaptain
     id: CaptainPDA
     ears: ClothingHeadsetAltCommand

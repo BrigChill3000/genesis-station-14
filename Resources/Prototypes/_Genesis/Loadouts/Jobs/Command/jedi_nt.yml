@@ -1,0 +1,123 @@
+# Jumpsuit
+- type: loadout
+  id: JediNTJumpsuit
+  equipment: JediNTJumpsuit
+
+- type: startingGear
+  id: JediNTJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJediNT
+
+- type: loadout
+  id: JediNTTurtleneck
+  equipment: JediNTTurtleneck
+
+- type: startingGear
+  id: JediNTTurtleneck
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJediNTTurtleneck
+
+# Head
+- type: loadout
+  id: JediNTHead
+  equipment: JediNTHead
+
+- type: startingGear
+  id: JediNTHead
+  equipment:
+    head: ClothingHeadHatJediNTBeret
+
+- type: loadout
+  id: JediNTHat
+  equipment: JediNTHat
+
+- type: startingGear
+  id: JediNTHat
+  equipment:
+    head: ClothingHeadHatJediNTHat
+
+# Neck
+- type: loadout
+  id: JediNTMantle
+  equipment: JediNTMantle
+
+- type: startingGear
+  id: JediNTMantle
+  equipment:
+    neck: ClothingNeckMantleJediNT
+
+# Back
+- type: loadout
+  id: JediNTBackpack
+  equipment: JediNTBackpack
+
+- type: startingGear
+  id: JediNTBackpack
+  equipment:
+    back: ClothingBackpackJediNT
+
+- type: loadout
+  id: JediNTSatchel
+  equipment: BlueShieldSatchel
+
+- type: startingGear
+  id: JediNTSatchel
+  equipment:
+    back: ClothingBackpackSatchelJediNT
+
+- type: loadout
+  id: JediNTDuffel
+  equipment: JediNTDuffel
+
+- type: startingGear
+  id: JediNTDuffel
+  equipment:
+    back: ClothingBackpackDuffelJediNT
+
+#- type: loadout
+#  id: JediNTModSuit
+#  equipment: JediNTModSuit
+
+#- type: startingGear
+#  id: JediNTModSuit
+#  equipment:
+#    back: ClothingModsuitBackBlueShield
+
+# Outer clothing
+- type: loadout
+  id: JediNTOuterClothing
+  equipment: JediNTOuterClothing
+
+- type: startingGear
+  id: JediNTOuterClothing
+  equipment:
+    outerClothing: ClothingOuterArmorJediNT
+
+# Belt
+- type: loadout
+  id: JediNTBelt
+  equipment: JediNTBelt
+
+- type: startingGear
+  id: JediNTBelt
+  equipment:
+    belt: ClothingBeltJediNTBelt
+
+- type: loadout
+  id: JediNTWebbing
+  equipment: JediNTWebbing
+
+- type: startingGear
+  id: JediNTWebbing
+  equipment:
+    belt: ClothingBeltJediNTWebbing
+
+# Pocket
+#- type: loadout
+#  id: WeaponRevolverRsh18
+#  equipment: WeaponRevolverRsh18
+
+#- type: startingGear
+#  id: WeaponRevolverRsh18
+#  equipment:
+#    pocket1: WeaponRevolverRsh18

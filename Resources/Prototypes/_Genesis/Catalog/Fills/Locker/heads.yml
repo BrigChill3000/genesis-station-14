@@ -13,13 +13,6 @@
       - id: Handcuffs
       - id: Flash
       - id: ClothingMaskGasBlueShield
-      - id: ClothingBeltBlueShieldWebbing
-      - id: ClothingShoesBootsSpetsnazFilled
-      - id: ClothingUniformJumpsuitBlueShield
-      - id: ClothingUniformJumpskirtBlueShield
-      - id: ClothingUniformJumpskirtBlueShieldTurtleneck
-      - id: ClothingUniformJumpsuitBlueShieldTurtleneck
-      - id: ClothingEyesGlassesSunglassesBlueShield
       - id: ClothingHeadsetAltCommand
       - id: PrinterDocFlatpack # Corvax-Printer
 

@@ -92,14 +92,14 @@
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/_Sunrise/Weapons/Guns/deagle/deagle_shot_1.ogg
+      path: /Audio/Genesis/Weapons/Guns64/Pistols/deagle.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
         startingItem: MagazineMagnum
-        insertSound: /Audio/_Sunrise/Weapons/Guns/deagle/deagle_reload.ogg
-        ejectSound: /Audio/_Sunrise/Weapons/Guns/deagle/deagle_unload.ogg
+        insertSound: /Audio/Genesis/Weapons/Guns64/Pistols/deagle_reload.ogg
+        ejectSound: /Audio/Genesis/Weapons/Guns64/Pistols/deagle_unload.ogg
         priority: 2
         whitelist:
           tags:

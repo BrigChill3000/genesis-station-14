@@ -41,3 +41,14 @@
     sprite: Genesis/Clothing/Mask/pilotmask.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Mask/pilotmask.rsi
+
+- type: entity
+  parent: ClothingMaskGasExplorer
+  id: ClothingMaskGasJediNT
+  name: jedi nt gas mask
+  description: A elite issue Jedi NT gas mask.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Mask/jedi_nt.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Mask/jedi_nt.rsi

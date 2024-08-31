@@ -75,3 +75,24 @@
   - type: Clothing
     sprite: Genesis/Clothing/Uniforms/Jumpsuit/mining.rsi
 
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJediNT
+  name: jedi nt's jumpsuit
+  description: It's a white-grey jumpsuit for Jedies NT.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/jedi_nt.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/jedi_nt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJediNTTurtleneck
+  name: jedi nt's turtleneck jumpsuit
+  description: It's a white-grey jumpsuit for Jedies NT.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/jedi_nt_alt.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/jedi_nt_alt.rsi

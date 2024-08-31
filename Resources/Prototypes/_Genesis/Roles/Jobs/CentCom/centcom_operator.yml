@@ -22,7 +22,7 @@
   id: CentComOperatorGear
   equipment:
     shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesGlassesSunglasses
+    eyes: ClothingEyesGlassesSunglassesModified
     id: CentcomPDA
     ears: ClothingHeadsetCentCom
     belt: WeaponPistolN1984

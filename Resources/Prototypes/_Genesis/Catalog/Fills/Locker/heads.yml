@@ -17,6 +17,22 @@
       - id: PrinterDocFlatpack # Corvax-Printer
 
 - type: entity
+  id: LockerBlueShieldFilledNoneHardsuit
+  suffix: Filled, No Hardsuit
+  parent: LockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: MysteryWeaponBox
+      - id: BoxCardboardTrackImp
+      - id: MedkitCombatFilled
+      - id: Handcuffs
+      - id: Flash
+      - id: ClothingMaskGasBlueShield
+      - id: ClothingHeadsetAltCommand
+      - id: PrinterDocFlatpack # Corvax-Printer
+
+- type: entity
   id: LockerCentcomConsultantFilled
   suffix: Filled
   parent: LockerCentcomConsultant

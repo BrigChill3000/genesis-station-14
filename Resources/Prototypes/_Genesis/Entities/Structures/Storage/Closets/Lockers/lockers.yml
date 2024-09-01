@@ -77,3 +77,19 @@
     stateDoorClosed: shaftminer_door
   - type: AccessReader
     access: [["Salvage"]]
+
+- type: entity
+  id: LockerJediNT
+  parent: LockerBase
+  name: jedi nt's equipment
+  description: Nevermind the pickaxe.
+  components:
+  - type: Sprite
+    sprite: Genesis/Structures/Storage/closet.rsi
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: jedi_nt
+    stateDoorOpen: jedi_nt_open
+    stateDoorClosed: jedi_nt_door
+  - type: AccessReader
+    access: [["HeadOfSecurity"]]

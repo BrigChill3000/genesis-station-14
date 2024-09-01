@@ -183,6 +183,7 @@
   - JediNTBackpack
   - JediNTSatchel
   - JediNTDuffel
+  - JediNTModSuit
 
 - type: loadoutGroup
   id: JediNTOuterClothing
@@ -201,8 +202,8 @@
   id: JediNTPocket
   name: loadout-group-security-pocket
   loadouts:
-  - WeaponPistolMk58
-  - WeaponPistolMk68
+  - JediNTEnergySword
+  - JediNTEnergySword2
 
 # Brigmedic
 - type: loadoutGroup

@@ -221,3 +221,24 @@
     state: icon
   - type: Clothing
     sprite: Genesis/Clothing/Shoes/Modsuit/corp.rsi
+
+# Inquisitor
+- type: entity
+  parent: ClothingModsuitShoesMagBase
+  id: ClothingModsuitShoesInquisitor
+  noSpawn: true
+  name: inquisitor MOD boots
+  description: A pair of boots for a MODsuit.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Shoes/Modsuit/inquisitor.rsi
+    state: icon
+  - type: Clothing
+    sprite: Genesis/Clothing/Shoes/Modsuit/inquisitor.rsi
+  - type: Magboots
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}

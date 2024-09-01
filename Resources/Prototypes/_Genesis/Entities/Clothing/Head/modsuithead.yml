@@ -292,5 +292,8 @@
     sprite: Genesis/Clothing/Head/Modsuit/inquisitor.rsi
   - type: PointLight
     color: "#ffffff"
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
   - type: ToggleableClothing
     clothingPrototype: ClothingHandsModsuitInquisitor

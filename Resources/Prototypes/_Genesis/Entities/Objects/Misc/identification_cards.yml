@@ -86,3 +86,16 @@
     - state: idshaftminer
   - type: PresetIdCard
     job: Miner
+
+- type: entity
+  parent: IDCardStandard
+  id: JediNTIDCard
+  name: jedi nt ID card
+  components:
+    - type: Sprite
+      sprite: Genesis/Objects/Misc/id_cards.rsi
+      layers:
+        - state: silver
+        - state: idjedint
+    - type: PresetIdCard
+      job: JediNT

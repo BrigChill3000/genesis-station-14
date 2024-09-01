@@ -70,3 +70,17 @@
       - id: CigarGoldCase
         prob: 0.25
       - id: PrinterDocFlatpack # Corvax-Printer
+
+- type: entity
+  id: LockerJediNTFilled
+  suffix: Filled
+  parent: LockerJediNT
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingModsuitBackInquisitor
+      - id: MedkitCombatFilled
+      - id: Handcuffs
+      - id: Flash
+      - id: ClothingMaskGasJediNT
+      - id: PrinterDocFlatpack # Corvax-Printer

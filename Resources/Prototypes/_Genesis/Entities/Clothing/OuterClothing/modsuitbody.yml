@@ -407,3 +407,18 @@
     unequipSound: /Audio/Genesis/Items/ballout.ogg
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetModsuitRD
+
+# Inquisitor
+- type: entity
+  parent: ClothingOuterModsuitBodyBlueShield
+  id: ClothingOuterModsuitBodyInquisitor
+  name: inquisitor MOD chestplate
+  description: A chestplate for a MODsuit.
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/inquisitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Modsuit/inquisitor.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitInquisitor

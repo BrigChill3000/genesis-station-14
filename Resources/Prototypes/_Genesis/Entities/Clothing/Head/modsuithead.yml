@@ -278,3 +278,19 @@
     sprite: Genesis/Clothing/Head/Modsuit/rd.rsi
     equipSound: /Audio/Genesis/Items/ballin.ogg
     unequipSound: /Audio/Genesis/Items/ballout.ogg
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBlueShield
+  id: ClothingHeadHelmetModsuitInquisitor
+  noSpawn: true
+  name: inqusitor MOD helmet
+  description: A helmet for a MODsuit.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Modsuit/inquisitor.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Modsuit/inquisitor.rsi
+  - type: PointLight
+    color: "#ffffff"
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHandsModsuitInquisitor

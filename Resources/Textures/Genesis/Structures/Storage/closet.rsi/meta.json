@@ -81,6 +81,15 @@
     },
     {
       "name": "shaftminer"
+    },
+    {
+      "name": "jedi_nt"
+    },
+    {
+      "name": "jedi_nt_door"
+    },
+    {
+      "name": "jedi_nt_open"
     }
   ]
 }

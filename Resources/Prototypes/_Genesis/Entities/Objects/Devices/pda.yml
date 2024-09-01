@@ -138,3 +138,21 @@
   - type: Icon
     sprite: Genesis/Objects/Devices/pda.rsi
     state: pda-mining
+
+- type: entity
+  parent: BasePDA
+  id: JediNTPDA
+  name: jedi nt PDA
+  description: Smells like power.
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Devices/pda.rsi
+  - type: Pda
+    id: JediNTIDCard
+    state: pda-jedint
+  - type: PdaBorderColor
+    borderColor: "#808080"
+    accentVColor: "#ffffff"
+  - type: Icon
+    sprite: Genesis/Objects/Devices/pda.rsi
+    state: pda-jedint

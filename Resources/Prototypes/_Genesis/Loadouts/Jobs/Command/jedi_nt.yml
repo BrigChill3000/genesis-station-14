@@ -74,14 +74,14 @@
   equipment:
     back: ClothingBackpackDuffelJediNT
 
-#- type: loadout
-#  id: JediNTModSuit
-#  equipment: JediNTModSuit
+- type: loadout
+  id: JediNTModSuit
+  equipment: JediNTModSuit
 
-#- type: startingGear
-#  id: JediNTModSuit
-#  equipment:
-#    back: ClothingModsuitBackBlueShield
+- type: startingGear
+  id: JediNTModSuit
+  equipment:
+    back: ClothingModsuitBackInquisitor
 
 # Outer clothing
 - type: loadout
@@ -113,11 +113,20 @@
     belt: ClothingBeltJediNTWebbing
 
 # Pocket
-#- type: loadout
-#  id: WeaponRevolverRsh18
-#  equipment: WeaponRevolverRsh18
+- type: loadout
+  id: JediNTEnergySword
+  equipment: JediNTEnergySword
 
-#- type: startingGear
-#  id: WeaponRevolverRsh18
-#  equipment:
-#    pocket1: WeaponRevolverRsh18
+- type: startingGear
+  id: JediNTEnergySword
+  equipment:
+    pocket1: EnergySword
+
+- type: loadout
+  id: JediNTEnergySword2
+  equipment: JediNTEnergySword2
+
+- type: startingGear
+  id: JediNTEnergySword2
+  equipment:
+    pocket1: EnergySwordKylo

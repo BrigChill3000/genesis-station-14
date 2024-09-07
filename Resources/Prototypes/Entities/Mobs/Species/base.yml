@@ -218,6 +218,7 @@
     - CanPilot
     - FootstepSound
     - DoorBumpOpener
+  - type: Crawler # Genesis-Edit
 
 - type: entity
   save: false

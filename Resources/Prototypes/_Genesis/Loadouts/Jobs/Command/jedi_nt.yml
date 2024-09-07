@@ -58,7 +58,7 @@
 
 - type: loadout
   id: JediNTSatchel
-  equipment: BlueShieldSatchel
+  equipment: JediNTSatchel
 
 - type: startingGear
   id: JediNTSatchel

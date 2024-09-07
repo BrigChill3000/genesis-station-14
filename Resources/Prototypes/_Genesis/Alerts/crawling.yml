@@ -3,6 +3,5 @@
   icons:
   - sprite: /Textures/Genesis/Alerts/crawling.rsi
     state: icon
-  onClick: !type:CrawlingAlertEvent  { }
   name: alerts-crawling-name
   description: alerts-crawling-desc

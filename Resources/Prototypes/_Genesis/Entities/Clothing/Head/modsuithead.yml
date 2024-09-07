@@ -297,3 +297,5 @@
       toggleable-clothing: !type:ContainerSlot {}
   - type: ToggleableClothing
     clothingPrototype: ClothingHandsModsuitInquisitor
+    slot: gloves
+    requiredSlot: head

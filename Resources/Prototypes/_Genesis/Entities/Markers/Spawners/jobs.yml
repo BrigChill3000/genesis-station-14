@@ -151,3 +151,16 @@
     layers:
       - state: green
       - state: serviceworker
+
+- type: entity
+  id: SpawnPointJediNT
+  parent: SpawnPointJobBase
+  name: jedi nt
+  components:
+  - type: SpawnPoint
+    job_id: JediNT
+  - type: Sprite
+    sprite: Genesis/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: jedint

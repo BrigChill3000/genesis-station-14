@@ -203,3 +203,5 @@
     sprite: Genesis/Clothing/Hands/Modsuit/inquisitor.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingModsuitShoesInquisitor
+    slot: shoes
+    requiredSlot: gloves

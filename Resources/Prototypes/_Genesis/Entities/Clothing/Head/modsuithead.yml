@@ -264,6 +264,8 @@
       toggleable-clothing: !type:ContainerSlot {}
   - type: ToggleableClothing
     clothingPrototype: ClothingShoesBootsMagAdv
+    slot: shoes
+    requiredSlot: head
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitRd

@@ -2,7 +2,7 @@
 
 Space Station 14 это ремейк SS13, который работает на собственном движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
-Это репозиторий русскоязычной версии Space Station 14 основной целью которого является перевод и только перевод игры на русский язык. Если Вы хотите использовать наши (от Workbench Team) наработки для игры, перейдите в [arumoon-server ветку](https://gitlab.workbench.network/Workbench-Team/space-station-14/-/tree/arumoon-server).
+Это репозиторий русскоязычной версии Space Station 14 основной целью которого является перевод игры на русский язык и добавление своих измененний.
 
 Если Вам нужно захостить русскоязычный сервер для SS14, этот репозиторий это то что Вам нужно. Если Вы хотите делать нововведения для основной версии игры, перейдите в [репозиторий официальной версии игры](https://github.com/space-wizards/space-station-14).
 
@@ -28,9 +28,9 @@ Space Station 14 это ремейк SS13, который работает на 
 Готовые билды сборки от Workbench Team Вы можете скачать из ветка master-ru: [CDN хостинга (быстро)](https://ss14.lolicon.monster/builds/master-ru-builds.html) или [артефактов CI/CD (медленно)](https://gitlab.workbench.network/Workbench-Team/space-station-14/-/pipelines?page=1&scope=all&ref=master-ru&status=success) ветка arumoon-server: [CDN хостинга (быстро)](https://ss14.lolicon.monster/builds/arumoon-server-builds.html) или [артефактов CI/CD (медленно)](https://gitlab.workbench.network/Workbench-Team/space-station-14/-/pipelines?page=1&scope=all&ref=arumoon-server&status=success)
 
 ## BrigChill3000
-Статус нашей сборки: [![pipeline status](https://gitlab.com/brigchill3000/genesis-station-14/badges/master/pipeline.svg)](https://gitlab.com/brigchill3000/genesis-station-14/-/commits/master)
+Статус нашей сборки: [![pipeline status](https://gitlab.workbench.network/BrigChill3000/genesis-station-14/badges/master/pipeline.svg)](https://gitlab.workbench.network/BrigChill3000/genesis-station-14/-/commits/master)
 
-Готовые билды сборки от нас вы можете скачать только из [артефактов CI/CD (медленно)](https://gitlab.com/brigchill3000/genesis-station-14/-/pipelines?page=1&scope=all&ref=master&status=success)
+Готовые билды сборки от нас вы можете скачать только из [артефактов CI/CD (медленно)](https://gitlab.workbench.network/BrigChill3000/genesis-station-14/-/pipelines?page=1&scope=all&status=success)
 
 ## Самостоятельная сборка
 

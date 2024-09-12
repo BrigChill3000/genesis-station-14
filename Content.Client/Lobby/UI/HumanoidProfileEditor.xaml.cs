@@ -718,12 +718,9 @@ namespace Content.Client.Lobby.UI
             PreviewDummy = _controller.LoadProfileEntity(Profile, JobOverride, ShowClothes.Pressed);
             SpriteView.SetEntity(PreviewDummy);
             _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, Profile.Name);
-<<<<<<< HEAD
-=======
 
             // Check and set the dirty flag to enable the save/reset buttons as appropriate.
             SetDirty();
->>>>>>> upstream/master-ru
         }
 
         /// <summary>
@@ -1209,11 +1206,7 @@ namespace Content.Client.Lobby.UI
         {
             Profile = Profile?.WithName(newName);
             SetDirty();
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> upstream/master-ru
             if (!IsDirty)
                 return;
 

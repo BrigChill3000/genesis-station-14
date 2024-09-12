@@ -24,8 +24,6 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
-using Robust.Shared.Console;
-using Content.Server.Administration.Commands;
 
 namespace Content.Server.Administration.Systems
 {
@@ -572,14 +570,6 @@ namespace Content.Server.Administration.Systems
             //Getting an administrator position
             if (_config.GetCVar(CCVars.AhelpAdminPrefix) && senderAdmin is not null && senderAdmin.Title is not null)
             {
-<<<<<<< HEAD
-                bwoinkText = $"[color=purple]{senderSession.Name}[/color]: {escapedText}";
-            }
-            else if (senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp))
-            {
-                
-                bwoinkText = $"\\[{senderAdmin.Title}\\][color=red]{senderSession.Name}[/color]: {escapedText}";
-=======
                 adminPrefix = $"[bold]\\[{senderAdmin.Title}\\][/bold] ";
             }
 
@@ -592,7 +582,6 @@ namespace Content.Server.Administration.Systems
             else if (senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp))
             {
                 bwoinkText = $"[color=red]{adminPrefix}{senderSession.Name}[/color]";
->>>>>>> upstream/master-ru
             }
             else
             {
@@ -739,8 +728,6 @@ namespace Content.Server.Administration.Systems
             return stringbuilder.ToString();
         }
     }
-<<<<<<< HEAD
-=======
 
     public sealed class AHelpMessageParams
     {
@@ -780,5 +767,4 @@ namespace Content.Server.Administration.Systems
         Disconnected,
         Banned,
     }
->>>>>>> upstream/master-ru
 }

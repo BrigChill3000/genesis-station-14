@@ -5,22 +5,16 @@
 "Changes: Map":
 - changed-files:
   - any-glob-to-any-file:
-    - 'Resources/Maps/*.yml'
-    - 'Resources/Prototypes/Maps/*.yml'
+    - 'Resources/Maps/**/*.yml'
+    - 'Resources/Prototypes/Maps/**/*.yml'
 
 "Changes: UI":
 - changed-files:
   - any-glob-to-any-file: '**/*.xaml*'
 
-<<<<<<< HEAD
-"Changes: Localization":
-- changed-files:
-  - any-glob-to-any-file: 'Resources/Locale/**/*.ftl'
-=======
 "Changes: Shaders":
 - changed-files:
   - any-glob-to-any-file: '**/*.swsl'
->>>>>>> upstream/master-ru
 
 "No C#":
 - changed-files:

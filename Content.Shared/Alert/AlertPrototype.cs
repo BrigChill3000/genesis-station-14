@@ -127,8 +127,4 @@ public abstract partial class BaseAlertEvent : HandledEntityEventArgs
         User = user;
         AlertId = alertId;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> upstream/master-ru

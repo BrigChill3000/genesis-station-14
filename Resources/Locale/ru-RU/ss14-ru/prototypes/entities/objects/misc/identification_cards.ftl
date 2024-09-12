@@ -80,12 +80,9 @@ ent-ERTMedicIDCard = ID карта медика ОБР
     .desc = { ent-ERTChaplainIDCard.desc }
 ent-ERTSecurityIDCard = ID карта офицера ОБР
     .desc = { ent-ERTChaplainIDCard.desc }
-<<<<<<< HEAD
 ent-CentcomIDCardSyndie = ID карта представителя ЦК
     .desc = { ent-IDCardStandard.desc }
     .suffix = Фальшивая
-=======
->>>>>>> upstream/master-ru
 ent-MusicianIDCard = ID карта музыканта
     .desc = { ent-IDCardStandard.desc }
 ent-CentcomIDCardDeathsquad = ID карта эскадрона смерти

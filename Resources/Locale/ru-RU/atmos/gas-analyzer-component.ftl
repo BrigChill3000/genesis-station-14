@@ -1,6 +1,6 @@
 ## Entity
 
-gas-analyzer-component-player-cannot-reach-message = Вы не можете туда достать.
+gas-analyzer-object-out-of-range = Объект вышел за пределы досягаемости.
 gas-analyzer-shutoff = Газоанализатор выключается.
 
 ## UI

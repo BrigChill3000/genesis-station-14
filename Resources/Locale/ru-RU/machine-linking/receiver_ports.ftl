@@ -54,3 +54,6 @@ signal-port-name-logic-input-b = Вход Б
 signal-port-description-logic-input-b = Вторичный вход логического элемента.
 signal-port-name-logic-input = Вход
 signal-port-description-logic-input = Вход для детектора фронта, не может быть импульсным сигналом.
+signal-port-description-logic-memory-input = Сигнал для загрузки в ячейку памяти, если включён.
+signal-port-name-logic-enable = Включить
+signal-port-description-logic-enable = Загружает входной сигнал в ячейку памяти только при ВЕРХНЕМ уровне.

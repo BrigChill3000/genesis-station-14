@@ -53,3 +53,5 @@ ent-RubberStampApproved = печать ОДОБРЕНО
 ent-RubberStampDetective = печать детектива
     .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
+ent-RubberStampGreytide = печать грейтайда
+    .desc = Резиновая печать для проставления штампов на важных документах. От одного взгляда на неё вас окатывает серая волна...

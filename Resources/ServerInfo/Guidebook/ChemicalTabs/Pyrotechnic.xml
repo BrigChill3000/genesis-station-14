@@ -1,5 +1,9 @@
 <Document>
 # Pyrotechnics
+<<<<<<< HEAD
 These chemicals are flammmable and causes hazardous effects when making them (Plasma gas and explosions). It is recommmended to make these chemicals in a safe environment.
+=======
+These chemicals are flammable and causes hazardous effects when making them (Plasma gas and explosions). It is recommended to make these chemicals in a safe environment.
+>>>>>>> upstream/master-ru
 <GuideReagentGroupEmbed Group="Pyrotechnic"/>
 </Document>

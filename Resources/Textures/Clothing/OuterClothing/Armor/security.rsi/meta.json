@@ -1,7 +1,11 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
   "copyright": "Debiloid3000",
+=======
+  "copyright": "Made by DieselMohawk for use in SS14",
+>>>>>>> upstream/master-ru
   "size": {
     "x": 32,
     "y": 32

@@ -13,6 +13,7 @@ store-category-wearables = Одежда
 store-caregory-spellbook-offensive = Наступательные заклинания
 store-caregory-spellbook-defensive = Защитные заклинания
 store-caregory-spellbook-utility = Полезные заклинания
+store-discounted-items = Скидки
 store-caregory-spellbook-equipment = Снаряжение волшебника
 store-caregory-spellbook-events = Заклинания событий
 store-category-implants = Импланты

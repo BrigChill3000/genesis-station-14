@@ -18,5 +18,5 @@ ent-PresentRandomAsh = { ent-PresentBase }
 ent-PresentRandomCash = { ent-PresentBase }
     .suffix = Filled Cash
     .desc = { ent-PresentBase.desc }
-ent-PresentTrash = Wrapping Paper
+ent-PresentTrash = wrapping paper
     .desc = Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.

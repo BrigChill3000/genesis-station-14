@@ -57,6 +57,7 @@
 
 Существуют также черты-ограничения. Прежде чем взять одну из них, ознакомьтесь с игровым процессом, так как с некоторыми из них новичкам будет сложно.
 
+<<<<<<< HEAD
 Они включают:
 - Слепота (сильно ограничивает ваше зрение)
 - Быстрое опьянение (вы быстрее пьянеете и сильнее страдаете от плохого воздействия алкоголя)
@@ -67,4 +68,16 @@
 - Близорукость (несколько ограничивает ваше зрение без очков)
 - Храп (вы издаете громкие храпящие звуки во время сна)
 - Невозрождаемость (вы не можете быть реанимированы после своевременной кончины)
+=======
+They include:
+- Blindness (severely limits your vision)
+- Lightweight drunk (you get drunk faster and you suffer more from the ill-effects of alcohol)
+- Muted (you cannot talk or whisper, but you can still communicate via emotes and pen and paper)
+- Narcolepsy (you randomly fall asleep at unpredictable and often inconvenient times)
+- Pacifist (you cannot hit, shoot, or throw sharp objects at people)
+- Paracusia (you sometimes hear noises that aren't real)
+- Short-sighted (somewhat limits your vision without prescription glasses)
+- Snoring (you make loud snoring sounds when asleep)
+- Unrevivable (you cannot be resuscitated when you meet your untimely demise)
+>>>>>>> upstream/master-ru
 </Document>

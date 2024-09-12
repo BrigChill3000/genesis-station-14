@@ -12,3 +12,5 @@ ent-ClothingNeckMantleRD = research director's mantle
     .desc = For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from cargo; this mantle will keep you comfy.
 ent-ClothingNeckMantleQM = quartermaster's mantle
     .desc = For the master of goods and materials to rule over the department, a befitting mantle to show off superiority!
+ent-ClothingNeckMantle = mantle
+    .desc = A soft mantle, made with the same 'synthetic' animal furs of the iconic winter coat.

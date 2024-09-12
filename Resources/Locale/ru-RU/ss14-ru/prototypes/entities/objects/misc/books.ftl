@@ -1,5 +1,8 @@
 ent-BookBase = книга
     .desc = Книга в твердом переплете.
+ent-BaseGuidebook = { ent-BaseItem }
+    .suffix = Руководство
+    .desc = { ent-BaseItem.desc }
 ent-BookSpaceEncyclopedia = космическая энциклопедия
     .desc = Энциклопедия, содержащая все знания. Автор этой энциклопедии неизвестен.
 ent-BookTheBookOfControl = книга управления

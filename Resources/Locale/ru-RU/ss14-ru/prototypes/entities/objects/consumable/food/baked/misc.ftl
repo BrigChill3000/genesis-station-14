@@ -57,3 +57,5 @@ ent-FoodBakedCannabisBrownie = особый брауни
     .desc = "Особый" брауни.
 ent-FoodOnionRings = луковые кольца
     .desc = Вы можете съесть их или сделать предложение своим близким.
+ent-FoodBakedCroissant = круассан
+    .desc = Маслянистое, слоистое лакомство.

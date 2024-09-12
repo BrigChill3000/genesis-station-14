@@ -28,6 +28,11 @@
 - type: startingGear
   id: SecurityCadetGear
   equipment:
+<<<<<<< HEAD
+=======
+    shoes: ClothingShoesBootsJackFilled
+    outerClothing: ClothingOuterArmorBasic
+>>>>>>> upstream/master-ru
     id: SecurityCadetPDA
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58

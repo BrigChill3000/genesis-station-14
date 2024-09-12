@@ -12,9 +12,15 @@
 - changed-files:
   - any-glob-to-any-file: '**/*.xaml*'
 
+<<<<<<< HEAD
 "Changes: Localization":
 - changed-files:
   - any-glob-to-any-file: 'Resources/Locale/**/*.ftl'
+=======
+"Changes: Shaders":
+- changed-files:
+  - any-glob-to-any-file: '**/*.swsl'
+>>>>>>> upstream/master-ru
 
 "No C#":
 - changed-files:

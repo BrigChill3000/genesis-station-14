@@ -1,5 +1,5 @@
 ent-BasaltOne = базальт
-    .desc = Порода
+    .desc = Порода.
 ent-BasaltTwo = { ent-BasaltOne }
     .desc = { ent-BasaltOne.desc }
 ent-BasaltThree = { ent-BasaltOne }

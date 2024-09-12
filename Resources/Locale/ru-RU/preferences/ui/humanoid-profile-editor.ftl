@@ -18,11 +18,7 @@ humanoid-profile-editor-pronouns-epicene-text = Они / Их
 humanoid-profile-editor-pronouns-neuter-text = Оно / Его
 humanoid-profile-editor-import-button = Импорт
 humanoid-profile-editor-export-button = Экспорт
-<<<<<<< HEAD
-humanoid-profile-editor-export-image-button = Экспорт изображение
-=======
 humanoid-profile-editor-export-image-button = Экспорт изображения
->>>>>>> upstream/master-ru
 humanoid-profile-editor-open-image-button = Открыть изображения
 humanoid-profile-editor-save-button = Сохранить
 humanoid-profile-editor-reset-button = Сбросить

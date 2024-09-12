@@ -14,10 +14,5 @@ admin-verbs-erase-description =
     Их вещи упадут на землю.
     Игроки увидят всплывающее окно, указывающее им играть как будто исчезнувшего никогда не существовало.
 toolshed-verb-mark = Отметить
-<<<<<<< HEAD
-toolshed-verb-mark-description = Помещает данную сущность в переменную $marked, список сущностей, заменяя её предыдущее значение.
-
-=======
 toolshed-verb-mark-description = Помещает данную сущность в переменную $marked, заменяя её предыдущее значение.
->>>>>>> upstream/master-ru
 export-entity-verb-get-data-text = Экспорт спрайта

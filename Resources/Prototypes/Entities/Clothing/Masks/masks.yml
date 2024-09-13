@@ -371,11 +371,6 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    hideOnToggle: true
 
 - type: entity
   parent: ClothingMaskGasExplorer
@@ -401,11 +396,6 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    hideOnToggle: true
 
 - type: entity
   parent: ClothingMaskGasERT

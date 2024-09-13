@@ -23,6 +23,7 @@
     - category: Hunger
     - category: Thirst
     - alertType: Magboots
+    - alertType: Crawling # Genesis-Edit
     - alertType: Pacified
 
 - type: entity

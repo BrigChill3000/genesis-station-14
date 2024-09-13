@@ -17,6 +17,7 @@
 - type: startingGear
   id: ScientistGear
   equipment:
+    id: SciencePDA
     ears: ClothingHeadsetScience
   #storage:
     #back:

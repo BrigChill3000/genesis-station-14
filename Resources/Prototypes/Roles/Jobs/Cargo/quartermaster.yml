@@ -42,8 +42,9 @@
   equipment:
     id: QuartermasterPDA
     ears: ClothingHeadsetQM
-    belt: BoxFolderClipboard
     pocket1: AppraisalTool
+    pocket2: BoxFolderClipboard
   storage:
     back:
     - Flash
+    - TelescopicBaton

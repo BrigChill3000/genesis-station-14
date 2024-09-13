@@ -6,7 +6,9 @@
   roles:
   - CargoTechnician
   - Quartermaster
+  - SeniorSalvage # Genesis-Station
   - SalvageSpecialist
+  - Miner # Genesis-Station
 
 - type: department
   id: Civilian
@@ -15,6 +17,7 @@
   color: "#9FED58"
   weight: -10
   roles:
+  - SeniorService # Genesis-Station
   - Bartender
   - Botanist
   - Boxer
@@ -23,7 +26,6 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -40,6 +42,7 @@
   color: "#334E6D"
   roles:
   - Captain
+  - Magistrat # Genesis-Station
   - CentralCommandOfficial
   - ChiefEngineer
   - ChiefMedicalOfficer
@@ -58,6 +61,7 @@
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
+  - SeniorEngineer # Genesis-Station
   - StationEngineer
   - TechnicalAssistant
 
@@ -69,6 +73,7 @@
   roles:
   - Chemist
   - ChiefMedicalOfficer
+  - SeniorPhysician # Genesis-Station
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
@@ -83,8 +88,11 @@
   roles:
   - HeadOfSecurity
   - SecurityCadet
+  - Pilot # Corvax-Pilot Edit by Genesis
+  - SeniorOfficer # Genesis-Station
   - SecurityOfficer
   - Detective
+  - Brigmedic # Genesis-Station
   - Warden
 
 - type: department
@@ -94,7 +102,9 @@
   color: "#D381C9"
   roles:
   - ResearchDirector
+  - SeniorResearcher # Genesis-Station
   - Scientist
+  - Roboticist # Genesis-Station
   - ResearchAssistant
 
 - type: department
@@ -117,4 +127,5 @@
   - Reporter
   - Zookeeper
   - Psychologist
+  - Pilot # Corvax-Pilot Edit by Genesis
   primary: false

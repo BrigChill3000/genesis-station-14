@@ -12,7 +12,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.LineEdit;
 
-namespace Content.Client._Genesis.Administration.UI.Tabs.AdminTab
+namespace Content.Client.Administration.UI.Tabs.AdminTab
 {
     [GenerateTypedNameReferences]
     [UsedImplicitly]

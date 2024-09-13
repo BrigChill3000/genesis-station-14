@@ -29,7 +29,7 @@
     grid:
     - 0,0,7,1
   - type: Item
-    size: Ginormous
+    size: Huge
   - type: ContainerContainer
     containers:
       storagebase: !type:Container

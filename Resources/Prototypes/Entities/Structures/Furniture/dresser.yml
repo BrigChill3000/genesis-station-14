@@ -26,8 +26,8 @@
         acts: [ "Destruction" ]
   - type: Storage
     grid:
-    - 0,0,6,3
-    maxItemSize: Normal
+    - 0,0,20,20
+    maxItemSize: Ginormous
   - type: ContainerContainer
     containers:
       storagebase: !type:Container

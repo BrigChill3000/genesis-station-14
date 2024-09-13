@@ -230,6 +230,13 @@ namespace Content.Server.GameTicking
 
             _playTimeTrackings.PlayerRolesChanged(player);
 
+            var spawnPointType = SpawnPointType.Unset;
+            if (jobPrototype.AlwaysUseSpawner)
+            {
+                lateJoin = false;
+                spawnPointType = SpawnPointType.Job;
+            }
+
             var mobMaybe = _stationSpawning.SpawnPlayerCharacterOnStation(station, job, character);
             DebugTools.AssertNotNull(mobMaybe);
             var mob = mobMaybe!.Value;

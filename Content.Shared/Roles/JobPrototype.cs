@@ -1,9 +1,11 @@
 using Content.Shared.Access;
 using Content.Shared.Guidebook;
+using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.StatusIcon;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List;
 
 namespace Content.Shared.Roles
 {
@@ -125,6 +127,20 @@ namespace Content.Shared.Roles
         /// </summary>
         [DataField]
         public List<ProtoId<GuideEntryPrototype>>? Guides;
+
+        // Genesis-Start
+        /// <summary>
+        /// 1:0 тупые фелиниды
+        /// </summary>
+        [DataField("speciesBlacklist", customTypeSerializer: typeof(PrototypeIdListSerializer<SpeciesPrototype>))]
+        public List<string> SpeciesBlacklist = new();
+
+        /// <summary>
+        /// Используется для ролей ЦК и других.
+        /// </summary>
+        [DataField("alwaysUseSpawner")]
+        public bool AlwaysUseSpawner { get; }
+        // Genesis-End
     }
 
     /// <summary>

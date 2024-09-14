@@ -1,34 +1,18 @@
 # Pistols
-- type: loadout
-  id: WeaponPistolMk58
-  equipment: WeaponPistolMk58
-
 - type: startingGear
   id: WeaponPistolMk58
   equipment:
     pocket1: WeaponPistolMk58
-
-- type: loadout
-  id: WeaponPistolMk68
-  equipment: WeaponPistolMk68
 
 - type: startingGear
   id: WeaponPistolMk68
   equipment:
     pocket1: WeaponPistolMk68
 
-- type: loadout
-  id: WeaponPistolM1911
-  equipment: WeaponPistolM1911
-
 - type: startingGear
   id: WeaponPistolM1911
   equipment:
     pocket1: WeaponPistolM1911
-
-- type: loadout
-  id: WeaponRevolverMateba
-  equipment: WeaponRevolverMateba
 
 - type: startingGear
   id: WeaponRevolverMateba
@@ -36,27 +20,15 @@
     pocket1: WeaponRevolverMateba
 
 # Pocket 2
-- type: loadout
-  id: MagazinePistol
-  equipment: MagazinePistol
-
 - type: startingGear
   id: MagazinePistol
   equipment:
     pocket2: MagazinePistol
 
-- type: loadout
-  id: MagazinePistolHighCapacity
-  equipment: MagazinePistolHighCapacity
-
 - type: startingGear
   id: MagazinePistolHighCapacity
   equipment:
     pocket2: MagazinePistolHighCapacity
-
-- type: loadout
-  id: SpeedLoaderMagnum
-  equipment: SpeedLoaderMagnum
 
 - type: startingGear
   id: SpeedLoaderMagnum
@@ -64,54 +36,34 @@
     pocket2: SpeedLoaderMagnum
 
 # OuterClothing
-- type: loadout
-  id: ArmorVestArmorSec
-  equipment: ArmorVestArmorSec
-
 - type: startingGear
   id: ArmorVestArmorSec
   equipment:
     outerClothing: ClothingOuterVestArmorSec
 
 # Uniform
-- type: loadout
-  id: HECUUniform
-  equipment: HECUUniform
-
 - type: startingGear
   id: HECUUniform
   equipment:
     jumpsuit: ClothingUniformHECU
 
 # Shoes
-- type: loadout
-  id: SpetsnazBoots
-  equipment: SpetsnazBoots
-
 - type: startingGear
   id: SpetsnazBoots
   equipment:
     shoes: ClothingShoesBootsSpetsnazFilled
 
 # Mask
-- type: loadout
-  id: SecurityMask
-  equipment: SecurityMask
-
 - type: startingGear
   id: SecurityMask
   equipment:
     mask: ClothingMaskGasSecurity
 
 # Gloves
-- type: loadout
+- type: startingGear
   id: SecurityGloves
-  equipment: SecurityGloves
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorOfficer
-
-- type: startingGear
-  id: SecurityGloves
   equipment:
     gloves: ClothingHandsTacticalSecurity

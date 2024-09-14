@@ -1,4 +1,4 @@
-- type: startingGear
+- type: loadout
   id: EmergencyOxygenBrigmedic
   effects:
   - !type:GroupLoadoutEffect
@@ -7,7 +7,7 @@
     back:
     - BoxSurvivalSecurity
 
-- type: startingGear
+- type: loadout
   id: EmergencyOxygenBlueShield
   effects:
   - !type:GroupLoadoutEffect
@@ -16,7 +16,7 @@
     back:
     - BoxSurvivalBlueShield
 
-- type: startingGear
+- type: loadout
   id: EmergencyNitrogenBrigmedic
   effects:
   - !type:GroupLoadoutEffect
@@ -25,7 +25,7 @@
     back:
     - BoxSurvivalBrigmedicNitrogen
 
-- type: startingGear
+- type: loadout
   id: EmergencyNitrogenBlueShield
   effects:
   - !type:GroupLoadoutEffect

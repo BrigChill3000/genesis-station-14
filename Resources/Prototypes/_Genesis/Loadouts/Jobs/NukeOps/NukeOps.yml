@@ -1,16 +1,8 @@
 # Jumpsuit
-- type: loadout
-  id: NukeOpsJumpsuit
-  equipment: NukeOpsJumpsuit
-
 - type: startingGear
   id: NukeOpsJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
-
-- type: loadout
-  id: NukeOpsJumpskirt
-  equipment: NukeOpsJumpskirt
 
 - type: startingGear
   id: NukeOpsJumpskirt
@@ -18,55 +10,31 @@
     jumpsuit: ClothingUniformJumpskirtOperative
 
 # Back
-- type: loadout
-  id: NukeOpsBackpack
-  equipment: NukeOpsBackpack
-
 - type: startingGear
   id: NukeOpsBackpack
   equipment:
     back: ClothingBackpackDuffelSyndicate
 
 # Outer clothing
-- type: loadout
-  id: NukeOpsOuterClothing
-  equipment: NukeOpsOuterClothing
-
 - type: startingGear
   id: NukeOpsOuterClothing
   equipment:
     outerClothing: ClothingOuterHardsuitSyndie
-
-- type: loadout
-  id: NukeOpsOuterClothingCorvax
-  equipment: NukeOpsOuterClothingCorvax
 
 - type: startingGear
   id: NukeOpsOuterClothingCorvax
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieCorvax
 
-- type: loadout
-  id: NukeOpsOuterClothingBackmen
-  equipment: NukeOpsOuterClothingBackmen
-
 - type: startingGear
   id: NukeOpsOuterClothingBackmen
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieBackmen
 
-- type: loadout
-  id: NukeOpsOuterClothingSunRise
-  equipment: NukeOpsOuterClothingSunRise
-
 - type: startingGear
   id: NukeOpsOuterClothingSunRise
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieSunRise
-
-- type: loadout
-  id: NukeOpsOuterClothingXeno
-  equipment: NukeOpsOuterClothingXeno
 
 - type: startingGear
   id: NukeOpsOuterClothingXeno
@@ -74,37 +42,21 @@
     outerClothing: ClothingOuterHardsuitSyndieXeno
 
 # Belt
-- type: loadout
-  id: NukeOpsBelt
-  equipment: NukeOpsBelt
-
 - type: startingGear
   id: NukeOpsBelt
   equipment:
     belt: ClothingBeltMilitaryWebbing
 
 # PDA
-- type: loadout
-  id: SyndiAgentPDA
-  equipment: SyndiAgentPDA
-
 - type: startingGear
   id: SyndiAgentPDA
   equipment:
     id: SyndiAgentPDA
 
-- type: loadout
-  id: SyndiPDA
-  equipment: SyndiPDA
-
 - type: startingGear
   id: SyndiPDA
   equipment:
     id: SyndiPDA
-
-- type: loadout
-  id: NukieAgentIDCard
-  equipment: NukieAgentIDCard
 
 - type: startingGear
   id: NukieAgentIDCard

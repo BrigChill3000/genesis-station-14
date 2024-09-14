@@ -1,7 +1,7 @@
 # Head
 - type: loadout
   id: SeniorEngineerBeret
-  equipment: EngineeringBeret
+  startingGear: EngineeringBeret
 
 # Jumpsuit
 - type: loadout

@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHandsBase
+  parent: [ClothingHandsBase, BaseSecurityEngineeringContraband]
   id: ClothingHandsGlovesAtmos
   name: atmospheric extrication gloves
   description: Heavy duty gloves for firefighters. These are thick, non-flammable and let you carry people faster.
@@ -8,8 +8,6 @@
     sprite: Genesis/Clothing/Hands/Gloves/atmos.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Hands/Gloves/atmos.rsi
-  - type: GloveHeatResistance
-    heatResistance: 5000
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
@@ -17,7 +15,7 @@
   - type: FingerprintMask
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: [ClothingHandsBase, BaseSecurityEngineeringContraband]
   id: ClothingHandsGlovesCE
   name: advanced insulated gloves
   description: These gloves provide excellent heat and electric insulation. They are so thin you can barely feel them.
@@ -26,8 +24,6 @@
     sprite: Genesis/Clothing/Hands/Gloves/ce.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Hands/Gloves/ce.rsi
-  - type: GloveHeatResistance
-    heatResistance: 6000
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
@@ -55,5 +51,3 @@
     sprite: Genesis/Clothing/Hands/Gloves/security.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Hands/Gloves/security.rsi
-  - type: GloveHeatResistance
-    heatResistance: 6000

@@ -1,5 +1,5 @@
 # Jumpsuit
-- type: startingGear
+- type: loadout
   id: JumpsuitMiner
   equipment:
     jumpsuit: ClothingUniformJumpsuitMiner

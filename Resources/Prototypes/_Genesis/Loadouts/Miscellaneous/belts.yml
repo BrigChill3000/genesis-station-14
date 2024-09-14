@@ -1,35 +1,35 @@
 # Belt
-- type: startingGear
+- type: loadout
   id: UtilityBelt
   equipment:
     belt: ClothingBeltUtilityFilled
 
-- type: startingGear
+- type: loadout
   id: EngineeringUtilityBelt
   equipment:
     belt: ClothingBeltUtilityEngineering
 
-- type: startingGear
+- type: loadout
   id: ChiefEngineerUtilityBelt
   equipment:
     belt: ClothingBeltChiefEngineerFilled
 
-- type: startingGear
+- type: loadout
   id: SalvageWebbing
   equipment:
     belt: ClothingBeltSalvageWebbingFilled
 
-- type: startingGear
+- type: loadout
   id: MiningWebbingBelt
   equipment:
     belt: ClothingBeltMiningWebbingFilled
 
-- type: startingGear
+- type: loadout
   id: MedicalBelt
   equipment:
     belt: ClothingBeltMedicalFilled
 
-- type: startingGear
+- type: loadout
   id: MedicalEMTBelt
   equipment:
     belt: ClothingBeltMedicalEMTFilled

@@ -7,7 +7,7 @@
     head: ClothingHeadHatPwig
 
 # Outer clothing
-- type: sloadout
+- type: loadout
   id: MagistratOuterClothing
   equipment:
     outerClothing: ClothingOuterRobesJudge

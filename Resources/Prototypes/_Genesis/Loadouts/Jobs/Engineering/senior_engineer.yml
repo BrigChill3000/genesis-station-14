@@ -4,12 +4,12 @@
   equipment: EngineeringBeret
 
 # Jumpsuit
-- type: startingGear
+- type: loadout
   id: JumpsuitSeniorEngineer
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorEngineer
 
-- type: startingGear
+- type: loadout
   id: JumpskirtSeniorEngineer
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorEngineer

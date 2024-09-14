@@ -1,34 +1,18 @@
 # Jumpsuit
-- type: loadout
-  id: ConsultantJumpsuit
-  equipment: ConsultantJumpsuit
-
 - type: startingGear
   id: ConsultantJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomConsultant
-
-- type: loadout
-  id: ConsultantJumpskirt
-  equipment: ConsultantJumpskirt
 
 - type: startingGear
   id: ConsultantJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCentcomConsultant
 
-- type: loadout
-  id: ConsultantFormalSuit
-  equipment: ConsultantFormalSuit
-
 - type: startingGear
   id: ConsultantFormalSuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomConsultantFormal
-
-- type: loadout
-  id: ConsultantFormalSkirt
-  equipment: ConsultantFormalSkirt
 
 - type: startingGear
   id: ConsultantFormalSkirt
@@ -36,20 +20,12 @@
     jumpsuit: ClothingUniformJumpskirtCentcomConsultantFormal
 
 # Head
-- type: loadout
-  id: ConsultantHead
-  equipment: ConsultantHead
-
 - type: startingGear
   id: ConsultantHead
   equipment:
     head: ClothingHeadHatCentcomConsultantCap
 
 # Outer clothing
-- type: loadout
-  id: ConsultantOuterClothing
-  equipment: ConsultantOuterClothing
-
 - type: startingGear
   id: ConsultantOuterClothing
   equipment:

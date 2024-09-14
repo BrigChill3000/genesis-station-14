@@ -734,6 +734,7 @@
     - state: idcluwne
   - type: IdCard
     jobTitle: Cluwne
+    jobColor: "#AA0000"
   - type: Unremoveable
 
 - type: entity

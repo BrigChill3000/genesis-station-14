@@ -1,12 +1,8 @@
-- type: loadout
+- type: startingGear
   id: ScientificBeretAlt
-  equipment: ScientificBeretAlt
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorResearcher
-
-- type: startingGear
-  id: ScientificBeretAlt
   equipment:
     head: ClothingHeadHatBeretRNDAlt
 

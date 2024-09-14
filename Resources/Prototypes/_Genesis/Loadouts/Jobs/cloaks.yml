@@ -1,16 +1,8 @@
 # Neck
-- type: loadout
-  id: ChiefEngineerCloakAlt
-  equipment: ChiefEngineerCloakAlt
-
 - type: startingGear
   id: ChiefEngineerCloakAlt
   equipment:
     neck: ClothingNeckCloakCeAlt
-
-- type: loadout
-  id: ResearchDirectorCloakAlt
-  equipment: ResearchDirectorCloakAlt
 
 - type: startingGear
   id: ResearchDirectorCloakAlt

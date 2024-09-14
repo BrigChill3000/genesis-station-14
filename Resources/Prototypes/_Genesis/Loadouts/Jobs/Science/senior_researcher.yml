@@ -8,7 +8,7 @@
   equipment: ScientificBeretAlt
 
 # Jumpsuit
-- type: startingGear
+- type: loadout
   id: JumpsuitSeniorResearcher
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorResearcher

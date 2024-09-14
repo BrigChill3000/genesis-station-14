@@ -1,53 +1,53 @@
 # pins
-- type: startingGear
+- type: loadout
   id: ClothingNeckAtharaPin
   storage:
     back:
     - ClothingNeckAtharaPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckCorvaxPin
   storage:
     back:
     - ClothingNeckCorvaxPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckEchoPin
   storage:
     back:
     - ClothingNeckEchoPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckElysiumPin
   storage:
     back:
     - ClothingNeckElysiumPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckMainPin
   storage:
     back:
     - ClothingNeckMainPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckNebulaPin
   storage:
     back:
     - ClothingNeckNebulaPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckNovaPin
   storage:
     back:
     - ClothingNeckNovaPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckSolarisPin
   storage:
     back:
     - ClothingNeckSolarisPin
 
-- type: startingGear
+- type: loadout
   id: ClothingNeckWhiteListPin
   storage:
     back:

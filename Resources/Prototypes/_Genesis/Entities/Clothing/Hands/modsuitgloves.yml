@@ -11,8 +11,6 @@
     sprite: Genesis/Clothing/Hands/Modsuit/standard.rsi
     equipSound: /Audio/Genesis/Items/ballin.ogg
     unequipSound: /Audio/Genesis/Items/ballout.ogg
-  - type: GloveHeatResistance
-    heatResistance: 1400
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-durathread

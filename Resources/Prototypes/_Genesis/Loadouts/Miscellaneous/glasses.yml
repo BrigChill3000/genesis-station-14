@@ -1,31 +1,31 @@
 # Basic options
 # Glasses
-- type: startingGear
+- type: loadout
   id: CheapSunglasses
   equipment:
     eyes: ClothingEyesGlassesCheapSunglasses
 
-- type: startingGear
+- type: loadout
   id: Sunglasses
   equipment:
     eyes: ClothingEyesGlassesSunglasses
 
-- type: startingGear
+- type: loadout
   id: SecurityGlasses
   equipment:
     eyes: ClothingEyesGlassesSecurity
 
-- type: startingGear
+- type: loadout
   id: SecurityHud
   equipment:
     eyes: ClothingEyesHudSecurity
 
-- type: startingGear
+- type: loadout
   id: SecurityEyepatchHud
   equipment:
     eyes: ClothingEyesEyepatchHudSecurity
 
-- type: startingGear
+- type: loadout
   id: BeerEyepatchHud
   equipment:
     eyes: ClothingEyesEyepatchHudBeer

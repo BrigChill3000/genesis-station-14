@@ -20,23 +20,15 @@
       time: 108000 # 30 hrs
 
 # Head
-- type: loadout
+- type: startingGear
   id: SalvageBeret
-  equipment: SalvageBeret
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorSalvage
-
-- type: startingGear
-  id: SalvageBeret
   equipment:
     head: ClothingHeadHatBeretSalvage
 
 # Jumpsuit
-- type: loadout
-  id: JumpsuitSalvage
-  equipment: JumpsuitSalvage
-
 - type: startingGear
   id: JumpsuitSalvage
   equipment:

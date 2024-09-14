@@ -1,16 +1,8 @@
 # Jumpsuit
-- type: loadout
-  id: JediNTJumpsuit
-  equipment: JediNTJumpsuit
-
 - type: startingGear
   id: JediNTJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitJediNT
-
-- type: loadout
-  id: JediNTTurtleneck
-  equipment: JediNTTurtleneck
 
 - type: startingGear
   id: JediNTTurtleneck
@@ -18,18 +10,10 @@
     jumpsuit: ClothingUniformJumpsuitJediNTTurtleneck
 
 # Head
-- type: loadout
-  id: JediNTHead
-  equipment: JediNTHead
-
 - type: startingGear
   id: JediNTHead
   equipment:
     head: ClothingHeadHatJediNTBeret
-
-- type: loadout
-  id: JediNTHat
-  equipment: JediNTHat
 
 - type: startingGear
   id: JediNTHat
@@ -37,46 +21,26 @@
     head: ClothingHeadHatJediNTHat
 
 # Neck
-- type: loadout
-  id: JediNTMantle
-  equipment: JediNTMantle
-
 - type: startingGear
   id: JediNTMantle
   equipment:
     neck: ClothingNeckMantleJediNT
 
 # Back
-- type: loadout
-  id: JediNTBackpack
-  equipment: JediNTBackpack
-
 - type: startingGear
   id: JediNTBackpack
   equipment:
     back: ClothingBackpackJediNT
-
-- type: loadout
-  id: JediNTSatchel
-  equipment: JediNTSatchel
 
 - type: startingGear
   id: JediNTSatchel
   equipment:
     back: ClothingBackpackSatchelJediNT
 
-- type: loadout
-  id: JediNTDuffel
-  equipment: JediNTDuffel
-
 - type: startingGear
   id: JediNTDuffel
   equipment:
     back: ClothingBackpackDuffelJediNT
-
-- type: loadout
-  id: JediNTModSuit
-  equipment: JediNTModSuit
 
 - type: startingGear
   id: JediNTModSuit
@@ -84,28 +48,16 @@
     back: ClothingModsuitBackInquisitor
 
 # Outer clothing
-- type: loadout
-  id: JediNTOuterClothing
-  equipment: JediNTOuterClothing
-
 - type: startingGear
   id: JediNTOuterClothing
   equipment:
     outerClothing: ClothingOuterArmorJediNT
 
 # Belt
-- type: loadout
-  id: JediNTBelt
-  equipment: JediNTBelt
-
 - type: startingGear
   id: JediNTBelt
   equipment:
     belt: ClothingBeltJediNTBelt
-
-- type: loadout
-  id: JediNTWebbing
-  equipment: JediNTWebbing
 
 - type: startingGear
   id: JediNTWebbing
@@ -113,18 +65,10 @@
     belt: ClothingBeltJediNTWebbing
 
 # Pocket
-- type: loadout
-  id: JediNTEnergySword
-  equipment: JediNTEnergySword
-
 - type: startingGear
   id: JediNTEnergySword
   equipment:
     pocket1: EnergySword
-
-- type: loadout
-  id: JediNTEnergySword2
-  equipment: JediNTEnergySword2
 
 - type: startingGear
   id: JediNTEnergySword2

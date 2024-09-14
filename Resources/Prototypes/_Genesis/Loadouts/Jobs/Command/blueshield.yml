@@ -1,34 +1,18 @@
 # Jumpsuit
-- type: loadout
-  id: BlueShieldJumpsuit
-  equipment: BlueShieldJumpsuit
-
 - type: startingGear
   id: BlueShieldJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueShield
-
-- type: loadout
-  id: BlueShieldJumpskirt
-  equipment: BlueShieldJumpskirt
 
 - type: startingGear
   id: BlueShieldJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueShield
 
-- type: loadout
-  id: BlueShieldTurtleneck
-  equipment: BlueShieldTurtleneck
-
 - type: startingGear
   id: BlueShieldTurtleneck
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueShieldTurtleneck
-
-- type: loadout
-  id: BlueShieldTurtleneckSkirt
-  equipment: BlueShieldTurtleneckSkirt
 
 - type: startingGear
   id: BlueShieldTurtleneckSkirt
@@ -36,27 +20,15 @@
     jumpsuit: ClothingUniformJumpskirtBlueShieldTurtleneck
 
 # Head
-- type: loadout
-  id: BlueShieldHead
-  equipment: BlueShieldHead
-
 - type: startingGear
   id: BlueShieldHead
   equipment:
     head: ClothingHeadHatBlueShieldBeret
 
-- type: loadout
-  id: BlueShieldHat
-  equipment: BlueShieldHat
-
 - type: startingGear
   id: BlueShieldHat
   equipment:
     head: ClothingHeadHatBlueShieldHat
-
-- type: loadout
-  id: SWATHelmet
-  equipment: SWATHelmet
 
 - type: startingGear
   id: SWATHelmet
@@ -64,46 +36,26 @@
     head: ClothingHeadHelmetSwat
 
 # Neck
-- type: loadout
-  id: BlueShieldMantle
-  equipment: BlueShieldMantle
-
 - type: startingGear
   id: BlueShieldMantle
   equipment:
     neck: ClothingNeckMantleBS
 
 # Back
-- type: loadout
-  id: BlueShieldBackpack
-  equipment: BlueShieldBackpack
-
 - type: startingGear
   id: BlueShieldBackpack
   equipment:
     back: ClothingBackpackBlueShield
-
-- type: loadout
-  id: BlueShieldSatchel
-  equipment: BlueShieldSatchel
 
 - type: startingGear
   id: BlueShieldSatchel
   equipment:
     back: ClothingBackpackSatchelBlueShield
 
-- type: loadout
-  id: BlueShieldDuffel
-  equipment: BlueShieldDuffel
-
 - type: startingGear
   id: BlueShieldDuffel
   equipment:
     back: ClothingBackpackDuffelBlueShield
-
-- type: loadout
-  id: BlueShieldModSuit
-  equipment: BlueShieldModSuit
 
 - type: startingGear
   id: BlueShieldModSuit
@@ -111,36 +63,20 @@
     back: ClothingModsuitBackBlueShield
 
 # Outer clothing
-- type: loadout
-  id: BlueShieldOuterClothing
-  equipment: BlueShieldOuterClothing
-
 - type: startingGear
   id: BlueShieldOuterClothing
   equipment:
     outerClothing: ClothingOuterArmorBlueShield
-
-- type: loadout
-  id: BlueShieldWintercoat
-  equipment: BlueShieldWintercoat
 
 - type: startingGear
   id: BlueShieldWintercoat
   equipment:
     outerClothing: ClothingOuterWinterBS
 
-- type: loadout
-  id: BlueShieldJacket
-  equipment: BlueShieldJacket
-
 - type: startingGear
   id: BlueShieldJacket
   equipment:
     outerClothing: ClothingOuterArmorJacketBlueShield
-
-- type: loadout
-  id: BlueShieldArmorSlim
-  equipment: BlueShieldArmorSlim
 
 - type: startingGear
   id: BlueShieldArmorSlim
@@ -148,28 +84,16 @@
     outerClothing: ClothingOuterArmorBlueShieldSlim
 
 # Shoes
-- type: loadout
-  id: JackBootsBlueShield
-  equipment: JackBootsBlueShield
-
 - type: startingGear
   id: JackBootsBlueShield
   equipment:
     shoes: ClothingShoesBootsJackBlueShieldFilled
 
 # Belt
-- type: loadout
-  id: UniversalSlimBelt
-  equipment: UniversalSlimBelt
-
 - type: startingGear
   id: UniversalSlimBelt
   equipment:
     belt: ClothingBeltUniversalSlimFilled
-
-- type: loadout
-  id: BlueShieldWebbing
-  equipment: BlueShieldWebbing
 
 - type: startingGear
   id: BlueShieldWebbing
@@ -177,28 +101,16 @@
     belt: ClothingBeltBlueShieldWebbingFilled
 
 # Pocket
-- type: loadout
-  id: WeaponRevolverRsh18
-  equipment: WeaponRevolverRsh18
-
 - type: startingGear
   id: WeaponRevolverRsh18
   equipment:
     pocket1: WeaponRevolverRsh18
 
 # Pocket 2
-- type: loadout
-  id: SpeedLoaderUniversal
-  equipment: SpeedLoaderUniversal
-
 - type: startingGear
   id: SpeedLoaderUniversal
   equipment:
     pocket2: SpeedLoaderUniversal
-
-- type: loadout
-  id: SpeedLoaderUniversalHV
-  equipment: SpeedLoaderUniversalHV
 
 - type: startingGear
   id: SpeedLoaderUniversalHV

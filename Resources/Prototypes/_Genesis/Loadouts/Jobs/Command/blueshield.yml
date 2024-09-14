@@ -1,118 +1,118 @@
 # Jumpsuit
-- type: startingGear
+- type: loadout
   id: BlueShieldJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueShield
 
-- type: startingGear
+- type: loadout
   id: BlueShieldJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueShield
 
-- type: startingGear
+- type: loadout
   id: BlueShieldTurtleneck
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueShieldTurtleneck
 
-- type: startingGear
+- type: loadout
   id: BlueShieldTurtleneckSkirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueShieldTurtleneck
 
 # Head
-- type: startingGear
+- type: loadout
   id: BlueShieldHead
   equipment:
     head: ClothingHeadHatBlueShieldBeret
 
-- type: startingGear
+- type: loadout
   id: BlueShieldHat
   equipment:
     head: ClothingHeadHatBlueShieldHat
 
-- type: startingGear
+- type: loadout
   id: SWATHelmet
   equipment:
     head: ClothingHeadHelmetSwat
 
 # Neck
-- type: startingGear
+- type: loadout
   id: BlueShieldMantle
   equipment:
     neck: ClothingNeckMantleBS
 
 # Back
-- type: startingGear
+- type: loadout
   id: BlueShieldBackpack
   equipment:
     back: ClothingBackpackBlueShield
 
-- type: startingGear
+- type: loadout
   id: BlueShieldSatchel
   equipment:
     back: ClothingBackpackSatchelBlueShield
 
-- type: startingGear
+- type: loadout
   id: BlueShieldDuffel
   equipment:
     back: ClothingBackpackDuffelBlueShield
 
-- type: startingGear
+- type: loadout
   id: BlueShieldModSuit
   equipment:
     back: ClothingModsuitBackBlueShield
 
 # Outer clothing
-- type: startingGear
+- type: loadout
   id: BlueShieldOuterClothing
   equipment:
     outerClothing: ClothingOuterArmorBlueShield
 
-- type: startingGear
+- type: loadout
   id: BlueShieldWintercoat
   equipment:
     outerClothing: ClothingOuterWinterBS
 
-- type: startingGear
+- type: loadout
   id: BlueShieldJacket
   equipment:
     outerClothing: ClothingOuterArmorJacketBlueShield
 
-- type: startingGear
+- type: loadout
   id: BlueShieldArmorSlim
   equipment:
     outerClothing: ClothingOuterArmorBlueShieldSlim
 
 # Shoes
-- type: startingGear
+- type: loadout
   id: JackBootsBlueShield
   equipment:
     shoes: ClothingShoesBootsJackBlueShieldFilled
 
 # Belt
-- type: startingGear
+- type: loadout
   id: UniversalSlimBelt
   equipment:
     belt: ClothingBeltUniversalSlimFilled
 
-- type: startingGear
+- type: loadout
   id: BlueShieldWebbing
   equipment:
     belt: ClothingBeltBlueShieldWebbingFilled
 
 # Pocket
-- type: startingGear
+- type: loadout
   id: WeaponRevolverRsh18
   equipment:
     pocket1: WeaponRevolverRsh18
 
 # Pocket 2
-- type: startingGear
+- type: loadout
   id: SpeedLoaderUniversal
   equipment:
     pocket2: SpeedLoaderUniversal
 
-- type: startingGear
+- type: loadout
   id: SpeedLoaderUniversalHV
   equipment:
     pocket2: SpeedLoaderUniversalHV

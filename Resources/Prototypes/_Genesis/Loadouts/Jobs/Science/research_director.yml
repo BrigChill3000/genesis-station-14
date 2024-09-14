@@ -1,5 +1,5 @@
 # Back
-- type: startingGear
+- type: loadout
   id: ResearchDirectorModSuit
   equipment:
     back: ClothingModsuitBackRD

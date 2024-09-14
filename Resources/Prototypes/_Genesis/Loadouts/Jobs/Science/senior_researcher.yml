@@ -8,18 +8,10 @@
   equipment: ScientificBeretAlt
 
 # Jumpsuit
-- type: loadout
-  id: JumpsuitSeniorResearcher
-  equipment: JumpsuitSeniorResearcher
-
 - type: startingGear
   id: JumpsuitSeniorResearcher
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorResearcher
-
-- type: loadout
-  id: JumpskirtSeniorResearcher
-  equipment: JumpskirtSeniorResearcher
 
 - type: startingGear
   id: JumpskirtSeniorResearcher
@@ -27,10 +19,6 @@
     jumpsuit: ClothingUniformJumpskirtSeniorResearcher
 
 # OuterClothing
-- type: loadout
-  id: SeniorResearcherLabCoat
-  equipment: SeniorResearcherLabCoat
-
 - type: startingGear
   id: SeniorResearcherLabCoat
   equipment:

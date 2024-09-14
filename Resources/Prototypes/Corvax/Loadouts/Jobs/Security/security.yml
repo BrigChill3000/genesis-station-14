@@ -1,11 +1,11 @@
-- type: startingGear
+- type: loadout
   id: JackSecBoots
   equipment:
     shoes: ClothingShoesBootsJackSecFilled
 
 # Genesis
 # OuterClothing
-- type: startingGear
+- type: loadout
   id: ArmorVestSec
   equipment:
     outerClothing: ClothingOuterVestArmorSec

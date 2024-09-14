@@ -1,44 +1,44 @@
 # Head
-- type: startingGear
+- type: loadout
   id: BrigmedicHead
   equipment:
     head: ClothingHeadHatBeretBrigmedic
 
 # Mask
-- type: startingGear
+- type: loadout
   id: MaskMedicalSecurity
   equipment:
     mask: ClothingMaskBreathMedicalSecurity
 
 # Jumpsuit
-- type: startingGear
+- type: loadout
   id: BrigmedicJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitBrigmedic
 
-- type: startingGear
+- type: loadout
   id: BrigmedicJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtBrigmedic
 
 # Back
-- type: startingGear
+- type: loadout
   id: BrigmedicBackpack
   equipment:
     back: ClothingBackpackBrigmedic
 
-- type: startingGear
+- type: loadout
   id: BrigmedicSatchel
   equipment:
     back: ClothingBackpackSatchelBrigmedic
 
-- type: startingGear
+- type: loadout
   id: BrigmedicDuffel
   equipment:
     back: ClothingBackpackDuffelBrigmedic
 
 # Outer clothing
-- type: startingGear
+- type: loadout
   id: BrigmedicOuterClothing
   equipment:
     outerClothing: ClothingOuterCoatAMG

@@ -1,34 +1,18 @@
 # Outer clothing
-- type: loadout
-  id: NukeOpsMedicOuterClothing
-  equipment: NukeOpsMedicOuterClothing
-
 - type: startingGear
   id: NukeOpsMedicOuterClothing
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieMedic
-
-- type: loadout
-  id: NukeOpsMedicOuterClothingCorvax
-  equipment: NukeOpsMedicOuterClothingCorvax
 
 - type: startingGear
   id: NukeOpsMedicOuterClothingCorvax
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieMedicCorvax
 
-- type: loadout
-  id: NukeOpsMedicOuterClothingSunRise
-  equipment: NukeOpsMedicOuterClothingSunRise
-
 - type: startingGear
   id: NukeOpsMedicOuterClothingSunRise
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieMedicSunRise
-
-- type: loadout
-  id: NukeOpsMedicOuterClothingXeno
-  equipment: NukeOpsMedicOuterClothingXeno
 
 - type: startingGear
   id: NukeOpsMedicOuterClothingXeno
@@ -36,10 +20,6 @@
     outerClothing: ClothingOuterHardsuitSyndieMedicXeno
 
 # Belt
-- type: loadout
-  id: NukeOpsMedicBelt
-  equipment: NukeOpsMedicBelt
-
 - type: startingGear
   id: NukeOpsMedicBelt
   equipment:

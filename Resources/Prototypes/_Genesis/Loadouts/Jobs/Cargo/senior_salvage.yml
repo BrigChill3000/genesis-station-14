@@ -4,20 +4,12 @@
   equipment: SalvageBeret
 
 # Jumpsuit
-- type: loadout
-  id: JumpsuitSeniorSalvage
-  equipment: JumpsuitSeniorSalvage
-
 - type: startingGear
   id: JumpsuitSeniorSalvage
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorSalvage
 
 # Neck
-- type: loadout
-  id: MinerCloak
-  equipment: MinerCloak
-
 - type: startingGear
   id: MinerCloak
   equipment:

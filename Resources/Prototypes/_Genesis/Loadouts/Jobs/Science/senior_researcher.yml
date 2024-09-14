@@ -13,13 +13,13 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorResearcher
 
-- type: startingGear
+- type: loadout
   id: JumpskirtSeniorResearcher
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorResearcher
 
 # OuterClothing
-- type: startingGear
+- type: loadout
   id: SeniorResearcherLabCoat
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorResearcher

@@ -1,10 +1,10 @@
 # Jumpsuit
-- type: startingGear
+- type: loadout
   id: CaptainJumpsuitTurtleneck
   equipment:
     jumpsuit: ClothingUniformJumpsuitCapTurtleneck
 
-- type: startingGear
+- type: loadout
   id: CaptainJumpskirtTurtleneck
   equipment:
     jumpsuit: ClothingUniformJumpskirtCapTurtleneck

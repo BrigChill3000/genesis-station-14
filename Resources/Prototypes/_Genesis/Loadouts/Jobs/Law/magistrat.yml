@@ -1,13 +1,13 @@
-#Genesis
+# Genesis
 #MagistratUniformSuit
 # Head
-- type: startingGear
+- type: loadout
   id: MagistratHead
   equipment:
     head: ClothingHeadHatPwig
 
 # Outer clothing
-- type: startingGear
+- type: sloadout
   id: MagistratOuterClothing
   equipment:
     outerClothing: ClothingOuterRobesJudge

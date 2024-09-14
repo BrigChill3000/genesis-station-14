@@ -1,10 +1,10 @@
 # Jumpsuit
-- type: startingGear
+- type: loadout
   id: HeadofSecurityJumpsuitBlack
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoSBlack
 
-- type: startingGear
+- type: loadout
   id: HeadofSecurityJumpskirtBlack
   equipment:
     jumpsuit: ClothingUniformJumpskirtHoSBlack

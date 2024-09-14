@@ -9,7 +9,7 @@
       time: 216000 #60 hrs
 
 # Head
-- type: startingGear
+- type: loadout
   id: ScientificBeret
   equipment:
     head: ClothingHeadHatBeretRND

@@ -1,4 +1,4 @@
-- type: startingGear
+- type: loadout
   id: SpaceLaw
   storage:
     pocket2:

@@ -1,34 +1,18 @@
 # Jumpsuit
-- type: loadout
-  id: CentComOfficerJumpsuit
-  equipment: CentComOfficerJumpsuit
-
 - type: startingGear
   id: CentComOfficerJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficer
-
-- type: loadout
-  id: CentComOfficerJumpskirt
-  equipment: CentComOfficerJumpskirt
 
 - type: startingGear
   id: CentComOfficerJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtCentcomOfficer
 
-- type: loadout
-  id: CentComOfficialJumpsuit
-  equipment: CentComOfficialJumpsuit
-
 - type: startingGear
   id: CentComOfficialJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficial
-
-- type: loadout
-  id: CentComOfficialJumpskirt
-  equipment: CentComOfficialJumpskirt
 
 - type: startingGear
   id: CentComOfficialJumpskirt
@@ -36,37 +20,21 @@
     jumpsuit: ClothingUniformJumpskirtCentcomOfficial
 
 # Gloves
-- type: loadout
-  id: CentComGloves
-  equipment: CentComGloves
-
 - type: startingGear
   id: CentComGloves
   equipment:
     gloves: ClothingHandsGlovesCentcomNaval
 
 # Head
-- type: loadout
-  id: HeadHatCentcom
-  equipment: HeadHatCentcom
-
 - type: startingGear
   id: HeadHatCentcom
   equipment:
     head: ClothingHeadHatCentcom
 
-- type: loadout
-  id: HeadHatBeretCentcomNaval
-  equipment: HeadHatBeretCentcomNaval
-
 - type: startingGear
   id: HeadHatBeretCentcomNaval
   equipment:
     head: ClothingHeadHatBeretCentcomNaval
-
-- type: loadout
-  id: HeadHatCentcomcap
-  equipment: HeadHatCentcomcap
 
 - type: startingGear
   id: HeadHatCentcomcap
@@ -74,28 +42,16 @@
     head: ClothingHeadHatCentcomcap
 
 # Outer clothing
-- type: loadout
-  id: ArmorCentcomCarapace
-  equipment: ArmorCentcomCarapace
-
 - type: startingGear
   id: ArmorCentcomCarapace
   equipment:
     outerClothing: ClothingOuterArmorCentcomCarapace
 
 # Neck
-- type: loadout
-  id: CentcomScarf
-  equipment: CentcomScarf
-
 - type: startingGear
   id: CentcomScarf
   equipment:
     neck: ClothingNeckScarfStripedCentcom
-
-- type: loadout
-  id: CentcomCloak
-  equipment: CentcomCloak
 
 - type: startingGear
   id: CentcomCloak
@@ -103,36 +59,20 @@
     neck: ClothingNeckCloakCentcom
 
 # Back
-- type: loadout
-  id: CentComBackpack
-  equipment: CentComBackpack
-
 - type: startingGear
   id: CentComBackpack
   equipment:
     back: ClothingBackpackCentCom
-
-- type: loadout
-  id: CentComSatchel
-  equipment: CentComSatchel
 
 - type: startingGear
   id: CentComSatchel
   equipment:
     back: ClothingBackpackSatchelCentCom
 
-- type: loadout
-  id: CentComDuffel
-  equipment: CentComDuffel
-
 - type: startingGear
   id: CentComDuffel
   equipment:
     back: ClothingBackpackDuffelCentCom
-
-- type: loadout
-  id: CentComModSuit
-  equipment: CentComModSuit
 
 - type: startingGear
   id: CentComModSuit

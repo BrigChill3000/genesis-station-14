@@ -1,25 +1,25 @@
 # Outer clothing
-- type: startingGear
+- type: loadout
   id: NukeOpsCommanderOuterClothing
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieCommander
 
-- type: startingGear
+- type: loadout
   id: NukeOpsCommanderOuterClothingBackmen
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieCommanderBackmen
 
-- type: startingGear
+- type: loadout
   id: NukeOpsCommanderOuterClothingCorvax
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieCommanderCorvax
 
-- type: startingGear
+- type: loadout
   id: NukeOpsCommanderOuterClothingSunRise
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieCommanderSunRise
 
-- type: startingGear
+- type: loadout
   id: NukeOpsCommanderOuterClothingXeno
   equipment:
     outerClothing: ClothingOuterHardsuitSyndieCommanderXeno

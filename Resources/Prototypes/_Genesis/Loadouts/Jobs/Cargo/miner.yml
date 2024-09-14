@@ -1,8 +1,4 @@
 # Jumpsuit
-- type: loadout
-  id: JumpsuitMiner
-  equipment: JumpsuitMiner
-
 - type: startingGear
   id: JumpsuitMiner
   equipment:

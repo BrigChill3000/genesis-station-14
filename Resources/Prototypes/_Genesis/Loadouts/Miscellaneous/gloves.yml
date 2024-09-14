@@ -1,82 +1,82 @@
-#Genesis
+# Genesis
 # Gloves
-- type: startingGear
+- type: loadout
   id: FingerlessGloves
   equipment:
     gloves: ClothingHandsGlovesFingerless
 
-- type: startingGear
+- type: loadout
   id: MercGloves
   equipment:
     gloves: ClothingHandsMercGlovesCombat
 
-- type: startingGear
+- type: loadout
   id: CombatGloves
   equipment:
     gloves: ClothingHandsGlovesCombat
 
-- type: startingGear
+- type: loadout
   id: LeatherGloves
   equipment:
     gloves: ClothingHandsGlovesLeather
 
-- type: startingGear
+- type: loadout
   id: RedGloves
   equipment:
     gloves: ClothingHandsGlovesColorRed
 
-- type: startingGear
+- type: loadout
   id: BlueGloves
   equipment:
     gloves: ClothingHandsGlovesColorBlue
 
-- type: startingGear
+- type: loadout
   id: BrownGloves
   equipment:
     gloves: ClothingHandsGlovesColorBrown
 
-- type: startingGear
+- type: loadout
   id: GrayGloves
   equipment:
     gloves: ClothingHandsGlovesColorGray
 
-- type: startingGear
+- type: loadout
   id: LightBrownGloves
   equipment:
     gloves: ClothingHandsGlovesColorLightBrown
 
-- type: startingGear
+- type: loadout
   id: GreenGloves
   equipment:
     gloves: ClothingHandsGlovesColorGreen
 
-- type: startingGear
+- type: loadout
   id: WhiteGloves
   equipment:
     gloves: ClothingHandsGlovesColorWhite
 
-- type: startingGear
+- type: loadout
   id: BlackGloves
   equipment:
     gloves: ClothingHandsGlovesColorBlack
 
-- type: startingGear
+- type: loadout
   id: YellowGloves
   equipment:
     gloves: ClothingHandsGlovesColorYellow
 
-- type: startingGear
+- type: loadout
   id: BudgetYellowGloves
   equipment:
     gloves: ClothingHandsGlovesColorYellowBudget
 
 # Genesis Gloves
-- type: startingGear
+- type: loadout
   id: AtmosGloves
   equipment:
     gloves: ClothingHandsGlovesAtmos
 
-- type: startingGear
+- type: loadout
   id: ChiefEngineerGloves
   equipment:
     gloves: ClothingHandsGlovesCE

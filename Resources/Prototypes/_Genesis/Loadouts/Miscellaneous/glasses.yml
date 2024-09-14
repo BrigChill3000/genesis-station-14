@@ -1,53 +1,29 @@
 # Basic options
 # Glasses
-- type: loadout
-  id: CheapSunglasses
-  equipment: CheapSunglasses
-
 - type: startingGear
   id: CheapSunglasses
   equipment:
     eyes: ClothingEyesGlassesCheapSunglasses
-
-- type: loadout
-  id: Sunglasses
-  equipment: Sunglasses
 
 - type: startingGear
   id: Sunglasses
   equipment:
     eyes: ClothingEyesGlassesSunglasses
 
-- type: loadout
-  id: SecurityGlasses
-  equipment: SecurityGlasses
-
 - type: startingGear
   id: SecurityGlasses
   equipment:
     eyes: ClothingEyesGlassesSecurity
-
-- type: loadout
-  id: SecurityHud
-  equipment: SecurityHud
 
 - type: startingGear
   id: SecurityHud
   equipment:
     eyes: ClothingEyesHudSecurity
 
-- type: loadout
-  id: SecurityEyepatchHud
-  equipment: SecurityEyepatchHud
-
 - type: startingGear
   id: SecurityEyepatchHud
   equipment:
     eyes: ClothingEyesEyepatchHudSecurity
-
-- type: loadout
-  id: BeerEyepatchHud
-  equipment: BeerEyepatchHud
 
 - type: startingGear
   id: BeerEyepatchHud

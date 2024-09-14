@@ -5,4 +5,4 @@
 
 - type: loadout
   id: ResearchDirectorBeretAlt
-  equipment: ScientificBeretAlt
+  startingGear: ScientificBeretAlt

@@ -1,18 +1,10 @@
-- type: loadout
-  id: JackSecBoots
-  equipment: JackSecBoots
-
 - type: startingGear
   id: JackSecBoots
   equipment:
     shoes: ClothingShoesBootsJackSecFilled
 
-#Genesis
-#OuterClothing
-- type: loadout
-  id: ArmorVestSec
-  equipment: ArmorVestSec
-
+# Genesis
+# OuterClothing
 - type: startingGear
   id: ArmorVestSec
   equipment:

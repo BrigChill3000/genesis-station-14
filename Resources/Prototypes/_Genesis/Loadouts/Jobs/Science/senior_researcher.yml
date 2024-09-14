@@ -1,11 +1,11 @@
 # Head
 - type: loadout
   id: SeniorResearcherBeret
-  equipment: ScientificBeret
+  startingGear: ScientificBeret
 
 - type: loadout
   id: SeniorResearcherBeretAlt
-  equipment: ScientificBeretAlt
+  startingGear: ScientificBeretAlt
 
 # Jumpsuit
 - type: loadout

@@ -1,66 +1,66 @@
 # Pistols
-- type: startingGear
+- type: loadout
   id: WeaponPistolMk58
   equipment:
     pocket1: WeaponPistolMk58
 
-- type: startingGear
+- type: loadout
   id: WeaponPistolMk68
   equipment:
     pocket1: WeaponPistolMk68
 
-- type: startingGear
+- type: loadout
   id: WeaponPistolM1911
   equipment:
     pocket1: WeaponPistolM1911
 
-- type: startingGear
+- type: loadout
   id: WeaponRevolverMateba
   equipment:
     pocket1: WeaponRevolverMateba
 
 # Pocket 2
-- type: startingGear
+- type: loadout
   id: MagazinePistol
   equipment:
     pocket2: MagazinePistol
 
-- type: startingGear
+- type: loadout
   id: MagazinePistolHighCapacity
   equipment:
     pocket2: MagazinePistolHighCapacity
 
-- type: startingGear
+- type: loadout
   id: SpeedLoaderMagnum
   equipment:
     pocket2: SpeedLoaderMagnum
 
 # OuterClothing
-- type: startingGear
+- type: loadout
   id: ArmorVestArmorSec
   equipment:
     outerClothing: ClothingOuterVestArmorSec
 
 # Uniform
-- type: startingGear
+- type: loadout
   id: HECUUniform
   equipment:
     jumpsuit: ClothingUniformHECU
 
 # Shoes
-- type: startingGear
+- type: loadout
   id: SpetsnazBoots
   equipment:
     shoes: ClothingShoesBootsSpetsnazFilled
 
 # Mask
-- type: startingGear
+- type: loadout
   id: SecurityMask
   equipment:
     mask: ClothingMaskGasSecurity
 
 # Gloves
-- type: startingGear
+- type: loadout
   id: SecurityGloves
   effects:
   - !type:GroupLoadoutEffect

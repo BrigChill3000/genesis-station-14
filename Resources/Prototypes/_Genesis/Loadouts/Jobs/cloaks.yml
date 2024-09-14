@@ -1,10 +1,10 @@
 # Neck
-- type: startingGear
+- type: loadout
   id: ChiefEngineerCloakAlt
   equipment:
     neck: ClothingNeckCloakCeAlt
 
-- type: startingGear
+- type: loadout
   id: ResearchDirectorCloakAlt
   equipment:
     neck: ClothingNeckCloakRdAlt

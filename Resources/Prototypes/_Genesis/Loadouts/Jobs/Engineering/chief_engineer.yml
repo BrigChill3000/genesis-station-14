@@ -1,19 +1,19 @@
-- type: startingGear
+- type: loadout
   id: ChiefEngineerBackpack
   equipment:
     back: ClothingBackpackCE
 
-- type: startingGear
+- type: loadout
   id: ChiefEngineerSatchel
   equipment:
     back: ClothingBackpackSatchelCE
 
-- type: startingGear
+- type: loadout
   id: ChiefEngineerDuffel
   equipment:
     back: ClothingBackpackDuffelCE
 
-- type: startingGear
+- type: loadout
   id: ChiefEngineerModSuit
   equipment:
     back: ClothingModsuitBackCE

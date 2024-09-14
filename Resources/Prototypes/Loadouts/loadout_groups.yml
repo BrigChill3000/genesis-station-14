@@ -1232,6 +1232,13 @@
   - JournalistJumpsuit
 
 - type: loadoutGroup
+  id: PsychologistJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - PsychologistJumpsuit
+  - PsychologistJumpskirt
+
+- type: loadoutGroup
   id: BoxerJumpsuit
   name: loadout-group-jumpsuit
   loadouts:

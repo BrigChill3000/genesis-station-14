@@ -19,7 +19,7 @@
       time: 216000 # 60 hrs
 
 # Head
-- type: loadout
+- type: startingGear
   id: EngineeringBeret
   equipment:
     head: ClothingHeadHatBeretEngineering
@@ -38,6 +38,13 @@
   id: StationEngineerHardhatRed
   equipment:
     head: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: EngineeringBeret
+  startingGear: EngineeringBeret
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorEngineering
 
 # Jumpsuit
 - type: loadout

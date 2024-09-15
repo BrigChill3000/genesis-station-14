@@ -76,3 +76,13 @@
   - !type:BuyerJobCondition
     whitelist:
     - Miner
+
+- type: listing
+  id: UplinkClothingEyesVision
+  name: uplink-clothing-pnv-name
+  description: uplink-clothing-pnv-desc
+  productEntity: ClothingEyesVision
+  cost:
+    Telecrystal: 3
+  categories:
+    - UplinkWearables

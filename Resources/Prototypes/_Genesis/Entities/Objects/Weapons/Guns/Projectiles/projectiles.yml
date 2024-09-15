@@ -133,3 +133,25 @@
   - type: Tag
     tags:
     - HideContextMenu
+
+- type: entity
+  id: BulletMic
+  name: MIC bolt
+  parent: BaseBullet
+  noSpawn: true
+  description: Not too bad, but you still don't want to get hit by it.
+  components:
+  - type: Sprite
+    noRot: false
+    sprite: Genesis/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: cbbolt
+  - type: GatheringProjectile
+  - type: Projectile
+    damage:
+      types:
+        Poison: 10
+  - type: TimedDespawn
+    lifetime: 0.4
+  - type: StaminaDamageOnCollide
+    damage: 65

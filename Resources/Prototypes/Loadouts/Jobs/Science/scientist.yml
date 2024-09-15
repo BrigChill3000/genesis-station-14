@@ -9,10 +9,17 @@
       time: 216000 #60 hrs
 
 # Head
-- type: loadout
+- type: startingGear
   id: ScientificBeret
   equipment:
     head: ClothingHeadHatBeretRND
+
+- type: loadout
+  id: ScientificBeret
+  startingGear: ScientificBeret
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorResearcher
 
 - type: loadout
   id: RoboticistCap

@@ -122,7 +122,7 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    damagecoefficient: 0.005
+    damageCoefficient: 0.005
   - type: FireProtection
     reduction: 0.2
   - type: Armor
@@ -247,7 +247,7 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    damageCoefficient: 0.005
   - type: FireProtection
     reduction: 0.2
   - type: Armor
@@ -372,7 +372,7 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    damageCoefficient: 0.005
   - type: FireProtection
     reduction: 0.2
   - type: Armor

@@ -385,7 +385,7 @@
 - type: entity
   parent: BaseWeaponBattery
   id: WeaponGunLaserCarbineDC15A
-  name: blaster carbine DC-154
+  name: blaster carbine DC-15A
   description: Blaster carbine, which is a variant of the Blaster DC-15 rifle
   components:
   - type: Sprite
@@ -430,7 +430,7 @@
   parent: BaseWeaponBattery
   id: WeaponGunLaserCarbineDC15S
   name: blaster rifle DC-15S
-  description: A standard blaster rifle used by clone troopers of the Grand Army of the Republic.
+  description: A standard blaster rifle used by clone troopers of the Grand Army of the Republic and stormstroopers of the Grand Army of The Imperia.
   components:
   - type: Sprite
     sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15S.rsi
@@ -463,6 +463,50 @@
     startingCharge: 2000
   - type: ProjectileBatteryAmmoProvider
     proto: BulletEnergyGunLaser
+    fireCost: 100
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  parent: BaseWeaponBattery
+  id: WeaponGunLaserCarbineRepublicDC15S
+  name: blaster rifle DC-15S
+  description: A standard blaster rifle used by clone troopers of the Grand Army of the Republic and stormstroopers of the Grand Army of The Imperia.
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15S.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: Genesis/Objects/Weapons/Guns/Battery/DC-15S.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/Empty/empty.ogg
+    selectedMode: SemiAuto
+    fireRate: 3
+    availableModes:
+      - SemiAuto
+      - FullAuto
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 50
+      name: energy-gun-disable
+      state: disabler
+    - proto: BulletEnergyGunLaser
+      fireCost: 100
+      name: energy-gun-lethal
+      state: lethal
+  - type: Battery
+    maxCharge: 2000
+    startingCharge: 2000
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEnergyGunLaserBlue
     fireCost: 100
   - type: MagazineVisuals
     magState: mag

@@ -305,7 +305,7 @@
   - ResearchDirectorHead
   - ResearchDirectorNeck
   - ResearchDirectorJumpsuit
-  - ScientistBackpack
+  - ResearchDirecctorBackpack # Genesis-Edit
   - ResearchDirectorOuterClothing
   - ScientistGloves
   - ResearchDirectorShoes
@@ -337,7 +337,7 @@
   - ScientistHead
   - ScientistNeck
   - ResearchAssistantJumpsuit
-  - ResearchDirecctorBackpack # Genesis-Edit
+  - ScientistBackpack
   - ScientistOuterClothing
   - ScientistGloves
   - ScientistShoes

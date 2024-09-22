@@ -115,6 +115,11 @@
   roles:
   - Borg
   - StationAi
+  - MedicalBorg # Genesis-Station
+  - EngineerBorg # Genesis-Station
+  - MinerBorg # Genesis-Station
+  - JanitorBorg # Genesis-Station
+  - SecurityBorg # Genesis-Station
 
 - type: department
   id: Specific

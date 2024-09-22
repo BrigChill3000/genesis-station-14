@@ -79,6 +79,7 @@
   - type: StorageFill
     contents:
       - id: ClothingModsuitBackInquisitor
+      - id: ClothingOuterHardsuitInqusitory
       - id: MedkitCombatFilled
       - id: Handcuffs
       - id: Flash

@@ -114,6 +114,202 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSeniorSalvage
 
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitERTOperativeAlpha1
+  name: ERT alpha hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertSpecialOperative.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertSpecialOperative.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTOperativeAlpha1
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitERTOperativeAlpha1
+  name: ERT hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertSpecialOperative.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertSpecialOperative.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: PNV
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieElite
+  id: ClothingOuterHardsuitERTLeaderTay39
+  name: ERT leader tay 39 hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertTraumaTeamLeader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertTraumaTeamLeader.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTLeaderTay39
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTLeaderTay39
+  name: helmet ERT leader hardsuit
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertTraumaTeamLeader.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertTraumaTeamLeader.rsi
+  - type: PointLight
+    color: cyan
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieElite
+  id: ClothingOuterHardsuitERTTay39
+  name: ERT leader tay 39 hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertTraumaTeam.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertTraumaTeam.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTTay39
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieElite
+  id: ClothingOuterHardsuitERTMedicTay39
+  name: ERT medic tay 39 hardsuit
+  description: A protective hardsuit worn by the leader of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertTraumaTeamMedic.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertTraumaTeamMedic.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitERTMedicTay39
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.7
+        Heat: 0.2
+        Radiation: 0.01
+        Caustic: 0.5
+        Stun: 0.2
+
+- type: entity
+  parent: ClothingOuterHardsuitDeathsquad
+  id: ClothingOuterHardsuitSpecialForce
+  noSpawn: true
+  name: EarthGov special force hardsuit
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/specialforce.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/specialforce.rsi
+    equipSound: /Audio/Backmen/Misc/suit/nominal.ogg
+    unequipSound: /Audio/Backmen/Misc/suit/mechmove03.ogg
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSpecialForce
+
+- type: entity
+  parent: ClothingOuterHardsuitRTULeader
+  id: ClothingOuterHardsuitRTU
+  noSpawn: true
+  name: EarthGov RTU hardsuit
+  description: A rescue troop unit suit designed specifically for combat in space and the harsh far-off worlds.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/grunthardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/grunthardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitRTU
+
+- type: entity
+  parent: ClothingOuterHardsuitRTULeader
+  id: ClothingOuterHardsuitRTUMedick
+  noSpawn: true
+  name: EarthGov medic RTU hardsuit
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/medickhardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/medickhardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitRTUMedick
+
+- type: entity
+  parent: ClothingOuterHardsuitRTULeader
+  id: ClothingOuterHardsuitRTUEnginegr
+  noSpawn: true
+  name: EarthGov engineer RTU hardsuit
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/enginegrhardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/enginegrhardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitRTUEnginegr
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitRTULeader
+  noSpawn: true
+  name: EarthGov commander RTU hardsuit
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/dungeonmasterhardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/RescueTroopsUnits/dungeonmasterhardsuit.rsi
+    equipSound: /Audio/Backmen/Misc/suit/nominal.ogg
+    unequipSound: /Audio/Backmen/Misc/suit/mechmove03.ogg
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitRTULeader
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndieCommander
+  id: ClothingOuterHardsuitSecurityEgovSpecial
+  name: special EarthGov force hardsuit
+  description: A marine suit designed specifically for combat in space and the harsh far-off worlds.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/marinespecialhardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/marinespecialhardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSecurityEgov
+
+- type: entity
+  parent: ClothingOuterHardsuitSyndie
+  id: ClothingOuterHardsuitSecurityEgov
+  name: marine hardsuit
+  description: A marine suit designed specifically for combat in space and the harsh far-off worlds.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/marinehardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/marinehardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSecurityEgov
+
 #ANTAG HARDSUITS
 #Backmen
 #Blood-red Hardsuit
@@ -995,3 +1191,46 @@
     sprite: Genesis/Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTJanitorGamma
+
+#Star Wars
+#Republic Clone Phase 1
+- type: entity
+  parent: ClothingOuterHardsuitSecurity
+  id: ClothingOuterHardsuitRepublicClonePhase1
+  name: republic clone's hardsuit phase 1
+  description: A hardsuit republic clone's 1 phase.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/StarWars/clone.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/StarWars/clone.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitRepublicClonePhase1
+
+#Republic Clone Phase 2
+- type: entity
+  parent: ClothingOuterHardsuitSecurity
+  id: ClothingOuterHardsuitRepublicClonePhase2
+  name: republic clone's hardsuit phase 2
+  description: A hardsuit republic clone's 2 phase. 
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/StarWars/clone.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/StarWars/clone.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitRepublicClonePhase2
+
+#Stormtrooper
+- type: entity
+  parent: ClothingOuterHardsuitSecurity
+  id: ClothingOuterHardsuitStormtrooper
+  name: stormtrooper's hardsuit
+  description: A hardsuit imperial stormtrooper's. 
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/StarWars/storm.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Hardsuits/StarWars/storm.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitStormtrooper

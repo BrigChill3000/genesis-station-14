@@ -53,3 +53,77 @@
         - state: on-inhand-right
   - type: StaticPrice
     price: 100
+
+#Security Borg
+#Усмиритель
+- type: entity
+  name: Pacifier MK-2
+  noSpawn: false
+  parent: BaseWeaponBatterySmall
+  id: WeaponLaserSecBorg
+  description: For the especially violent ones.
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Weapons/Guns/Battery/energygun_pistol.rsi # Временно
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 100
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 100
+    - proto: BulletEnergyGunLaser
+      fireCost: 100
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 20
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+
+#Дубинка-шокер киборга
+- type: entity
+  name: дубинка-шокер киборга
+  parent: Stunbaton
+  id: StunbatonSecBorg
+  description: Электрошоковая дубинка для выведения людей из строя. 
+  noSpawn: false
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 10
+
+#Вспышка киборга
+- type: entity
+  name: вспышка киборга
+  parent: Flash
+  id: FlashSecBorg
+  description: Сверхяркая вспышка со спусковым механизмом.
+  noSpawn: false
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/flash.rsi
+    layers:
+    - state: burnt
+      map: [ "enum.FlashVisuals.BaseLayer" ]
+    - state: flashing
+      map: [ "enum.FlashVisuals.LightLayer" ]
+      visible: false
+      shader: unshaded
+  - type: LimitedCharges
+    maxCharges: 10
+    charges: 10
+  - type: AutoRecharge
+    rechargeDuration: 30

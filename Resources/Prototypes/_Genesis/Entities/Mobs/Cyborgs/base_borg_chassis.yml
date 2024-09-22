@@ -1,0 +1,17 @@
+- type: entity
+  id: BaseBorgChassisNTs
+  parent: BaseBorgChassis
+  abstract: true
+  components:
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: Access
+    enabled: false
+    groups:
+    - AllAccess
+  - type: AccessReader
+    access: [["Command"], ["Research"]]
+  - type: ShowJobIcons
+  - type: ShowMindShieldIcons
+  - type: StationAiVision

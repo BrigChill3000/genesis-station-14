@@ -10,7 +10,7 @@
   - type: Clothing
     sprite: Genesis/Clothing/Head/Hardsuits/blueshield.rsi
   - type: PointLight
-    color: "#ffffff"
+    color: "#6088FF"  # old color #ffffff
 
 #Inqusitory
 - type: entity

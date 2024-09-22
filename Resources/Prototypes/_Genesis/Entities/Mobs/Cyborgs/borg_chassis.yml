@@ -1,0 +1,82 @@
+- type: entity
+  id: BaseBorgChassisNTs
+  parent: BaseBorgChassis
+  abstract: true
+  components:
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: Access
+    enabled: false
+    groups:
+    - AllAccess
+  - type: AccessReader
+    access: [["Command"], ["Research"]]
+  - type: ShowJobIcons
+  - type: ShowMindShieldIcons
+  - type: StationAiVision
+
+- type: entity
+  id: BorgChassisSecurity
+  parent: BaseBorgChassisNTs
+  name: security borg
+  components:
+  - type: SiliconLawProvider
+    laws: SecurityCrewsimov
+  - type: Sprite
+    sprite: Genesis/Mobs/Silicon/Cyborg/chassis.rsi
+    layers:
+    - state: sec
+    - state: sec_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: sec_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - SecModule
+    hasMindState: sec_e
+    noMindState: sec_e_r
+  - type: PointLight
+    autoRot: true
+    netsync: false
+    color: "#ffeead"
+    radius: 4
+    energy: 2
+  - type: BorgTransponder
+    sprite:
+      sprite: Genesis/Mobs/Silicon/Cyborg/chassis.rsi
+      state: sec
+    name: security borg
+  - type: Construction
+    node: engineer
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Security
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Security
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Security"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgShort
+  - type: InteractionPopup
+    interactSuccessString: petting-success-engineer-cyborg
+    interactFailureString: petting-failure-engineer-cyborg
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: ShowCriminalRecordIcons
+  - type: StationAiVision
+  - type: FlashImmunity

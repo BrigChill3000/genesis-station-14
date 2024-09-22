@@ -34,7 +34,7 @@
   - Glasses
   - GlassesJamjar
   - GlassesJensen
-  - CheapSunglasses #Genesis-Edit
+  - CheapSunglasses # Genesis-Edit
 
 - type: loadoutGroup
   id: GroupTankHarness
@@ -993,7 +993,7 @@
   - JackSecBoots # Genesis-Edit
   - CombatBoots
   - JackBoots
-#  - SpetsnazBoots # Genesis-Edit
+  - SpetsnazBoots # Genesis-Edit
   - SecurityWinterBoots
 
 - type: loadoutGroup

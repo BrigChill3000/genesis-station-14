@@ -43,6 +43,22 @@
 - type: playTimeTracker
   id: JobJediNT
 
+# Borgs
+- type: playTimeTracker
+  id: JobEngineerBorg
+
+- type: playTimeTracker
+  id: JobJanitorBorg
+
+- type: playTimeTracker
+  id: JobMedicalBorg
+
+- type: playTimeTracker
+  id: JobMiningBorg
+
+- type: playTimeTracker
+  id: JobSecurityBorg
+
 # ERT
 # Gamma
 - type: playTimeTracker

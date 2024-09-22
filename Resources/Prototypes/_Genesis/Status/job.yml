@@ -45,3 +45,38 @@
     sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
     state: JediNtSecurity
   jobName: job-name-jedi-nt
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconEngineerBorg
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: EngineerBorg
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconJanitorBorg
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: JanitorBorg
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMedicalBorg
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: MedicalBorg
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMinerBorg
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: MinerBorg
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecurityBorg
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: SecurityBorg

@@ -365,6 +365,16 @@
     magState: mag
     steps: 5
     zeroVisible: true
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 50
+      name: energy-gun-disable
+      state: disabler
+    - proto: BulletEnergyGunLaser
+      fireCost: 100
+      name: energy-gun-lethal
+      state: lethal
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 40
@@ -400,6 +410,16 @@
   - type: ProjectileBatteryAmmoProvider
     proto: BulletEnergyGunLaserBlue
     fireCost: 100
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 50
+      name: energy-gun-disable
+      state: disabler
+    - proto: BulletEnergyGunLaser
+      fireCost: 100
+      name: energy-gun-lethal
+      state: lethal
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -428,6 +448,16 @@
     availableModes:
       - SemiAuto
       - FullAuto
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 50
+      name: energy-gun-disable
+      state: disabler
+    - proto: BulletEnergyGunLaser
+      fireCost: 100
+      name: energy-gun-lethal
+      state: lethal
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000

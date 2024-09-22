@@ -93,6 +93,106 @@
         Piercing: 0.9
         Heat: 0.9
 
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTTay39
+  name: helmet ERT leader hardsuit
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertTraumaTeam.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertTraumaTeam.rsi
+  - type: PointLight
+    color: cyan
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitERTMedicTay39
+  name: helmet ERT medic hardsuit
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertTraumaTeamMedic.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/ERThelmets/ertTraumaTeamMedic.rsi
+  - type: PointLight
+    color: cyan
+
+#UEG
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitSpecialForce
+  name: special force hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/specialforce.rsi
+  - type: Clothing
+    equippedPrefix: off
+    sprite: Genesis/Clothing/Head/Hardsuits/specialforce.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitRTULeader
+  id: ClothingHeadHelmetHardsuitRTU
+  name: RTU hardsuit helmet
+  description: A rescue troop unit helmet designed specifically for combat in space and the harsh far-off worlds.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/grunthardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/grunthardsuit.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitRTULeader
+  id: ClothingHeadHelmetHardsuitRTUMedick
+  name: RTU hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/medickhardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/medickhardsuit.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetHardsuitRTULeader
+  id: ClothingHeadHelmetHardsuitRTUEnginegr
+  name: RTU hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/enginegrhardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/enginegrhardsuit.rsi
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitRTULeader
+  name: RTU hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/dungeonmasterhardsuit.rsi
+  - type: Clothing
+    equippedPrefix: off
+    sprite: Genesis/Clothing/Head/Hardsuits/RescueTroopsUnits/dungeonmasterhardsuit.rsi
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSecurityEgov
+  name: marine hardsuit helmet
+  description: A marine helmet designed specifically for combat in space and the harsh far-off worlds.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/marinehardsuit.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/marinehardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+
 #ANTAG HARDSUITS
 #Backmen
 #Blood-red Hardsuit
@@ -971,3 +1071,50 @@
     sprite: Genesis/Clothing/Head/Hardsuits/ERTSuits/ertjanitor.rsi
   - type: PointLight
     color: "#cbadff"
+
+#Star Wars
+#Republic Clone Phase 1 Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitRepublicClonePhase1
+  name: republic clone's hardsuit helmet phase 1
+  description: Special hardsuit helmet phase 1, made for the republic clones.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/StarWars/1phase.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/StarWars/1phase.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Republic Clone Phase 2 Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitRepublicClonePhase1
+  id: ClothingHeadHelmetHardsuitRepublicClonePhase2
+  name: republic clone's hardsuit helmet phase 2
+  description: Special hardsuit helmet phase 2, made for the republic clones.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/StarWars/1phase.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/StarWars/1phase.rsi
+
+#Stormtrooper Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitRepublicClonePhase1
+  id: ClothingHeadHelmetHardsuitStormtrooper
+  name: stormtrooper's hardsuit helmet
+  description: Special hardsuit helmet, made for the imperial stormtrooper.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/StarWars/storm.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/StarWars/storm.rsi

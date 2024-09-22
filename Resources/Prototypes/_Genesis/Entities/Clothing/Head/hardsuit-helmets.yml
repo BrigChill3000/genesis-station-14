@@ -12,6 +12,20 @@
   - type: PointLight
     color: "#ffffff"
 
+#Inqusitory
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSecurityRed
+  id: ClothingHeadHelmetHardsuitInqusitory
+  noSpawn: true
+  name: inqusitory hardsuit helmet
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hardsuits/inquisitoryhead.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hardsuits/inquisitoryhead.rsi
+  - type: PointLight
+    color: "#ffffff"
+
 #QM Hardsuit
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase

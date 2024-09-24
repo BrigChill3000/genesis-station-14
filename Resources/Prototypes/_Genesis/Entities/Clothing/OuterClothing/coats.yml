@@ -29,3 +29,14 @@
     sprite: Genesis/Clothing/OuterClothing/Coats/centcom.rsi
   - type: Clothing
     sprite: Genesis/Clothing/OuterClothing/Coats/centcom.rsi
+
+- type: entity
+  parent: [ClothingOuterArmorBlueShield, ClothingOuterStorageBase]
+  id: ClothingOuterCoatBlueShieldTrench
+  name: blueshield trenchcoat
+  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Coats/blueshield_trenchcoat.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Coats/blueshield_trenchcoat.rsi

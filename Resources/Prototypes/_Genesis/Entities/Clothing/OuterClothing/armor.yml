@@ -21,7 +21,7 @@
   - type: GroupExamine
 
 - type: entity
-  parent: ClothingOuterBaseLarge
+  parent: ClothingOuterArmorBlueShield
   id: ClothingOuterArmorJacketBlueShield
   name: blueshield armor jacket
   description: Armor vest especially for Blueshield Officer
@@ -30,20 +30,9 @@
     sprite: Genesis/Clothing/OuterClothing/Coats/jacketbs.rsi
   - type: Clothing
     sprite: Genesis/Clothing/OuterClothing/Coats/jacketbs.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.6
-        Heat: 0.5
-        Caustic: 0.9
-  - type: ExplosionResistance
-    damageCoefficient: 0.65
-  - type: GroupExamine
 
 - type: entity
-  parent: ClothingOuterBaseLarge
+  parent: ClothingOuterArmorBlueShield
   id: ClothingOuterArmorBlueShieldSlim
   name: blueshield armor slim vest
   description: Armor slim vest especially for Blueshield Officer
@@ -52,20 +41,9 @@
     sprite: Genesis/Clothing/OuterClothing/Armor/blueshield_slim.rsi
   - type: Clothing
     sprite: Genesis/Clothing/OuterClothing/Armor/blueshield_slim.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.6
-        Heat: 0.5
-        Caustic: 0.9
-  - type: ExplosionResistance
-    damageCoefficient: 0.65
-  - type: GroupExamine
 
 - type: entity
-  parent: ClothingOuterBaseLarge
+  parent: ClothingOuterArmorBlueShield
   id: ClothingOuterArmorJediNT
   name: jedi nt armor vest
   description: Armor vest especially for Jedi NT
@@ -74,14 +52,3 @@
     sprite: Genesis/Clothing/OuterClothing/Armor/jedi_nt.rsi
   - type: Clothing
     sprite: Genesis/Clothing/OuterClothing/Armor/jedi_nt.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.6
-        Heat: 0.5
-        Caustic: 0.9
-  - type: ExplosionResistance
-    damageCoefficient: 0.65
-  - type: GroupExamine

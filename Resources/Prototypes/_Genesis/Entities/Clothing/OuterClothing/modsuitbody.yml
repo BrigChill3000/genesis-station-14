@@ -40,7 +40,6 @@
   id: ClothingOuterModsuitBodyBlueShield
   name: blueshield MOD chestplate
   description: A chestplate for a MODsuit. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/blueshield.rsi
@@ -71,7 +70,6 @@
   id: ClothingOuterModsuitBodySecurity
   name: security MOD chestplate
   description: A chestplate for a MODsuit. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/security.rsi
@@ -102,7 +100,6 @@
   id: ClothingOuterModsuitBodyAtmospheric
   name: atmospheric MOD chestplate
   description: A chestplate for a MODsuit. An atmospheric-resistant suit by Nakamura Engineering, offering extreme heat resistance compared to the engineer suit.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/atmospheric.rsi
@@ -136,7 +133,6 @@
   id: ClothingOuterModsuitBodyEngineering
   name: engineering MOD chestplate
   description: A chestplate for a MODsuit. An engineer-fit suit with heat and shock resistance. Nakamura Engineering's classic.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/engineering.rsi
@@ -171,7 +167,6 @@
   id: ClothingOuterModsuitBodyRescue
   name: rescue MOD chestplate
   description: A chestplate for a MODsuit. An advanced version of DeForest Medical Corporation's medical suit, designed for quick rescue of bodies from the most dangerous environments.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/rescue.rsi
@@ -185,7 +180,6 @@
   id: ClothingOuterModsuitBodyMedical
   name: medical MOD chestplate
   description: A chestplate for a MODsuit. A lightweight suit by DeForest Medical Corporation, allows for easier movement.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/medical.rsi
@@ -213,7 +207,6 @@
   id: ClothingOuterModsuitBodyMining
   name: mining MOD chestplate
   description: A chestplate for a MODsuit. A Nanotrasen mining suit for on-site operations, fit with accreting ash armor and a sphere form.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/mining.rsi
@@ -245,7 +238,6 @@
   id: ClothingOuterModsuitBodyStandard
   name: standard MOD chestplate
   description: A chestplate for a MODsuit. A civilian class suit by Nakamura Engineering, doesn't offer much other than slightly quicker movement.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/standard.rsi
@@ -271,7 +263,6 @@
   id: ClothingOuterModsuitBodyClown
   name: cosmohonk MOD chestplate
   description: A chestplate for a MODsuit. A suit by Honk Ltd. Protects against low humor environments. Most of the tech went to lower the power cost.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/clown.rsi
@@ -301,7 +292,6 @@
   id: ClothingOuterModsuitBodyAdmin
   name: administrative MOD chestplate
   description: A chestplate for a MODsuit. A suit made of adminium. Who comes up with these stupid mineral names?
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/admin.rsi
@@ -326,7 +316,6 @@
   id: ClothingOuterModsuitBodyChrono
   name: chrono MOD chestplate
   description: A chestplate for a MODsuit. A suit beyond our time, beyond time itself. Used to traverse timelines and "correct their course".
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/chrono.rsi
@@ -351,7 +340,6 @@
   id: ClothingOuterModsuitBodyCorp
   name: modsuit cheastplate "Admem"
   description: A chestplate for a MODsuit.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/corp.rsi
@@ -366,7 +354,6 @@
   id: ClothingOuterModsuitBodyCaptain
   name: captain MOD chestplate
   description: A chestplate for a MODsuit.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/capspace.rsi
@@ -383,7 +370,6 @@
   id: ClothingOuterModsuitBodyCE
   name: cosmohonk MOD chestplate
   description: A chestplate for a MODsuit.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/engineering-white.rsi
@@ -400,7 +386,6 @@
   id: ClothingOuterModsuitBodyRD
   name: research director MOD chestplate
   description: A chestplate for a MODsuit.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/rd.rsi
@@ -417,7 +402,6 @@
   id: ClothingOuterModsuitBodyInquisitor
   name: inquisitor MOD chestplate
   description: A chestplate for a MODsuit.
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Genesis/Clothing/OuterClothing/Modsuit/inquisitor.rsi

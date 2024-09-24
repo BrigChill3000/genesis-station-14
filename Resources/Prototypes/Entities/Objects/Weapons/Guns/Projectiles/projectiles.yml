@@ -1058,7 +1058,6 @@
   name: energy bolt
   id: BulletEnergyGunLaser
   parent: BaseBullet
-  noSpawn: true
   components:
   - type: Reflective
     reflective:

@@ -2,7 +2,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitBlueShield
-  noSpawn: true
   name: blueshield hardsuit helmet
   components:
   - type: Sprite
@@ -16,7 +15,6 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurityRed
   id: ClothingHeadHelmetHardsuitInqusitory
-  noSpawn: true
   name: inqusitory hardsuit helmet
   components:
   - type: Sprite
@@ -30,7 +28,6 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitQM
-  noSpawn: true
   name: quartermaster hardsuit helmet
   description: A special helmet quatermaster.
   components:

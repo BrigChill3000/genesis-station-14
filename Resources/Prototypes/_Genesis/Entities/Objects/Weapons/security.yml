@@ -58,7 +58,6 @@
 #Усмиритель
 - type: entity
   name: Pacifier MK-2
-  noSpawn: false
   parent: BaseWeaponBatterySmall
   id: WeaponLaserSecBorg
   description: For the especially violent ones.
@@ -99,7 +98,6 @@
   parent: Stunbaton
   id: StunbatonSecBorg
   description: Электрошоковая дубинка для выведения людей из строя. 
-  noSpawn: false
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -111,7 +109,6 @@
   parent: Flash
   id: FlashSecBorg
   description: Сверхяркая вспышка со спусковым механизмом.
-  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/flash.rsi

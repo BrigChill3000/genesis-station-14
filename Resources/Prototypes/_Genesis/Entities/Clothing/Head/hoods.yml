@@ -1,7 +1,6 @@
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterBlueShield
-  noSpawn: true
   name: blueshield's winter coat hood
   description: An expensive hood, to keep the blueshield's head warm.
   components:

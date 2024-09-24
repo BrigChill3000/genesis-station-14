@@ -2,7 +2,6 @@
   id: BulletCutter
   name: Cutter bolt
   parent: BaseBullet
-  noSpawn: true
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective
@@ -26,7 +25,6 @@
   id: BulletUniversalPT1
   name: bullet (12.7 rifle)
   parent: BaseBullet
-  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -37,7 +35,6 @@
   id: BulletUniversalVPS
   name: bullet (12.7 rifle armor-piercing)
   parent: BaseBullet
-  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -49,7 +46,6 @@
   id: BulletCutterAdv
   name: cutter bolt advanced
   parent: BulletCutter
-  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -62,7 +58,6 @@
   id: BulletAcid2
   name: acid spit
   parent: BaseBullet
-  noSpawn: true
   components:
     - type: Projectile
       damage:
@@ -79,7 +74,6 @@
   name: EMP impulse
   parent: BaseBulletTrigger
   id: BulletEMP
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Effects/emp.rsi
@@ -98,7 +92,6 @@
 
 - type: entity
   id: BulletImpactEffectRedDisabler
-  noSpawn: true
   components:
   - type: TimedDespawn
     lifetime: 0.2
@@ -117,7 +110,6 @@
 
 - type: entity
   id: BulletImpactEffectBlueDisabler
-  noSpawn: true
   components:
   - type: TimedDespawn
     lifetime: 0.2
@@ -138,7 +130,6 @@
   id: BulletMic
   name: MIC bolt
   parent: BaseBullet
-  noSpawn: true
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Sprite

@@ -2,7 +2,6 @@
   parent: ClothingHeadBase
   id: ClothingHeadHelmetMiner
   name: cult helmet
-  noSpawn: true
   description: A robust, evil-looking cult helmet.
   components:
   - type: Sprite
@@ -25,7 +24,6 @@
   parent: ClothingHeadBase
   id: ClothingHeadHelmetMinerSyndie
   name: cult helmet
-  noSpawn: true
   description: A robust, evil-looking cult helmet.
   components:
   - type: Sprite

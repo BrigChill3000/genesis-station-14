@@ -216,7 +216,6 @@
 - type: entity
   parent: ClothingOuterHardsuitDeathsquad
   id: ClothingOuterHardsuitSpecialForce
-  noSpawn: true
   name: EarthGov special force hardsuit
   components:
   - type: Sprite
@@ -231,7 +230,6 @@
 - type: entity
   parent: ClothingOuterHardsuitRTULeader
   id: ClothingOuterHardsuitRTU
-  noSpawn: true
   name: EarthGov RTU hardsuit
   description: A rescue troop unit suit designed specifically for combat in space and the harsh far-off worlds.
   components:
@@ -245,7 +243,6 @@
 - type: entity
   parent: ClothingOuterHardsuitRTULeader
   id: ClothingOuterHardsuitRTUMedick
-  noSpawn: true
   name: EarthGov medic RTU hardsuit
   components:
   - type: Sprite
@@ -258,7 +255,6 @@
 - type: entity
   parent: ClothingOuterHardsuitRTULeader
   id: ClothingOuterHardsuitRTUEnginegr
-  noSpawn: true
   name: EarthGov engineer RTU hardsuit
   components:
   - type: Sprite
@@ -271,7 +267,6 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitRTULeader
-  noSpawn: true
   name: EarthGov commander RTU hardsuit
   components:
   - type: Sprite

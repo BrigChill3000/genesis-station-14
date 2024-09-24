@@ -33,7 +33,7 @@
           False: { visible: True }
         #todo: add other 'empty' animations
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 0.75
+    rechargeCooldown: 0.40
     rechargeSound:
       path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
@@ -53,7 +53,6 @@
   id: BulletKineticRe
   name: kinetic bolt
   parent: BaseBullet
-  noSpawn: true
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective

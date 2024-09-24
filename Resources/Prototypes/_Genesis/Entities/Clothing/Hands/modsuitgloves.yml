@@ -28,7 +28,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitSecurity
-  noSpawn: true
   name: security MOD gauntlets
   description: A pair of gauntlets for a MODsuit. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
   components:
@@ -43,7 +42,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitAtmospheric
-  noSpawn: true
   name: atmospheric MOD gauntlets
   description: A pair of gauntlets for a MODsuit. An atmospheric-resistant suit by Nakamura Engineering, offering extreme heat resistance compared to the engineer suit.
   components:
@@ -58,7 +56,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitEngineering
-  noSpawn: true
   name: engineering MOD gauntlets
   description: A pair of gauntlets for a MODsuit. An engineer-fit suit with heat and shock resistance. Nakamura Engineering's classic.
   components:
@@ -74,7 +71,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitRescue
-  noSpawn: true
   name: rescue MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A civilian class suit by Nakamura Engineering, doesn't offer much other than slightly quicker movement.
   components:
@@ -88,7 +84,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitMedical
-  noSpawn: true
   name: medical MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A lightweight suit by DeForest Medical Corporation, allows for easier movement.
   components:
@@ -103,7 +98,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitMining
-  noSpawn: true
   name: mining MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A Nanotrasen mining suit for on-site operations, fit with accreting ash armor and a sphere form.
   components:
@@ -119,7 +113,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitStandard
-  noSpawn: true
   name: standard MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A civilian class suit by Nakamura Engineering, doesn't offer much other than slightly quicker movement.
   components:
@@ -133,7 +126,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitClown
-  noSpawn: true
   name: cosmohonk MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A suit by Honk Ltd. Protects against low humor environments. Most of the tech went to lower the power cost.
   components:
@@ -148,7 +140,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitAdmin
-  noSpawn: true
   name: administrative MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A suit made of adminium. Who comes up with these stupid mineral names?
   components:
@@ -162,7 +153,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitChrono
-  noSpawn: true
   name: chrono MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A suit beyond our time, beyond time itself. Used to traverse timelines and "correct their course".
   components:
@@ -176,7 +166,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitCorp
-  noSpawn: true
   name: corporate MOD gauntlets
   description: A pair of gauntlets for a MODsuit. A fancy, high-tech suit for Nanotrasen's high ranking officers.
   components:
@@ -191,7 +180,6 @@
 - type: entity
   parent: ClothingHandsModsuitBase
   id: ClothingHandsModsuitInquisitor
-  noSpawn: true
   name: inquisitor MOD gauntlets
   description: A pair of gauntlets for a MODsuit. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
   components:

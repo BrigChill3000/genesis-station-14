@@ -1,0 +1,11 @@
+# Head
+- type: loadout
+  id: WitchHunterHat
+  equipment:
+    head: ClothingHeadHatWitchHunter
+
+# Outer clothing
+- type: loadout
+  id: WitchHunterCoat
+  equipment:
+    outerClothing: ClothingOuterClothingCoatWitchHunter

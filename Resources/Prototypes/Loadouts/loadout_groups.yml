@@ -296,6 +296,7 @@
   name: loadout-group-head
   minLimit: 0
   loadouts:
+  - WitchHunterHat # Genesis-Edit
   - ChaplainHead
   - ChaplainNunHood
   - ChaplainPlagueHat
@@ -323,6 +324,7 @@
   name: loadout-group-outerclothing
   minLimit: 0
   loadouts:
+  - WitchHunterCoat # Genesis-Edit
   - ChaplainPlagueSuit
   - ChaplainNunRobe
   - ChaplainBlackHoodie
@@ -333,6 +335,7 @@
   name: loadout-group-neck
   minLimit: 0
   loadouts:
+  - HolyMedal # Genesis-Edit
   - ChaplainNeck
 
 - type: loadoutGroup

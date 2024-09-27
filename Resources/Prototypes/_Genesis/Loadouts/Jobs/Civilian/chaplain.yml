@@ -9,3 +9,9 @@
   id: WitchHunterCoat
   equipment:
     outerClothing: ClothingOuterClothingCoatWitchHunter
+
+# Neck
+- type: loadout
+  id: HolyMedal
+  equipment:
+    neck: ClothingNeckHolyMedal

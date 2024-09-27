@@ -19,6 +19,7 @@
   equipment:
     shoes: ClothingShoesColorBlack
     id: ChaplainPDA
+    suitstorage: HolySable # Genesis
     ears: ClothingHeadsetService
   storage:
     back:

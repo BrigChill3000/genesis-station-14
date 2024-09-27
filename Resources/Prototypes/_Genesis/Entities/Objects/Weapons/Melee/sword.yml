@@ -37,3 +37,32 @@
     - id: Katanacursed
     sound:
       path: /Audio/Effects/bite.ogg
+
+- type: entity
+  name: holy blade
+  parent: BaseSword
+  id: HolySable
+  description: This sacred saber, known as the "Lightbringer Blade", is given to priests who have distinguished themselves in a region with demonic creatures. With her blade carved from a mystical metal and tempered with prayers, she emits a light that can cut you down and cleanse you of impurity. The "Lightbringer Blade" represents perseverance and sacred rage in the fight for light against evil.
+  components:
+  - type: Sprite
+    sprite: Genesis/Objects/Weapons/Melee/holysabre.rsi
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 5
+        Piercing: 5
+        Holy: 15
+    soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+  - type: Reflect
+    reflectProb: .1
+    spread: 90
+  - type: Item
+    sprite: Genesis/Objects/Weapons/Melee/holysabre.rsi
+  - type: Clothing
+    sprite: Genesis/Objects/Weapons/Melee/holysabre.rsi
+    quickEquip: false
+    slots:
+    - suitstorage
+  - type: DisarmMalus

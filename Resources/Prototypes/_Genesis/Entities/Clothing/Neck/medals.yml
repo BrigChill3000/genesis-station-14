@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckHolyMedal
+  name: printing light
+  description: An ancient medal that is given to all priests who have shown valor in the battle against evil spirits. The Seal of Light emits powerful purifying radiation, weakening the forces of darkness and protecting its wearer from their harmful influence.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Neck/Medals/holyhunters.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Neck/Medals/holyhunters.rsi
+  - type: Unremoveable
+  - type: HeadCage
+  - type: Tag
+    tags:
+    - Medal

@@ -63,13 +63,13 @@
   description: For the especially violent ones.
   components:
   - type: Sprite
-    sprite: Genesis/Objects/Weapons/Guns/Battery/energygun_pistol.rsi # Временно
+    sprite: Genesis/Objects/Tools/items_cyborg.rsi
     layers:
-    - state: base
+    - state: laser_cyborg
       map: ["enum.GunVisualLayers.Base"]
-    - state: mag-unshaded-4
+    - state: laser_cyborg-unshaded-4
       map: ["enum.GunVisualLayers.MagUnshaded"]
-      shader: unshaded
+      shader: laser_cyborg-unshaded
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 3

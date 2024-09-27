@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterClothingCoatWitchHunter
+  name: witch hunter's coat
+  description: Kill these witches!
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi

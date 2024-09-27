@@ -14,9 +14,10 @@
   name: security module cyborg
   components:
   - type: Sprite
+    sprite: Genesis/Objects/Specific/Robotics/borgmodule.rsi
     layers:
-    - state: syndicate
-    - state: icon-syndicate
+    - state: sec
+    - state: sec-icon
   - type: ItemBorgModule
     items:
     - FlashSecBorg

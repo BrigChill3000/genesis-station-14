@@ -96,3 +96,14 @@
     Telecrystal: 10
   categories:
   - UplinkWeaponry
+
+- type: listing
+  id: UplinkSpecialDelivery
+  name: особая посылка
+  description: Посылка с случайной маской психов Майами!
+  icon: { sprite: Genesis/Objects/Misc/specialdelivery.rsi, state: specialdelivery }
+  productEntity: SpecialDeliveryBox
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkPointless

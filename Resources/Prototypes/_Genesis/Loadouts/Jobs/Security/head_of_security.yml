@@ -2,7 +2,7 @@
 - type: loadout
   id: HeadOfSecurityModSuit
   equipment:
-    back: ClothingBackpackSecurity
+    back: ClothingModsuitBackSecurityRed
   effects:
   - !type:GroupLoadoutEffect
-    proto: MasterHoS
+    proto: SeniorOfficer

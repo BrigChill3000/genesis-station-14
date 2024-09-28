@@ -1,0 +1,8 @@
+# Back
+- type: loadout
+  id: WardenModSuit
+  equipment:
+    back: ClothingModsuitBackSecurityWarden
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorOfficer

@@ -37,9 +37,19 @@
 
 # Neck
 - type: loadout
+  id: BlueShieldCloak
+  equipment:
+    neck: ClothingNeckCloakBlueShield
+
+- type: loadout
   id: BlueShieldMantle
   equipment:
     neck: ClothingNeckMantleBS
+
+- type: loadout
+  id: BlueShieldCloakAlt
+  equipment:
+    neck: ClothingNeckCloakBlueShieldAlt
 
 # Back
 - type: loadout

@@ -156,3 +156,15 @@
   - type: Icon
     sprite: Genesis/Objects/Devices/pda.rsi
     state: pda-jedint
+
+- type: entity
+  parent: BasePDA
+  id: PrisonerPDA
+  name: prisoner PDA
+  description: Clear, so you can make sure there's nothing being smuggled inside.
+  components:
+    - type: Pda
+      id: PrisonerIDCard
+      state: pda-clear
+    - type: Icon
+      state: pda-clear

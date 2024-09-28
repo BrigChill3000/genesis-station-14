@@ -313,6 +313,14 @@
   - CombatGloves
   - SecurityGloves
 
+# Prisoner
+- type: loadoutGroup
+  id: PrisonerJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - PrisonerJumpsuit
+  - PrisonerJumpskirt
+
 # Law
 - type: loadoutGroup
   id: MagistratHead

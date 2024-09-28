@@ -225,7 +225,7 @@
 # Security Warden
 - type: entity
   parent: ClothingModsuitBackBase
-  id: ClothingModsuitBackSecurityWaredn
+  id: ClothingModsuitBackSecurityWarden
   name: security MOD control unit
   description: The control unit of a Modular Outerwear Device, a powered suit that protects against various environments. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
   components:

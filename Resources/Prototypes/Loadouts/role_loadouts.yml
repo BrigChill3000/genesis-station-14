@@ -353,7 +353,7 @@
   - HeadofSecurityHead
   - HeadofSecurityNeck
   - HeadofSecurityJumpsuit
-  - SecurityBackpack
+  - HeadOfSecurityBackpack # Genesis-Edit
   - HeadofSecurityOuterClothing
   - SecurityGloves
   - SecurityBelt
@@ -370,7 +370,7 @@
   groups:
   - WardenHead
   - WardenJumpsuit
-  - SecurityBackpack
+  - WardenBackpack # Genesis-Edit
   - WardenOuterClothing
   - SecurityGloves
   - SecurityBelt

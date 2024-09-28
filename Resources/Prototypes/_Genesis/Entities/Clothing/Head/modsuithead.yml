@@ -285,3 +285,25 @@
     clothingPrototype: ClothingHandsModsuitInquisitor
     slot: gloves
     requiredSlot: head
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitSecurity
+  id: ClothingHeadHelmetModsuitSecurityWarden
+  name: security MOD helmet
+  description: A helmet for a MODsuit.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Modsuit/security-warden.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Modsuit/security-warden.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitSecurity
+  id: ClothingHeadHelmetModsuitSecurityRed
+  name: security MOD helmet
+  description: A helmet for a MODsuit.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Modsuit/security-red.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Modsuit/security-red.rsi

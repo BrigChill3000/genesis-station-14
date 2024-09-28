@@ -98,6 +98,14 @@
   - Trinkets
   - GroupSpeciesBreathTool
 
+- type: roleLoadout
+  id: JobPrisoner
+  groups:
+  - GroupTankHarness
+  - PrisonerJumpsuit
+  - Trinkets
+  - GroupSpeciesBreathTool
+
 # Senior
 - type: roleLoadout
   id: JobSeniorOfficer

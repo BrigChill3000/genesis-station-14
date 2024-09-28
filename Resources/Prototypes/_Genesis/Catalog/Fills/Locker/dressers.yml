@@ -16,5 +16,7 @@
       - id: ClothingUniformJumpsuitBlueShieldTurtleneck
       - id: ClothingEyesGlassesSunglassesBlueShield
       - id: ClothingHandsTacticalBlueShield
+      - id: ClothingNeckCloakBlueShield
+      - id: ClothingNeckCloakBlueShieldAlt
       - id: ClothingNeckMantleBS
       - id: ClothingOuterWinterBS

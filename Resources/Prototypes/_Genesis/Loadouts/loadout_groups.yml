@@ -206,6 +206,7 @@
   - JediNTEnergySword
   - JediNTEnergySword2
 
+# Security
 # Brigmedic
 - type: loadoutGroup
   id: BrigmedicHead
@@ -243,6 +244,24 @@
   minLimit: 0
   loadouts:
   - BrigmedicOuterClothing
+
+- type: loadoutGroup
+  id: HeadOfSecurityBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - SecurityBackpack
+  - SecuritySatchel
+  - SecurityDuffel
+  - HeadOfSecurityModSuit
+
+- type: loadoutGroup
+  id: WardenBackpack
+  name: loadout-group-backpack
+  loadouts:
+  - SecurityBackpack
+  - SecuritySatchel
+  - SecurityDuffel
+  - WardenModSuit
 
 - type: loadoutGroup
   id: SecurityPocket

@@ -34,6 +34,7 @@
   - Visitor
   - Zookeeper
   - ServiceWorker
+  - Prisoner # Genesis-Station
 
 - type: department
   id: CentralCommand
@@ -161,4 +162,5 @@
   - Zookeeper
   - Psychologist
   - Pilot # Corvax-Pilot Edit by Genesis
+  - Prisoner # Genesis-Station
   primary: false

@@ -96,7 +96,9 @@
   name: loadout-group-neck
   minLimit: 0
   loadouts:
+  - BlueShieldCloak
   - BlueShieldMantle
+  - BlueShieldCloakAlt
 
 - type: loadoutGroup
   id: BlueShieldBackpack

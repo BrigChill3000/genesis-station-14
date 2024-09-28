@@ -1,11 +1,20 @@
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckCloakBlueshield
+  id: ClothingNeckCloakBlueShield
   name: blueshield officer's cloak
   description: Why does the defender of the heads of the station need it? In order to look more stylish, of course.
   components:
   - type: Sprite
     sprite: Genesis/Clothing/Neck/Cloaks/blueshield.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakBlueShieldAlt
+  name: blueshield officer's cloak
+  description: Why does the defender of the heads of the station need it? In order to look more stylish, of course.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Neck/Cloaks/blueshieldalt.rsi
 
 - type: entity
   parent: ClothingNeckCloakCe

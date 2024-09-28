@@ -1,0 +1,8 @@
+# Back
+- type: loadout
+  id: HeadOfSecurityModSuit
+  equipment:
+    back: ClothingBackpackSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterHoS

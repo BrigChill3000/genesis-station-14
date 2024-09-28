@@ -221,3 +221,27 @@
     sprite: Genesis/Clothing/Back/Modsuit/inquisitor.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterModsuitBodyInquisitor
+
+# Security Warden
+- type: entity
+  parent: ClothingModsuitBackBase
+  id: ClothingModsuitBackSecurityWaredn
+  name: security MOD control unit
+  description: The control unit of a Modular Outerwear Device, a powered suit that protects against various environments. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Back/Modsuit/security.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterModsuitBodySecurityWarden
+
+# Security Red
+- type: entity
+  parent: ClothingModsuitBackBase
+  id: ClothingModsuitBackSecurityRed
+  name: security MOD control unit
+  description: The control unit of a Modular Outerwear Device, a powered suit that protects against various environments. An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Back/Modsuit/security.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterModsuitBodySecurityRed

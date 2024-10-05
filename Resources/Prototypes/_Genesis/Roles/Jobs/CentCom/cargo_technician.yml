@@ -1,0 +1,23 @@
+- type: job
+  id: CentralCommandCargoTechnician
+  name: job-name-centcom-cargotech
+  description: job-description-centcom-cargotech
+  playTimeTracker: JobCentralCommandCargoTechnician
+  startingGear: CentComCargoTechGear
+  icon: "JobIconCargoTechnician"
+  supervisors: job-supervisors-centcom
+  access:
+  - Cargo
+  - Maintenance
+  - CentralCommand
+  - Salvage
+
+- type: startingGear
+  id: CentComCargoTechGear
+  equipment:
+    id: CentComCargoPDA
+    ears: ClothingHeadsetCargo
+    pocket1: AppraisalTool
+  #storage:
+    #back:
+    #- Stuff

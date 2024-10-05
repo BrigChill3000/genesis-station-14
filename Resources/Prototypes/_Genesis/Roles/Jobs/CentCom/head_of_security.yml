@@ -1,0 +1,50 @@
+- type: job
+  id: HeadOfSecurityCentCom
+  name: job-name-hos-centcom
+  description: job-description-hos-centcom
+  playTimeTracker: JobHeadOfSecurity
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobCentralCommandAssistant
+      time: 9000 # Idk lmao
+    - !type:RoleTimeRequirement
+      role: JobHeadOfSecurity
+      time: 9000 # Again
+    - !type:RoleTimeRequirement
+      role: JobCentralCommandSecurityOfficer
+      time: 9000  # ?
+  weight: 10
+  startingGear: HoSCentComGear
+  icon: "JobIconHeadOfSecurity"
+  requireAdminNotify: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - HeadOfSecurity
+  - Command
+  - Brig
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Cryogenics
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: HoSCentComGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    id: HoSCentComPDA
+    ears: ClothingHeadsetAltSecurity
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

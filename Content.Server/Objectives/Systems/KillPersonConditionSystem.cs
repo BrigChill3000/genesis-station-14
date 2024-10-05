@@ -1,10 +1,14 @@
+using System.Linq;
 using Content.Server.Objectives.Components;
 using Content.Server.Shuttles.Systems;
+using Content.Server.Station.Components;
 using Content.Shared.CCVar;
 using Content.Shared.Mind;
 using Content.Shared.Objectives.Components;
+using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
 using Robust.Shared.Configuration;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
 namespace Content.Server.Objectives.Systems;
@@ -20,6 +24,10 @@ public sealed class KillPersonConditionSystem : EntitySystem
     [Dependency] private readonly SharedJobSystem _job = default!;
     [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly TargetObjectiveSystem _target = default!;
+    [Dependency] private readonly SharedRoleSystem _roleSystem = default!;
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
+
+    private static readonly ProtoId<DepartmentPrototype> _ccDep = "CentCom";
 
     public override void Initialize()
     {
@@ -61,8 +69,40 @@ public sealed class KillPersonConditionSystem : EntitySystem
             return;
         }
 
+        // start-genesis: centcom
+        FilterCentCom(allHumans);
+
+        if (allHumans.Count == 0)
+        {
+            args.Cancelled = true;
+            return;
+        }
+        // end-genesis: centcom
+
         _target.SetTarget(uid, _random.Pick(allHumans), target);
+
     }
+
+    // start-genesis: centcom
+    private void FilterCentCom(List<EntityUid> minds)
+    {
+        var centcom = _prototype.Index(_ccDep);
+        foreach (var mindId in minds.ToArray())
+        {
+            if (!TryComp<JobComponent>(mindId, out var job) || job.Prototype == null)
+            {
+                continue;
+            }
+
+            if (!centcom.Roles.Contains(job.Prototype.Value))
+            {
+                continue;
+            }
+
+            minds.Remove(mindId);
+        }
+    }
+    // end-genesis: centcom
 
     private void OnHeadAssigned(EntityUid uid, PickRandomHeadComponent comp, ref ObjectiveAssignedEvent args)
     {
@@ -84,6 +124,16 @@ public sealed class KillPersonConditionSystem : EntitySystem
             args.Cancelled = true;
             return;
         }
+
+        // start-genesis: centcom
+        FilterCentCom(allHumans);
+
+        if (allHumans.Count == 0)
+        {
+            args.Cancelled = true;
+            return;
+        }
+        // end-genesis: centcom
 
         var allHeads = new List<EntityUid>();
         foreach (var mind in allHumans)

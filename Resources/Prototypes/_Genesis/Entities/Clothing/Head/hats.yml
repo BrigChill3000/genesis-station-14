@@ -174,3 +174,19 @@
       sprite: Genesis/Clothing/Head/Hats/witch_hunter_hat.rsi
     - type: Clothing
       sprite: Genesis/Clothing/Head/Hats/witch_hunter_hat.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHatHeadOfSecurityCentComBeret
+  name: head of security centcom beret
+  description: Beret for a head of security.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Head/Hats/amilitary_beret.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Head/Hats/amilitary_beret.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon

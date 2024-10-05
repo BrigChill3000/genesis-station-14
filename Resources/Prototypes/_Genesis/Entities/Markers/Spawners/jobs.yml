@@ -176,3 +176,55 @@
       layers:
         - state: green
         - state: prisoner
+
+- type: entity
+  id: SpawnPointCentComAssistant
+  parent: SpawnPointJobBase
+  name: centcom assistant
+  components:
+  - type: SpawnPoint
+    job_id: CentralCommandAssistant
+  - type: Sprite
+    sprite: Genesis/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: centcommember
+
+- type: entity
+  id: SpawnPointCentComSecurityOfficer
+  parent: SpawnPointJobBase
+  name: security officer centcom
+  components:
+  - type: SpawnPoint
+    job_id: CentralCommandSecurityOfficer
+  - type: Sprite
+    sprite: Genesis/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: centcommember
+
+- type: entity
+  id: SpawnPointCentComCargo
+  parent: SpawnPointJobBase
+  name: centcom cargo tech
+  components:
+  - type: SpawnPoint
+    job_id: CentralCommandCargoTechnician
+  - type: Sprite
+    sprite: Genesis/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: centcommember
+
+- type: entity
+  id: SpawnPointHeadOfSecurityCentCom
+  parent: SpawnPointJobBase
+  name: head of security centcom
+  components:
+  - type: SpawnPoint
+    job_id: HeafOfSecurityCentCom
+  - type: Sprite
+    sprite: Genesis/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: centcommember

@@ -2,7 +2,7 @@
   id: HeadOfSecurityCentCom
   name: job-name-hos-centcom
   description: job-description-hos-centcom
-  playTimeTracker: JobHeadOfSecurity
+  playTimeTracker: JobHeadOfSecurityCentCom
   requirements:
     - !type:RoleTimeRequirement
       role: JobCentralCommandAssistant

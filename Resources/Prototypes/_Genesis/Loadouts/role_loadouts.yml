@@ -69,6 +69,68 @@
   - Trinkets
   - GroupSpeciesBreathTool
 
+- type: roleLoadout
+  id: JobCentralCommandSecurityOfficer
+  groups:
+  - SecurityHead
+  - SecurityJumpsuit
+  - SecurityBackpack
+  - SecurityOuterClothing
+  - SecurityGloves
+  - SecurityShoes
+  - SecurityBelt
+  - SecurityShoes
+  - SecurityPocket
+  - SecurityPocket2
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobHeadOfSecurityCentCom
+  groups:
+  - HeadofSecurityCentComHead
+  - HeadofSecurityNeck
+  - HeadofSecurityCentComJumpsuit
+  - HeadOfSecurityBackpack 
+  - SecurityGloves
+  - SecurityBelt
+  - SecurityShoes
+  - SecurityOfficerPocket
+  - SecurityOfficerPocket2
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobCentralCommandCargoTechnician
+  groups:
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoGloves
+  - CargoTechnicianShoes
+  - CargoBelt
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobCentralCommandAssistant
+  groups:
+  - GroupTankHarness
+  - CentComAssistantJumpsuit
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
 # Law
 - type: roleLoadout
   id: JobMagistrat

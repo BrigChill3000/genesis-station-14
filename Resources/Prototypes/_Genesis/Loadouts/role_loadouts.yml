@@ -90,9 +90,9 @@
 - type: roleLoadout
   id: JobHeadOfSecurityCentCom
   groups:
-  - HeadofSecurityCentComHead
+  - HeadOfSecurityCentComHead
   - HeadofSecurityNeck
-  - HeadofSecurityCentComJumpsuit
+  - HeadOfSecurityCentComJumpsuit
   - HeadOfSecurityBackpack 
   - SecurityGloves
   - SecurityBelt

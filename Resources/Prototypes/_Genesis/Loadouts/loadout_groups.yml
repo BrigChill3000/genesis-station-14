@@ -48,6 +48,26 @@
   - ArmorVest
   - ArmorCentcomCarapace
 
+# CentCom Assistant
+- type: loadoutGroup
+  id: CentComAssistantJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - CentComAssistantJumpsuit
+
+# Head Of Security CentCom
+- type: loadoutGroup
+  id: HeadOfSecurityCentComJumpsuit
+  name: loadout-group-jumpsuit
+  loadouts:
+  - HeadOfSecurityCentComJumpsuit
+
+- type: loadoutGroup
+  id: HeadOfSecurityCentComHead
+  name: loadout-group-head
+  loadouts:
+  - HeadHatBeretHoSCentCom
+
 # Consultant
 - type: loadoutGroup
   id: ConsultantHead

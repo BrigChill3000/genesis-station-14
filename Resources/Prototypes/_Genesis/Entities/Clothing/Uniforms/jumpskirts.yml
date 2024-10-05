@@ -41,3 +41,14 @@
     sprite: Genesis/Clothing/Uniforms/Jumpskirt/centcom_consultant_formal.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Uniforms/Jumpskirt/centcom_consultant_formal.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirttCentComVeryOfficial
+  name: official jumpskirt worker CentCom
+  description: That's the beauty of corporate life, stylish suits with a skirt to match!
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpskirt/centcom_official.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpskirt/centcom_official.rsi

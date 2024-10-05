@@ -96,3 +96,43 @@
     sprite: Genesis/Clothing/Uniforms/Jumpsuit/jedi_nt_alt.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Uniforms/Jumpsuit/jedi_nt_alt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCentComVeryOfficial
+  name: official shirt worker CentCom
+  description: That's the beauty of corporate life, stylish suits to match!
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom_official.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom_official.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCentComIntern
+  name: uniform intern CentCom
+  description: The wearer of this costume is required to bring a cup of coffee.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom-intern.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom-intern.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCentComMilitary
+  name: military uniform head of security CentCom
+  description: Loose and strong uniform of the Central Commander special forces.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi # Временно
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi # Временно
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9

@@ -110,3 +110,47 @@
     - state: orange
   - type: PresetIdCard
     job: Prisoner
+
+- type: entity
+  parent: IDCardStandard
+  id: CentComAssistantIDCard
+  name: centcom assistant ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: PresetIdCard
+    job: CentralCommandAssistant
+
+- type: entity
+  parent: IDCardStandard
+  id: CentComOfficerSecurityIDCard
+  name: security officer centcom ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: PresetIdCard
+    job: CentralCommandSecurityOfficer
+
+- type: entity
+  parent: IDCardStandard
+  id: HeadOfSecurityCentComIDCard
+  name: head of security centcom ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: PresetIdCard
+    job: HeadOfSecurityCentCom
+
+- type: entity
+  parent: IDCardStandard
+  id: CentComCargoTechIDCard
+  name: centcom cargo tech ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+  - type: PresetIdCard
+    job: CentralCommandCargoTechnician

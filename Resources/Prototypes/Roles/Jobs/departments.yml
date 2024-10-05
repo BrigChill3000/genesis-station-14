@@ -44,6 +44,10 @@
   roles:
   - CentComOfficial # Genesis-Station
   - CentComOperator # Genesis-Station
+  - HeadOfSecurityCentCom # Genesis-Station
+  - CentralCommandSecurityOfficer # Genesis-Station
+  - CentralCommandAssistant # Genesis-Station
+  - CentralCommandCargoTechnician # Genesis-Station
   - CentralCommandOfficial
   - CBURN
   - ERTLeader

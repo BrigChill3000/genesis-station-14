@@ -1,0 +1,43 @@
+- type: job
+  id: CentralCommandSecurityOfficer
+  name: job-name-security-centcom
+  description: job-description-security-centcom
+  playTimeTracker: JobCentralCommandSecurityOfficer
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobHeadOfSecurity
+      time: 36000 #10 hrs
+    - !type:RoleTimeRequirement
+      role: JobCentralCommandAssistant
+      time: 36000 #10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 108000 # 30 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 144000 #40 hrs
+  startingGear: CentComSecurityOfficerGear
+  icon: "JobIconSecurityOfficer"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: CentComSecurityOfficerGear
+  equipment:
+    id: CentComSecurityPDA
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

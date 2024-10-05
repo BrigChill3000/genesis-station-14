@@ -46,6 +46,18 @@
 - type: playTimeTracker
   id: JobPrisoner
 
+- type: playTimeTracker
+  id: JobHeadOfSecurityCentCom
+
+- type: playTimeTracker
+  id: JobCentralCommandCargoTechnician
+
+- type: playTimeTracker
+  id: JobCentralCommandSecurityOfficer
+
+- type: playTimeTracker
+  id: JobCentralCommandAssistant
+
 # Borgs
 - type: playTimeTracker
   id: JobEngineerBorg

@@ -1,0 +1,26 @@
+- type: job
+  id: CentralCommandAssistant
+  name: job-name-centcom-assistant
+  description: job-description-centcom-assistant
+  playTimeTracker: JobCentralCommandAssistant
+  startingGear: CentComAssistantGear
+  icon: "JobIconServiceWorker"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Service
+  - Maintenance
+  - Bar
+  - Kitchen
+  - CentralCommand
+  - Hydroponics
+
+- type: startingGear
+  id: CentComAssistantGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    id: CentComAssistantPDA
+    ears: ClothingHeadsetService
+  #storage:
+    #back:
+    #- Stuff

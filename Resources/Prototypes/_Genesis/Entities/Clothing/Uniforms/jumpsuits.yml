@@ -115,9 +115,9 @@
   description: The wearer of this costume is required to bring a cup of coffee.
   components:
   - type: Sprite
-    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom-intern.rsi
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom_intern.rsi
   - type: Clothing
-    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom-intern.rsi
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/centcom_intern.rsi
 
 - type: entity
   parent: ClothingUniformBase

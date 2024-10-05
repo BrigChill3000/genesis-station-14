@@ -168,3 +168,35 @@
       state: pda-clear
     - type: Icon
       state: pda-clear
+
+- type: entity
+  parent: ServiceWorkerPDA
+  id: CentComAssistantPDA
+  name: centcom assistant PDA
+  components:
+    - type: Pda
+      id: CentComAssistantIDCard
+
+- type: entity
+  parent: SecurityPDA
+  id: CentComSecurityPDA
+  name: officer security centcom PDA
+  components:
+    - type: Pda
+      id: CentComOfficerSecurityIDCard
+
+- type: entity
+  parent: HoSPDA
+  id: HoSCentComPDA
+  name: head of security centcom PDA
+  components:
+    - type: Pda
+      id: HeadOfSecurityCentComIDCard
+
+- type: entity
+  parent: CargoPDA
+  id: CentComCargoPDA
+  name: centcom cargo tech PDA
+  components:
+    - type: Pda
+      id: CentComCargoTechIDCard

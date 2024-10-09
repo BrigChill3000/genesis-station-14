@@ -33,7 +33,7 @@
     id: CentComEngineerPDA
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
-    ears: ClothingHeadsetEngineering
+    ears: ClothingHeadsetCentCom
   #storage:
     #back:
     #- Stuff

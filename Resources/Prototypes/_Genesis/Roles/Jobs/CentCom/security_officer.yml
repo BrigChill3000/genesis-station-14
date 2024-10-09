@@ -36,7 +36,7 @@
   equipment:
     id: CentComSecurityPDA
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetCentCom
   storage:
     back:
     - Flash

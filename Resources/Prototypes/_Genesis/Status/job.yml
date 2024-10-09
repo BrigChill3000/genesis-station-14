@@ -80,3 +80,59 @@
   icon:
     sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
     state: SecurityBorg
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCentComOperator
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: OCC
+  jobName: job-name-centcomop
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCentComMember
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: DCC
+  jobName: job-name-centcomoff
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecurityOfficerCentCom
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: OfficerCC
+  jobName: job-name-security-centcom
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCentComEngineering
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: ECC
+  jobName: job-name-centcom-engineering
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCentComMedicalDoctor
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: MCC
+  jobName: job-name-centcom-medical
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCentComService
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: SCC
+  jobName: job-name-centcom-assistant
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconHeadOfStaffCentCom
+  icon:
+    sprite: /Textures/Genesis/Interface/Misc/job_icons.rsi
+    state: NSCC
+  jobName: job-name-centcom-admiral

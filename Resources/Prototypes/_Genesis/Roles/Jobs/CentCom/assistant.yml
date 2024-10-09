@@ -23,7 +23,7 @@
   equipment:
     shoes: ClothingShoesColorBlack
     id: CentComAssistantPDA
-    ears: ClothingHeadsetService
+    ears: ClothingHeadsetCentCom
   #storage:
     #back:
     #- Stuff

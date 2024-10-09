@@ -1,0 +1,38 @@
+- type: job
+  id: CenralCommandEngineer
+  name: job-name-engineer
+  description: job-description-engineer
+  playTimeTracker: JobCentralCommandEngineer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 14400 #4 hrs
+  startingGear: CentComEngineerGear
+  icon: "JobIconStationEngineer"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Maintenance
+  - Engineering
+  - External
+  - ChiefEngineer
+  - Atmospherics
+  - Brig
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: CentComEngineerGear
+  equipment:
+    id: EngineerPDA
+    eyes: ClothingEyesGlassesMeson
+    belt: ClothingBeltUtilityEngineering
+    ears: ClothingHeadsetEngineering
+  #storage:
+    #back:
+    #- Stuff

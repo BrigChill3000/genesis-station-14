@@ -7,6 +7,9 @@
     - !type:DepartmentTimeRequirement
       department: Engineering
       time: 14400 #4 hrs
+    - !type:DepartmentTimeRequirement
+      department: CentralCommand
+      time: 14400 #4 hrs
   startingGear: CentComEngineerGear
   icon: "JobIconStationEngineer"
   supervisors: job-supervisors-centcom

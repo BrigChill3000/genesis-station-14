@@ -19,7 +19,7 @@
   id: CentComCargoTechGear
   equipment:
     id: CentComCargoPDA
-    ears: ClothingHeadsetCargo
+    ears: ClothingHeadsetCentCom
     pocket1: AppraisalTool
   #storage:
     #back:

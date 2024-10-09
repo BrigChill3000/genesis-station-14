@@ -154,3 +154,31 @@
     - state: centcom
   - type: PresetIdCard
     job: CentralCommandCargoTechnician
+
+- type: entity
+  parent: IDCardStandard
+  id: CentComEngineerIDCard
+  name: engineer centcom ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idchiefengineer
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: CentralCommandEngineer
+
+- type: entity
+  parent: IDCardStandard
+  id: CentComMedicalDoctorIDCard
+  name: medical officer centcom ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idchiefmedicalofficer
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: CentralCommandMedicalDoctor

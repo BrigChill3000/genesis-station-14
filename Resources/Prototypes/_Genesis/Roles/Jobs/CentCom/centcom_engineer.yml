@@ -30,7 +30,7 @@
 - type: startingGear
   id: CentComEngineerGear
   equipment:
-    id: EngineerPDA
+    id: CentComEngineerPDA
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering

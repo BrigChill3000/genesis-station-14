@@ -200,3 +200,19 @@
   components:
     - type: Pda
       id: CentComCargoTechIDCard
+
+- type: entity
+  parent: CEPDA
+  id: CentComEngineerPDA
+  name: engineer centcom PDA
+  components:
+    - type: Pda
+      id: CentComEngineerIDCard
+
+- type: entity
+  parent: CMOPDA
+  id: CentComMedicalDoctorPDA
+  name: medical officer centcom PDA
+  components:
+    - type: Pda
+      id: CentComMedicalDoctorIDCard

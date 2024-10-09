@@ -1,14 +1,17 @@
 - type: job
   id: CentralCommandMedicalDoctor
-  name: job-name-doctor
+  name: job-name-centcom-medical
   description: job-description-doctor
   playTimeTracker: JobCentralCommandMedicalDoctor
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 14400 #4 hrs
+    - !type:DepartmentTimeRequirement
+      department: CentralCommand
+      time: 14400 #4 hrs
   startingGear: CentComDoctorGear
-  icon: "JobIconMedicalDoctor"
+  icon: "JobIconCentComMedicalDoctor"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:

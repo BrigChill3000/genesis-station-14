@@ -1,6 +1,6 @@
 - type: job
   id: CenralCommandEngineer
-  name: job-name-engineer
+  name: job-name-centcom-engineering
   description: job-description-engineer
   playTimeTracker: JobCentralCommandEngineer
   requirements:
@@ -11,7 +11,7 @@
       department: CentralCommand
       time: 14400 #4 hrs
   startingGear: CentComEngineerGear
-  icon: "JobIconStationEngineer"
+  icon: "JobIconCentComEngineering"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:

@@ -46,6 +46,8 @@
   - CentComOperator # Genesis-Station
   - HeadOfSecurityCentCom # Genesis-Station
   - CentralCommandSecurityOfficer # Genesis-Station
+  - CentralCommandMedicalDoctor # Genesis-Station
+  - CenralCommandEngineer # Genesis-Station
   - CentralCommandAssistant # Genesis-Station
   - CentralCommandCargoTechnician # Genesis-Station
   - CentralCommandOfficial

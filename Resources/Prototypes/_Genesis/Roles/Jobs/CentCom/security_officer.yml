@@ -16,7 +16,7 @@
     - !type:OverallPlaytimeRequirement
       time: 144000 #40 hrs
   startingGear: CentComSecurityOfficerGear
-  icon: "JobIconSecurityOfficer"
+  icon: "JobIconSecurityOfficerCentCom"
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:

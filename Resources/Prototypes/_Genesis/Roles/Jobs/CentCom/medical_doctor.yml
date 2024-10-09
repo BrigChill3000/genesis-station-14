@@ -28,7 +28,7 @@
 - type: startingGear
   id: CentComDoctorGear
   equipment:
-    id: MedicalPDA
+    id: CentComMedicalDoctorPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
   #storage:

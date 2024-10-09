@@ -19,6 +19,7 @@
   - Atmospherics
   - Brig
   - Cryogenics
+  - CentralCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

@@ -20,7 +20,9 @@ job-name-centcom-assistant = ассистент ЦК
 job-name-centcom-cargotech = грузчик ЦК
 job-name-hos-centcom = начальник безопасности ЦК
 job-name-security-centcom = офицер СБ ЦК
-job-name-centcomadmiral = начальник штаба ЦК
+job-name-centcom-admiral = начальник штаба ЦК
+job-name-centcom-medical = медицинский офицер ЦК
+job-name-centcom-engineering = инженер ЦК
 # bruh 
 JobBlueShield = офицер «Синий Щит»
 JobCentComOfficial = представитель ЦК
@@ -44,3 +46,5 @@ JobCentralCommandAssistant = ассистент ЦК
 JobCentralCommandCargoTechnician = грузчик ЦК
 JobHeadOfSecurityCentCom = начальник безопасности ЦК
 JobCentralCommandSecurityOfficer = офицер СБ ЦК
+JobCentralCommandMedicalDoctor = медицинский офицер ЦК
+JobCentralCommandEngineer = инженер цК

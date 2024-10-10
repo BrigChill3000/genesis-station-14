@@ -30,7 +30,6 @@
   equipment:
     id: CentComMedicalDoctorPDA
     ears: ClothingHeadsetCentCom
-    belt: ClothingBeltMedicalFilled
   #storage:
     #back:
     #- Stuff

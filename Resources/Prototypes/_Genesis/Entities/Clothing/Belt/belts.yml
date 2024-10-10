@@ -63,3 +63,14 @@
     sprite: Genesis/Clothing/Belt/jediwebbing.rsi
   - type: Clothing
     sprite: Genesis/Clothing/Belt/jediwebbing.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltCMOWebbing
+  name: chief medical officer webbing
+  description: Unique and versatile chest rig for work in medbay.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Belt/cmowebbing.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Belt/cmowebbing.rsi

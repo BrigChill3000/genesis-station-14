@@ -96,12 +96,14 @@ namespace Content.Client.Stylesheets
         public static readonly Color DangerousRedFore = Color.FromHex("#BB3232");
         public static readonly Color DisabledFore = Color.FromHex("#5A5A5A");
 
-        public static readonly Color ButtonColorDefault = Color.FromHex("#464966");
-        public static readonly Color ButtonColorDefaultRed = Color.FromHex("#D43B3B");
-        public static readonly Color ButtonColorHovered = Color.FromHex("#575b7f");
-        public static readonly Color ButtonColorHoveredRed = Color.FromHex("#DF6B6B");
-        public static readonly Color ButtonColorPressed = Color.FromHex("#3e6c45");
-        public static readonly Color ButtonColorDisabled = Color.FromHex("#30313c");
+        // Genesis-Edit
+        public static readonly Color ButtonColorDefault = Color.FromHex("#29282f");
+        public static readonly Color ButtonColorDefaultRed = Color.FromHex("#992327");
+        public static readonly Color ButtonColorHovered = Color.FromHex("#3f3d48");
+        public static readonly Color ButtonColorHoveredRed = Color.FromHex("#4D5D53");
+        public static readonly Color ButtonColorPressed = Color.FromHex("#0f0f0f");
+        public static readonly Color ButtonColorDisabled = Color.FromHex("#0f0f0f");
+        // Genesis-Edit
 
         public static readonly Color ButtonColorCautionDefault = Color.FromHex("#ab3232");
         public static readonly Color ButtonColorCautionHovered = Color.FromHex("#cf2f2f");
@@ -516,7 +518,7 @@ namespace Content.Client.Stylesheets
             var insetBack = new StyleBoxTexture
             {
                 Texture = buttonTex,
-                Modulate = Color.FromHex("#202023"),
+                Modulate = Color.FromHex("#663399"), // Genesis-Edit
             };
             insetBack.SetPatchMargin(StyleBox.Margin.All, 10);
 
@@ -1384,7 +1386,7 @@ namespace Content.Client.Stylesheets
                 // Different Background shapes ---
                 Element<PanelContainer>().Class(ClassAngleRect)
                     .Prop(PanelContainer.StylePropertyPanel, BaseAngleRect)
-                    .Prop(Control.StylePropertyModulateSelf, Color.FromHex("#25252A")),
+                    .Prop(Control.StylePropertyModulateSelf, Color.FromHex("#0f0f0f")), // Genesis-Edit
 
                 Element<PanelContainer>().Class("BackgroundOpenRight")
                     .Prop(PanelContainer.StylePropertyPanel, BaseButtonOpenRight)
@@ -1399,7 +1401,7 @@ namespace Content.Client.Stylesheets
                 Element<PanelContainer>().Class(ClassLowDivider)
                     .Prop(PanelContainer.StylePropertyPanel, new StyleBoxFlat
                     {
-                        BackgroundColor = Color.FromHex("#444"),
+                        BackgroundColor = Color.FromHex("#25252A"), // Genesis-Edit
                         ContentMarginLeftOverride = 2,
                         ContentMarginBottomOverride = 2
                     }),

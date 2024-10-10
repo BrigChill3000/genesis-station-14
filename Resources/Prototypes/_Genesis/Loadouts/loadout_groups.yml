@@ -343,6 +343,14 @@
   - PrisonerJumpsuit
   - PrisonerJumpskirt
 
+# Medical
+- type: loadoutGroup
+  id: ChiefMedicalOfficerBelt
+  name: loadout-group-belt
+  loadouts:
+  - MedicalBelt
+  - CMOWebbing
+
 # Law
 - type: loadoutGroup
   id: MagistratHead

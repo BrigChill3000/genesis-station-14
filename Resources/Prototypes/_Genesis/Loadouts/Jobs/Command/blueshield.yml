@@ -19,6 +19,16 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueShieldTurtleneck
 
+- type: loadout
+  id: BlueShieldSpecialJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueShieldSpecial
+
+- type: loadout
+  id: BlueShieldJumpsuitPants
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueShieldPants
+
 # Head
 - type: loadout
   id: BlueShieldHead

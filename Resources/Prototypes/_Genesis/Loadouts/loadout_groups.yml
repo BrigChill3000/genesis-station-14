@@ -110,6 +110,8 @@
   - BlueShieldJumpskirt
   - BlueShieldTurtleneck
   - BlueShieldTurtleneckSkirt
+  - BlueShieldJumpsuitPants
+  - BlueShieldSpecialJumpsuit
 
 - type: loadoutGroup
   id: BlueShieldNeck
@@ -420,6 +422,7 @@
   loadouts:
   - JumpsuitSeniorOfficer
   - JumpskirtSeniorOfficer
+  - SecuritySpecialJumpsuit
 
 - type: loadoutGroup
   id: SeniorResearcherJumpsuit

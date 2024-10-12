@@ -977,6 +977,8 @@
   - SecurityJumpsuitGrey
   - SecurityJumpskirtGrey
   - TrooperUniform
+  - HECUUniform # Genesis-Edit
+  - SecuritySpecialJumpsuit # Genesis-Edit
 
 - type: loadoutGroup
   id: SecurityBackpack

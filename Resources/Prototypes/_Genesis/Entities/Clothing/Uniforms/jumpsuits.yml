@@ -136,3 +136,36 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueShieldSpecial
+  name: blueshield officer's special jumpsuit
+  description: This is a black and blue special jumpsuit for the best officers of the "BlueShield".
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/blueshield_special.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/blueshield_special.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueShieldPants
+  name: blueshield officer's pants
+  description: Black and blue pants especially for BlueShield officers.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/blueshield_pants.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/blueshield_pants.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSecuritySpecial
+  name: security's special jumpsuit
+  description: This is a black and red special jumpsuit for the best officers of security.
+  components:
+  - type: Sprite
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/security_special.rsi
+  - type: Clothing
+    sprite: Genesis/Clothing/Uniforms/Jumpsuit/security_special.rsi

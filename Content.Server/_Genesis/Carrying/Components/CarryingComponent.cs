@@ -1,4 +1,4 @@
-namespace Content.Server.Starshine._Genesis.Components
+namespace Content.Server._Genesis.Carrying.Components
 {
     /// <summary>
     /// Added to an entity when they are carrying somebody.

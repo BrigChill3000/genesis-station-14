@@ -211,6 +211,8 @@
     - FootstepSound
     - DoorBumpOpener
     - AnomalyHost
+  - type: CanEscapeInventory # Genesis-Edit
+  - type: Carriable # Genesis-Edit
   - type: Crawler # Genesis-Edit
 
 - type: entity

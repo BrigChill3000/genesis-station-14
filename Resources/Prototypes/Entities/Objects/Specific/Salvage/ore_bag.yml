@@ -5,6 +5,7 @@
   description: A robust bag for salvage specialists and miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
   components:
   - type: MagnetPickup
+    slotFlags: POCKET # Genesis-Edit
   - type: Sprite
     sprite: Objects/Specific/Mining/ore_bag.rsi
     state: icon
@@ -14,6 +15,9 @@
     slots:
     - belt
   - type: Item
+    size: Small
+    shape:
+    - 0,0,2,2 # Genesis-Edit
     size: Ginormous
   - type: Storage
     maxItemSize: Normal

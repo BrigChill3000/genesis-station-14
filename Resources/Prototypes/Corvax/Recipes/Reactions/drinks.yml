@@ -115,16 +115,6 @@
     MaiTai: 6
 
 - type: reaction
-  id: MoscowMule
-  reactants:
-    Yorsh: # Must be ginger beer + vodka
-      amount: 5
-    JuiceLime:
-      amount: 1
-  products:
-    MoscowMule: 6
-
-- type: reaction
   id: Paloma
   reactants:
     Tequila:

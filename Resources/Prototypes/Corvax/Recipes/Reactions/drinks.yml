@@ -47,18 +47,6 @@
     Negroni: 6
 
 - type: reaction
-  id: EspressoMartini
-  reactants:
-    BlackRussian:
-      amount: 6
-    Sugar:
-      amount: 1
-    Coffee:
-      amount: 3
-  products:
-    EspressoMartini: 10
-
-- type: reaction
   id: OldFashioned
   reactants:
     Whiskey:

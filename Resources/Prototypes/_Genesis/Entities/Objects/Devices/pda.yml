@@ -8,7 +8,6 @@
     sprite: Genesis/Objects/Devices/pda.rsi
   - type: Pda
     id: BlueShieldIDCard
-    state: pda-blueshield
     penSlot:
       startingItem: PenCap
       priority: -1
@@ -32,7 +31,6 @@
     sprite: Genesis/Objects/Devices/pda.rsi
   - type: Pda
     id: CentcomConsultantIDCard
-    state: pda-centcom
     penSlot:
       startingItem: PenCentcom
       priority: -1
@@ -57,7 +55,6 @@
     sprite: Genesis/Objects/Devices/pda.rsi
   - type: Pda
     id: MagistratIDCard
-    state: pda-magistrat
     penSlot:
       startingItem: PenCap
       priority: -1
@@ -79,7 +76,6 @@
   components:
   - type: Pda
     id: RoboticistIDCard
-    state: pda-roboticist
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentVColor: "#8900c9"
@@ -99,7 +95,6 @@
     sprite: Genesis/Objects/Devices/pda.rsi
   - type: Pda
     id: SeniorSalvageIDCard
-    state: pda-seniorsalvage
   - type: PdaBorderColor
     borderColor: "#774705"
   - type: Icon
@@ -114,7 +109,6 @@
   components:
   - type: Pda
     id: SeniorServiceIDCard
-    state: pda-internservice
   - type: PdaBorderColor
     borderColor: "#717059"
     accentVColor: "#00cc35"
@@ -131,7 +125,6 @@
     sprite: Genesis/Objects/Devices/pda.rsi
   - type: Pda
     id: MinerIDCard
-    state: pda-mining
   - type: PdaBorderColor
     borderColor: "#af9366"
     accentVColor: "#8900c9"
@@ -149,7 +142,6 @@
     sprite: Genesis/Objects/Devices/pda.rsi
   - type: Pda
     id: JediNTIDCard
-    state: pda-jedint
   - type: PdaBorderColor
     borderColor: "#808080"
     accentVColor: "#ffffff"
@@ -165,7 +157,6 @@
   components:
     - type: Pda
       id: PrisonerIDCard
-      state: pda-clear
     - type: Icon
       state: pda-clear
 

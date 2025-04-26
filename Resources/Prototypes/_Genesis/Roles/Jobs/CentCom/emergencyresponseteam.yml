@@ -222,9 +222,9 @@
     - Hypospray
     - MedkitAdvancedFilled
     - CrowbarRed
-    - OmnizineChemistryBottle
-    - EpinephrineChemistryBottle
-    - EpinephrineChemistryBottle
+    - ChemistryBottleOmnizine
+    - ChemistryBottleEpinephrine
+    - ChemistryBottleEpinephrine
 
 # Janitor
 - type: job
@@ -490,9 +490,9 @@
     - Hypospray
     - MedkitAdvancedFilled
     - CrowbarRed
-    - OmnizineChemistryBottle
-    - EpinephrineChemistryBottle
-    - EpinephrineChemistryBottle
+    - ChemistryBottleOmnizine
+    - ChemistryBottleEpinephrine
+    - ChemistryBottleEpinephrine
 
 # Janitor
 - type: job
@@ -758,9 +758,9 @@
     - Hypospray
     - MedkitAdvancedFilled
     - CrowbarRed
-    - OmnizineChemistryBottle
-    - EpinephrineChemistryBottle
-    - EpinephrineChemistryBottle
+    - ChemistryBottleOmnizine
+    - ChemistryBottleEpinephrine
+    - ChemistryBottleEpinephrine
 
 # Janitor
 - type: job
@@ -1026,9 +1026,9 @@
     - Hypospray
     - MedkitAdvancedFilled
     - CrowbarRed
-    - OmnizineChemistryBottle
-    - EpinephrineChemistryBottle
-    - EpinephrineChemistryBottle
+    - ChemistryBottleOmnizine
+    - ChemistryBottleEpinephrine
+    - ChemistryBottleEpinephrine
 
 # Janitor
 - type: job

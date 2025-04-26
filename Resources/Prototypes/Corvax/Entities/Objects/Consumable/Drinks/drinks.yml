@@ -117,23 +117,6 @@
 
 - type: entity
   parent: DrinkGlass
-  id: DrinkMoscowMuleGlass
-  suffix: moscow mule
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 30
-        reagents:
-        - ReagentId: MoscowMule
-          Quantity: 30
-  - type: Drink
-  - type: Icon
-    sprite: Corvax/Objects/Consumable/Drinks/moscowMule.rsi
-    state: icon
-
-- type: entity
-  parent: DrinkGlass
   id: DrinkNegroniGlass
   suffix: negroni
   components:

@@ -63,5 +63,5 @@
         orGroup: WeaponCaseRandom
       - id: WeaponCaseSMG
         orGroup: WeaponCaseRandom
-      - id: WeaponCaseVector
+      - id: WeaponCaseLecter
         orGroup: WeaponCaseRandom

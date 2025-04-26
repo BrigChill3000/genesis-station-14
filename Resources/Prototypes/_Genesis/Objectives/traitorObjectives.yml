@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseTraitorStealObjective
+  id: MultiphaseEnergygunStealObjective
+  components:
+  - type: Objective
+    difficulty: 3
+  - type: StealCondition
+    stealGroup: WeaponEnergyGunMultiphase

@@ -1,24 +1,24 @@
-- type: gameMap
-  id: CentCommGenesis
-  mapName: 'Central Command'
-  mapPath: /Maps/centcomm.yml #/Maps/_Genesis/centcomm.yml
-  minPlayers: 10
-  stations:
-    centcomm:
-      stationProto: NanotrasenCentralCommand
-      components:
-        - type: StationNameSetup
-          mapNameTemplate: '{0} Central Command {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: 'TG'
-        - type: StationJobs
-          availableJobs:
-            CentComOfficial: [ 1, 1 ]
-            CentComOperator: [ 1, 1 ]
-            HeadOfSecurityCentCom: [ 1, 1 ]
-            CentralCommandSecurityOfficer: [ 1, 1 ]
-            CentralCommandMedicalDoctor: [ 3, 3 ]
-            CentralCommandEngineer: [ 3, 3 ]
-            CentralCommandCargoTechnician: [ 2, 2 ]
-            CentralCommandAssistant: [ 3, 3 ]
+#- type: gameMap
+#  id: CentCommGenesis
+#  mapName: 'Central Command'
+#  mapPath: /Maps/_Genesis/centcomm.yml
+#  minPlayers: 10
+#  stations:
+#    centcomm:
+#      stationProto: NanotrasenCentralCommand
+#      components:
+#        - type: StationNameSetup
+#          mapNameTemplate: '{0} Central Command {1}'
+#          nameGenerator:
+#            !type:NanotrasenNameGenerator
+#            prefixCreator: 'TG'
+#        - type: StationJobs
+#          availableJobs:
+#            CentComOfficial: [ 1, 1 ]
+#            CentComOperator: [ 1, 1 ]
+#            HeadOfSecurityCentCom: [ 1, 1 ]
+#            CentralCommandSecurityOfficer: [ 1, 1 ]
+#            CentralCommandMedicalDoctor: [ 3, 3 ]
+#            CentralCommandEngineer: [ 3, 3 ]
+#            CentralCommandCargoTechnician: [ 2, 2 ]
+#            CentralCommandAssistant: [ 3, 3 ]

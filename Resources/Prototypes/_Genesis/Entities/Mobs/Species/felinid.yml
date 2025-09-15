@@ -49,7 +49,7 @@
       path: /Audio/Effects/hit_kick.ogg
   - type: Stamina
     critThreshold: 85
-  - type: PseudoItem
+#  - type: PseudoItem  - when backmen reborn and fix that xddd
   - type: WoundLicking
   - type: OwOAccent
   - type: Vocal

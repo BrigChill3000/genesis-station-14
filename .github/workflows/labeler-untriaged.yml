@@ -1,10 +1,15 @@
-﻿name: "Labels: Untriaged"
+name: "Labels: Untriaged"
 
 on:
   issues:
     types: [opened]
   pull_request_target:
-    types: [opened]
+    types: [opened, synchronize]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
 
 jobs:
   add_label:

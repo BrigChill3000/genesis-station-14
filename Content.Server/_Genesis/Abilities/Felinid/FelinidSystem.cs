@@ -15,7 +15,8 @@ using Robust.Shared.Random;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Player;
 using Robust.Server.Audio;
-using Content.Server.Chemistry.Containers.EntitySystems;
+using Content.Server.Chemistry.EntitySystems;
+using Content.Shared.Medical;
 using Content.Shared.Tag;
 using Content.Server._Genesis.Abilities.Felinid;
 using Content.Shared.Body.Components;
@@ -24,18 +25,18 @@ using Content.Shared.Charges.Components;
 
 namespace Content.Server._Genesis.Abilities.Felinid;
 
-public sealed class FelinidSystem : EntitySystem
+public sealed partial class FelinidSystem : EntitySystem
 {
-    [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
-    [Dependency] private readonly HungerSystem _hungerSystem = default!;
-    [Dependency] private readonly VomitSystem _vomitSystem = default!;
-    [Dependency] private readonly SolutionContainerSystem _solutionContainer = default!;
-    [Dependency] private readonly IRobustRandom _robustRandom = default!;
-    [Dependency] private readonly PopupSystem _popupSystem = default!;
-    [Dependency] private readonly InventorySystem _inventorySystem = default!;
-    [Dependency] private readonly AudioSystem _audio = default!;
-    [Dependency] private readonly TagSystem _tagSystem = default!;
-    [Dependency] private readonly SharedChargesSystem _charges = default!;
+    [Dependency] private SharedActionsSystem _actionsSystem = default!;
+    [Dependency] private SatiationSystem _satiationSystem = default!;
+    [Dependency] private VomitSystem _vomitSystem = default!;
+    [Dependency] private SolutionContainerSystem _solutionContainer = default!;
+    [Dependency] private IRobustRandom _robustRandom = default!;
+    [Dependency] private PopupSystem _popupSystem = default!;
+    [Dependency] private InventorySystem _inventorySystem = default!;
+    [Dependency] private AudioSystem _audio = default!;
+    [Dependency] private TagSystem _tagSystem = default!;
+    [Dependency] private SharedChargesSystem _charges = default!;
 
     private static readonly EntProtoId EatMouseActionId = "ActionEatMouse";
 
@@ -121,10 +122,13 @@ public sealed class FelinidSystem : EntitySystem
         if (component.PotentialTarget == null)
             return;
 
-        if (!TryComp<HungerComponent>(uid, out var hunger))
+        if (!TryComp<SatiationComponent>(uid, out var hunger))
             return;
 
-        if (hunger.CurrentThreshold == Shared.Nutrition.Components.HungerThreshold.Overfed)
+        var satiation = new Entity<SatiationComponent>(uid, hunger);
+        if (_satiationSystem.GetValueOrNull(satiation, SatiationSystem.Hunger) is { } value &&
+            _satiationSystem.GetMaximumValue(satiation, SatiationSystem.Hunger) is { } max &&
+            value >= max)
         {
             _popupSystem.PopupEntity(Loc.GetString("food-system-you-cannot-eat-any-more"), uid, uid, Shared.Popups.PopupType.SmallCaution);
             return;
@@ -151,7 +155,7 @@ public sealed class FelinidSystem : EntitySystem
 
         _audio.PlayEntity(component.EatSound, Filter.Pvs(uid), uid, true, AudioHelpers.WithVariation(0.15f));
 
-        _hungerSystem.ModifyHunger(uid, 70f, hunger);
+        _satiationSystem.ModifyValue(satiation, SatiationSystem.Hunger, 70f);
 
         _actionsSystem.RemoveAction(uid, component.EatMouse);
     }
@@ -162,9 +166,9 @@ public sealed class FelinidSystem : EntitySystem
         var hairballComp = Comp<HairballComponent>(hairball);
 
         if (TryComp<BloodstreamComponent>(uid, out var bloodStream) &&
-            _solutionContainer.ResolveSolution(uid, bloodStream.ChemicalSolutionName, ref bloodStream.ChemicalSolution))
+            _solutionContainer.ResolveSolution(uid, bloodStream.BloodSolutionName, ref bloodStream.BloodSolution))
         {
-            var vomitChemstreamAmount = _solutionContainer.SplitSolution(bloodStream.ChemicalSolution.Value, 20);
+            var vomitChemstreamAmount = _solutionContainer.SplitSolution(bloodStream.BloodSolution.Value, 20);
 
             if (_solutionContainer.TryGetSolution(hairball, hairballComp.SolutionName, out var hairballSolution))
             {

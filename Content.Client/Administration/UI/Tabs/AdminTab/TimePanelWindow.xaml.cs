@@ -19,7 +19,7 @@ namespace Content.Client.Administration.UI.Tabs.AdminTab
     public sealed partial class TimePanelWindow : DefaultWindow
     {
         [Dependency]
-        private readonly IPrototypeManager _prototypeManager = default!;
+        private IPrototypeManager _prototypeManager = default!;
         public TimePanelWindow()
         {
             RobustXamlLoader.Load(this);

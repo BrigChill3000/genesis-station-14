@@ -1,6 +1,6 @@
 //using Content.Server.Disease.Components;
 //using Content.Server.Disease;
-using Content.Server.Body.Systems;
+using Content.Shared.Body.Systems;
 using Content.Server.Popups;
 using Content.Shared.DoAfter;
 using Content.Shared.IdentityManagement;
@@ -21,12 +21,12 @@ namespace Content.Server._Genesis.Felinid
     /// </summary>
     public sealed partial class WoundLickingSystem : EntitySystem
     {
-        [Dependency] private readonly SharedDoAfterSystem _doAfterSystem = default!;
-        [Dependency] private readonly PopupSystem _popupSystem = default!;
-//        [Dependency] private readonly DiseaseSystem _disease = default!;
-        [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
-        [Dependency] private readonly IRobustRandom _random = default!;
-        [Dependency] private readonly BloodstreamSystem _bloodstreamSystem = default!;
+        [Dependency] private SharedDoAfterSystem _doAfterSystem = default!;
+        [Dependency] private PopupSystem _popupSystem = default!;
+//        [Dependency] private DiseaseSystem _disease = default!;
+        [Dependency] private SharedActionsSystem _actionsSystem = default!;
+        [Dependency] private IRobustRandom _random = default!;
+        [Dependency] private BloodstreamSystem _bloodstreamSystem = default!;
 
         public override void Initialize()
         {
@@ -47,7 +47,7 @@ namespace Content.Server._Genesis.Felinid
             _actionsSystem.RemoveAction(uid, comp.WoundLickingActionEntity);
         }
 
-        protected void OnActionPerform(WoundLickingActionEvent args)
+        private void OnActionPerform(WoundLickingActionEvent args)
         {
             if (args.Handled)
                 return;
@@ -85,7 +85,8 @@ namespace Content.Server._Genesis.Felinid
             }
 
             if (woundLicking.ReagentWhitelist.Any() &&
-                !woundLicking.ReagentWhitelist.Contains(bloodstream.BloodReagent)
+                !bloodstream.BloodReferenceSolution.Any(reagent =>
+                    woundLicking.ReagentWhitelist.Contains(reagent.Reagent.Prototype.ToString()))
             ) return;
 
             // Check bloodstream

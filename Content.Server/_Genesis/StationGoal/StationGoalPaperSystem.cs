@@ -12,12 +12,12 @@ namespace Content.Server._Genesis.StationGoal
     /// <summary>
     ///     System to spawn paper with station goal.
     /// </summary>
-    public sealed class StationGoalPaperSystem : EntitySystem
+    public sealed partial class StationGoalPaperSystem : EntitySystem
     {
-        [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-        [Dependency] private readonly IRobustRandom _random = default!;
-        [Dependency] private readonly FaxSystem _faxSystem = default!;
-        [Dependency] private readonly IPlayerManager _playerManager = default!;
+        [Dependency] private IPrototypeManager _prototypeManager = default!;
+        [Dependency] private IRobustRandom _random = default!;
+        [Dependency] private FaxSystem _faxSystem = default!;
+        [Dependency] private IPlayerManager _playerManager = default!;
 
         public override void Initialize()
         {
@@ -54,7 +54,7 @@ namespace Content.Server._Genesis.StationGoal
         /// <returns>True if at least one fax received paper</returns>
         public bool SendStationGoal(StationGoalPrototype goal)
         {
-            var faxes = EntityManager.EntityQuery<FaxMachineComponent>();
+            var faxes = EntityQuery<FaxMachineComponent>();
             var wasSent = false;
             foreach (var fax in faxes)
             {

@@ -134,7 +134,8 @@ public sealed partial class RadioSystem : SharedRadioSystem
             NetEntity.Invalid,
             null);
         var chatMsg = new MsgChatMessage { Message = chat };
-        var ev = new RadioReceiveEvent(message, messageSource, channel, radioSource, chatMsg);
+        var receivers = new List<EntityUid>();
+        var ev = new RadioReceiveEvent(message, messageSource, channel, radioSource, chatMsg, receivers);
 
         var sendAttemptEv = new RadioSendAttemptEvent(channel, radioSource);
         RaiseLocalEvent(ref sendAttemptEv);
@@ -171,6 +172,7 @@ public sealed partial class RadioSystem : SharedRadioSystem
                 continue;
 
             // send the message
+            receivers.Add(receiver);
             RaiseLocalEvent(receiver, ref ev);
         }
 

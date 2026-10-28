@@ -18,12 +18,11 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Server._Genesis.ItemOfferVerb.Systems;
 
-public sealed class ItemOfferSystem : EntitySystem
+public sealed partial class ItemOfferSystem : EntitySystem
 {
-    [Dependency] private readonly EntityManager _entMan = default!;
-    [Dependency] private readonly PopupSystem _popupSystem = default!;
-    [Dependency] private readonly AlertsSystem _alerts = default!;
-    [Dependency] private readonly HandsSystem _hands = default!;
+    [Dependency] private PopupSystem _popupSystem = default!;
+    [Dependency] private AlertsSystem _alerts = default!;
+    [Dependency] private HandsSystem _hands = default!;
 
     private readonly ProtoId<AlertPrototype> _itemOfferAlert = "ItemOffer";
 
@@ -42,7 +41,7 @@ public sealed class ItemOfferSystem : EntitySystem
 
     private bool HandleItemOfferKey(in PointerInputCmdHandler.PointerInputCmdArgs args)
     {
-        if (!args.EntityUid.IsValid() || !EntityManager.EntityExists(args.EntityUid))
+        if (!args.EntityUid.IsValid() || !Exists(args.EntityUid))
             return false;
 
         if (args.Session?.AttachedEntity == null)
@@ -73,7 +72,7 @@ public sealed class ItemOfferSystem : EntitySystem
                 if (distance > comp.ReceiveRange)
                 {
                     _alerts.ClearAlert(uid, _itemOfferAlert);
-                    _entMan.RemoveComponent<ItemReceiverComponent>(uid);
+                    RemComp<ItemReceiverComponent>(uid);
                 }
                 //FunTust: added a new variable responsible for whether the object is still in the hand during transmission
 
@@ -82,7 +81,7 @@ public sealed class ItemOfferSystem : EntitySystem
                 if (!foundInHand)
                 {
                     _alerts.ClearAlert(uid, _itemOfferAlert);
-                    _entMan.RemoveComponent<ItemReceiverComponent>(uid);
+                    RemComp<ItemReceiverComponent>(uid);
                 }
             }
         }
@@ -127,7 +126,7 @@ public sealed class ItemOfferSystem : EntitySystem
                     ("target", receiver));
                 _popupSystem.PopupEntity(loc, itemReceiver.Giver, PopupType.Medium);
                 _alerts.ClearAlert(receiver, _itemOfferAlert);
-                _entMan.RemoveComponent<ItemReceiverComponent>(receiver);
+                RemComp<ItemReceiverComponent>(receiver);
             }
             ;
         }

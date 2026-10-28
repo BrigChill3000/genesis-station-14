@@ -1,5 +1,5 @@
-ent-BaseVariationPass = { ent-BaseGameRule }
-    .desc = { ent-BaseGameRule.desc }
+ent-BaseVariationPass = { ent-BaseSilentGameRule }
+    .desc = { ent-BaseSilentGameRule.desc }
 ent-BasicPoweredLightVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }
 ent-SolidWallRustingVariationPass = { ent-BaseVariationPass }
@@ -12,7 +12,7 @@ ent-BasicDecalDirtVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }
 ent-BasicDecalGraffitiVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }
-ent-BasicDecalBrunsVariationPass = { ent-BaseVariationPass }
+ent-BasicDecalBurnsVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }
 ent-BasicDecalDirtMonospaceVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }

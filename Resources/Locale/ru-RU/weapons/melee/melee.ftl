@@ -1,9 +1,13 @@
-melee-inject-failed-hardsuit = Ваше { $weapon } не может проникать через костюмы!
-melee-balloon-pop = { CAPITALIZE(THE($balloon)) } popped!
-# BatteryComponent
-melee-battery-examine =
-    Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
-        [one] удар
-        [few] удара
-       *[other] ударов
-    }.
+melee-inject-failed-hardsuit = Ваш { $weapon } не может проникнуть сквозь скафандр!
+
+melee-balloon-pop = { CAPITALIZE($balloon) } лопнул!
+
+melee-weapon-dealt-no-damage = { CAPITALIZE($weapon) } не наносит урона { $target }!
+melee-self-weapon-dealt-no-damage = Вы не наносите урона { $target }!
+
+# MeleeBatteryHitsLeftSystem
+examine-battery-hits-left = Заряда хватит на [color={ $color }]{ $count }[/color] { $count ->
+    [one] удар
+    [few] удара
+    *[other] ударов
+}.

@@ -1,0 +1,37 @@
+# Genesis energy bolts. Inherit current upstream projectile fixtures and audio.
+- type: entity
+  parent: BulletLaser
+  id: BulletEnergyGunLaser
+  name: energy bolt
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      shader: unshaded
+      color: red
+  - type: Projectile
+    impactEffect: BulletImpactEffectRedDisabler
+    damage:
+      types:
+        Heat: 20
+    soundHit:
+      collection: WeakHit
+
+- type: entity
+  parent: BulletEnergyGunLaser
+  id: BulletEnergyGunLaserBlue
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      shader: unshaded
+      color: blue
+  - type: Projectile
+    impactEffect: BulletImpactEffectBlueDisabler
+    damage:
+      types:
+        Heat: 20
+    soundHit:
+      collection: WeakHit

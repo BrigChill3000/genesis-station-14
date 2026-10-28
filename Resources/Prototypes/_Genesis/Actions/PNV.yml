@@ -9,7 +9,7 @@
       sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
       state: icon
   - type: InstantAction
-    event: !type:NvInstantActionEvent
+    event: !type:ToggleNightVisionEvent
 
 - type: entity
   id: NVToggleAction
@@ -22,4 +22,4 @@
       sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
       state: icon
   - type: InstantAction
-    event: !type:NvInstantActionEvent
+    event: !type:ToggleNightVisionEvent

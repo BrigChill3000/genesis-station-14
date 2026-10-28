@@ -4,9 +4,9 @@ using Robust.Shared.GameStates;
 
 namespace Content.Shared._Genesis.Carrying
 {
-    public sealed class CarryingSlowdownSystem : EntitySystem
+    public sealed partial class CarryingSlowdownSystem : EntitySystem
     {
-        [Dependency] private readonly MovementSpeedModifierSystem _movementSpeed = default!;
+        [Dependency] private MovementSpeedModifierSystem _movementSpeed = default!;
 
         public override void Initialize()
         {
@@ -46,3 +46,4 @@ namespace Content.Shared._Genesis.Carrying
         }
     }
 }
+

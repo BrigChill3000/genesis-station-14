@@ -29,7 +29,7 @@ public sealed partial class LizardAccentSystem : RelayAccentSystem<LizardAccentC
     private static readonly List<string> ReplacementsChUpper = new List<string> { "ЩЩ", "ЩЩЩ" };
     // Corvax-Localization-End
 
-    [Dependency] private readonly IRobustRandom _random = default!; // Corvax-Localization
+    [Dependency] private IRobustRandom _random = default!; // Corvax-Localization
 
     public override string Accentuate(string message, Entity<LizardAccentComponent>? ent = null)
     {
@@ -58,3 +58,4 @@ public sealed partial class LizardAccentSystem : RelayAccentSystem<LizardAccentC
         return message;
     }
 }
+

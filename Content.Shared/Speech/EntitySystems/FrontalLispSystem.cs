@@ -20,7 +20,7 @@ public sealed partial class FrontalLispSystem : RelayAccentSystem<FrontalLispCom
     private static readonly Regex RegexLowerDsh = new(@"\b[Дд](?![ИиЕеЁёЮюЯяЬь])\b|\B[Дд]\B");
     // Corvax-Localization End
 
-    [Dependency] private readonly IRobustRandom _random = default!; // Corvax-Localization
+    [Dependency] private IRobustRandom _random = default!; // Corvax-Localization
 
     public override string Accentuate(string message, Entity<FrontalLispComponent>? ent = null)
     {
@@ -43,3 +43,4 @@ public sealed partial class FrontalLispSystem : RelayAccentSystem<FrontalLispCom
         return message;
     }
 }
+

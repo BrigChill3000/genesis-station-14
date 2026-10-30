@@ -1,9 +1,6 @@
-﻿- type: entity
+- type: entity
   id: OrganFelinidStomach
-  parent: OrganReptilianStomach
+  parent: OrganHumanStomach
   components:
-  - type: Stomach
-  - type: SolutionContainerManager
-    solutions:
-      stomach:
-        maxVol: 20.0
+  - type: Metabolizer
+    metabolizerTypes: [ Animal ]

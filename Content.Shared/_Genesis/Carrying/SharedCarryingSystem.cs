@@ -30,7 +30,7 @@ using Content.Shared.Hands.EntitySystems;
 
 namespace Content.Shared._Genesis.Carrying;
 
-public sealed class SharedCarryingSystem : EntitySystem
+public sealed partial class SharedCarryingSystem : EntitySystem
 {
     private readonly float _maxThrowSpeed = 15f;
     private const float CarryDistanceThreshold = 0.1f;
@@ -41,20 +41,19 @@ public sealed class SharedCarryingSystem : EntitySystem
     private const float CarryInteractionRange = 0.75f;
     private const float BaseThrowSpeed = 3f;
 
-    [Dependency] private readonly SharedInteractionSystem _interactionSystem = default!;
-    [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
-    [Dependency] private readonly CarryingSlowdownSystem _slowdown = default!;
-    [Dependency] private readonly SharedVirtualItemSystem _virtualItemSystem = default!;
-    [Dependency] private readonly SharedDoAfterSystem _doAfterSystem = default!;
-    [Dependency] private readonly ActionBlockerSystem _actionBlockerSystem = default!;
-    [Dependency] private readonly PullingSystem _pullingSystem = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
-    [Dependency] private readonly ThrowingSystem _throwingSystem = default!;
-    [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
-    [Dependency] private readonly StandingStateSystem _standingState = default!;
-    [Dependency] private readonly IEntityManager _entityManager = default!;
-    [Dependency] private readonly MovementSpeedModifierSystem _movementSpeed = default!;
-    [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
+    [Dependency] private SharedInteractionSystem _interactionSystem = default!;
+    [Dependency] private MobStateSystem _mobStateSystem = default!;
+    [Dependency] private CarryingSlowdownSystem _slowdown = default!;
+    [Dependency] private SharedVirtualItemSystem _virtualItemSystem = default!;
+    [Dependency] private SharedDoAfterSystem _doAfterSystem = default!;
+    [Dependency] private ActionBlockerSystem _actionBlockerSystem = default!;
+    [Dependency] private PullingSystem _pullingSystem = default!;
+    [Dependency] private SharedTransformSystem _transform = default!;
+    [Dependency] private ThrowingSystem _throwingSystem = default!;
+    [Dependency] private SharedPopupSystem _popupSystem = default!;
+    [Dependency] private StandingStateSystem _standingState = default!;
+    [Dependency] private MovementSpeedModifierSystem _movementSpeed = default!;
+    [Dependency] private SharedHandsSystem _handsSystem = default!;
 
     public override void Initialize()
     {
@@ -365,3 +364,4 @@ public sealed class SharedCarryingSystem : EntitySystem
         RaiseLocalEvent(carried, ref ev);
     }
 }
+

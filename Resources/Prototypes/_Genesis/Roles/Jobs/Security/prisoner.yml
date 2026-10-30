@@ -3,7 +3,7 @@
   name: job-name-prisoner
   description: job-description-prisoner
   playTimeTracker: JobPrisoner
-  startingGear: PrisonerGear
+  startingGear: GenesisPrisonerGear
   alwaysUseSpawner: true
   canBeAntag: false
   icon: JobIconPrisoner
@@ -16,15 +16,9 @@
       implants: [ TrackingImplant ]
 
 - type: startingGear
-  id: PrisonerGear
+  id: GenesisPrisonerGear
   equipment:
     shoes: ClothingShoesColorBlack
     id: PrisonerPDA
     ears: ClothingHeadsetGrey
 
-- type: chameleonOutfit
-  id: PrisonerChameleonOutfit
-  job: Prisoner
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitPrisoner
-    shoes: ClothingShoesColorBlack

@@ -10,7 +10,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/Genesis/Weapons/Guns/GunShots/heavy_shot_suppressed.ogg
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletMic
     fireCost: 900
   - type: BatterySelfRecharger

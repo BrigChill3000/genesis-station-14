@@ -1,6 +1,5 @@
 using System.Threading;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Server._Genesis.Felinid
 {
@@ -8,7 +7,7 @@ namespace Content.Server._Genesis.Felinid
     [Access(typeof(WoundLickingSystem))]
     public sealed partial class WoundLickingComponent : Component
     {
-        [DataField("woundLickingAction", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
+        [DataField("woundLickingAction")]
         public string? WoundLickingAction = "ActionWoundLicking";
 
         [DataField("woundLickingActionEntity")]

@@ -1,14 +1,32 @@
-borg-slot-cables-empty = Cables
-borg-slot-construction-empty = Construction materials
-borg-slot-circuitboards-empty = Circuitboards
-borg-slot-flatpacks-empty = Flatpacks
-borg-slot-tiles-empty = Floor tiles
-borg-slot-topicals-empty = Topicals
-borg-slot-small-containers-empty = Small containers
-borg-slot-chemical-containers-empty = Chemical containers
-borg-slot-documents-empty = Books and papers
-borg-slot-soap-empty = Soap
-borg-slot-instruments-empty = Instruments
-borg-slot-beakers-empty = Beakers
-borg-slot-inflatable-door-empty = Inflatable Door
-borg-slot-inflatable-wall-empty = Inflatable Wall
+borg-slot-cables-empty = Кабели
+borg-slot-construction-empty = Строительные
+    материалы
+borg-slot-circuitboards-empty = Платы
+borg-slot-flatpacks-empty = Упаковки
+borg-slot-tiles-empty = Плитки
+borg-slot-topicals-empty = Наружные
+    препараты
+borg-slot-injector-dropper-empty = Прецизионные
+    инжекторы
+borg-slot-small-containers-empty = Маленькие
+    ёмкости
+borg-slot-chemical-containers-empty = Химические
+    ёмкости
+borg-slot-documents-empty = Книги и бумаги
+borg-slot-soap-empty = Мыло
+borg-slot-instruments-empty = Музыкальные
+    инструменты
+borg-slot-beakers-empty = Мензурки
+borg-slot-brains-empty = Мозги и ММИ
+borg-slot-modules-empty = Модули
+borg-slot-powercell-empty = Батареи
+borg-slot-inflatable-door-empty = Надувная дверь
+borg-slot-inflatable-wall-empty = Надувная стена
+borg-slot-dining-ware-empty = Блюда и посуда
+borg-slot-seed-produce-empty = Урожай и семена
+borg-slot-pen-empty = Ручка
+borg-slot-gardening-tools-empty = Садовые
+    инструменты
+borg-slot-ingredients-empty = Ингредиенты
+borg-slot-xenoborg-crystal-empty = Кристаллы
+    ксеноборгов

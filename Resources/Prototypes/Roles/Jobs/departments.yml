@@ -4,90 +4,58 @@
   description: department-Cargo-description
   color: "#A46106"
   roles:
+  - SeniorSalvage # Genesis
+  - Miner # Genesis
   - CargoTechnician
   - Quartermaster
-  - SeniorSalvage # Genesis-Station
   - SalvageSpecialist
-  - Miner # Genesis-Station
-
-- type: department
-  id: Civilian
-  name: department-Civilian
-  description: department-Civilian-description
-  color: "#9FED58"
-  weight: -10
-  roles:
-  - SeniorService # Genesis-Station
-  - Bartender
-  - Botanist
-  - Boxer
-  - Chaplain
-  - Chef
-  - Clown
-  - HeadOfPersonnel
-  - Janitor
-  - Librarian
-  - Mime
-  - Musician
-  - Passenger
-  - Reporter
-  - Visitor
-  - Zookeeper
-  - ServiceWorker
-  - Prisoner # Genesis-Station
 
 - type: department
   id: CentralCommand
   name: department-CentralCommand
   description: department-CentralCommand-description
   color: "#0c344d"
+  weight: 120 # Highest weight of all NT departments; Central Command's authority is absolute
+  editorHidden: true
   roles:
-  - HeadOfStaffCentCom # Genesis-Station
-  - CentComOfficial # Genesis-Station
-  - CentComOperator # Genesis-Station
-  - HeadOfSecurityCentCom # Genesis-Station
-  - CentralCommandSecurityOfficer # Genesis-Station
-  - CentralCommandMedicalDoctor # Genesis-Station
-  - CentralCommandEngineer # Genesis-Station
-  - CentralCommandAssistant # Genesis-Station
-  - CentralCommandCargoTechnician # Genesis-Station
+  - HeadOfStaffCentCom # Genesis
+  - CentComOfficial # Genesis
+  - CentComOperator # Genesis
+  - HeadOfSecurityCentCom # Genesis
+  - CentralCommandSecurityOfficer # Genesis
+  - CentralCommandMedicalDoctor # Genesis
+  - CentralCommandEngineer # Genesis
+  - CentralCommandAssistant # Genesis
+  - CentralCommandCargoTechnician # Genesis
   - CentralCommandOfficial
-  - CBURN
-  - ERTLeader
-  - ERTChaplain
-  - ERTJanitor
-  - ERTMedical
-  - ERTSecurity
-  - ERTEngineer
-  - DeathSquad
-  primary: false
-  weight: 120
+
+- type: department
+  id: Civilian
+  name: department-Civilian
+  description: department-Civilian-description
+  color: "#7F7F7F"
+  weight: -10 # Lowest weight of all "regular" crew departments
+  ignoreForDepartmentFallback: true
+  roles:
+  - Passenger
+  - Visitor
 
 - type: department
   id: Command
   name: department-Command
   description: department-Command-description
   color: "#334E6D"
+  weight: 100 # Highest weight of all "regular" crew departments
+  primary: false
   roles:
+  - Magistrat # Genesis
   - Captain
-  - Magistrat # Genesis-Station
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
-  - CentralCommandOfficial
-  - CBURN
-  - ERTLeader
-  - ERTChaplain
-  - ERTJanitor
-  - ERTMedical
-  - ERTSecurity
-  - ERTEngineer
-  - DeathSquad
-  primary: false
-  weight: 100
 
 - type: department
   id: Engineering
@@ -95,9 +63,9 @@
   description: department-Engineering-description
   color: "#EFB341"
   roles:
+  - SeniorEngineer # Genesis
   - AtmosphericTechnician
   - ChiefEngineer
-  - SeniorEngineer # Genesis-Edit
   - StationEngineer
   - TechnicalAssistant
 
@@ -107,29 +75,13 @@
   description: department-Medical-description
   color: "#52B4E9"
   roles:
+  - SeniorPhysician # Genesis
   - Chemist
   - ChiefMedicalOfficer
-  - SeniorPhysician # Genesis-Edit
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
   - Paramedic
-
-- type: department
-  id: Security
-  name: department-Security
-  description: department-Security-description
-  color: "#DE3A3A"
-  weight: 20
-  roles:
-  - HeadOfSecurity
-  - SecurityCadet
-  - Pilot # Corvax-Pilot Edit by Genesis
-  - SeniorOfficer # Genesis-Edit
-  - SecurityOfficer
-  - Detective
-  - Brigmedic # Genesis-Station
-  - Warden
 
 - type: department
   id: Science
@@ -137,32 +89,88 @@
   description: department-Science-description
   color: "#D381C9"
   roles:
+  - SeniorResearcher # Genesis
+  - Roboticist # Genesis
   - ResearchDirector
-  - SeniorResearcher # Genesis-Edit
   - Scientist
-  - Roboticist # Genesis-Station
   - ResearchAssistant
+
+- type: department
+  id: Security
+  name: department-Security
+  description: department-Security-description
+  color: "#DE3A3A"
+  weight: 20 # Raised priority compared to most other crew departments
+  roles:
+  - Pilot # Genesis
+  - SeniorOfficer # Genesis
+  - Brigmedic # Genesis
+  - HeadOfSecurity
+  - SecurityCadet
+  - SecurityOfficer
+  - Detective
+  - Warden
+
+- type: department
+  id: Service
+  name: department-Service
+  description: department-Service-description
+  color: "#9FED58"
+  roles:
+  - SeniorService # Genesis
+  - Bartender
+  - Botanist
+  - Chaplain
+  - Chef
+  - Clown
+  - HeadOfPersonnel
+  - Janitor
+  - Lawyer
+  - Librarian
+  - Mime
+  - Musician
+  - Reporter
+  - ServiceWorker
+  - TramDriver
 
 - type: department
   id: Silicon
   name: department-Silicon
   description: department-Silicon-description
   color: "#D381C9"
+  weight: -20 # Displays after all regular crew departments, including Civilian, both because they're mechanically distinct and because they're subordinate to all crew by default
   roles:
   - Borg
   - StationAi
+
+- type: department
+  id: TaskForce
+  name: department-Task-Force
+  description: department-Task-Force-description
+  color: "#0c344d"
+  weight: 110 # Higher weight than Command, but below Central Command
+  editorHidden: true
+  roles:
+  - CBURN
+  - ERTLeader
+  - ERTChaplain
+  - ERTJanitor
+  - ERTMedical
+  - ERTSecurity
+  - ERTEngineer
+  - DeathSquad
 
 - type: department
   id: Specific
   name: department-Specific
   description: department-Specific-description
   color: "#9FED58"
-  weight: 10
+  weight: -100 # Displays after all other departments, since that makes them obviously distinct in the lobby's jobs list
+  ignoreForDepartmentFallback: true
   roles:
-  - Boxer
+  - Pilot # Genesis
+  - Prisoner # Genesis
   - Reporter
-  - Zookeeper
   - Psychologist
-  - Pilot # Corvax-Pilot Edit by Genesis
-  - Prisoner # Genesis-Station
+  - TramDriver
   primary: false

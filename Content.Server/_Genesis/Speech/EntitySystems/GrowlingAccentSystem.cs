@@ -5,9 +5,13 @@ using Robust.Shared.Random;
 
 namespace Content.Server._Genesis.Speech.EntitySystems;
 
-public sealed class GrowlingAccentSystem : EntitySystem
+public sealed partial class GrowlingAccentSystem : EntitySystem
 {
-    [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private IRobustRandom _random = default!;
+    private static readonly Regex LowerLatinR = new("r+");
+    private static readonly Regex UpperLatinR = new("R+");
+    private static readonly Regex LowerCyrillicR = new("р+");
+    private static readonly Regex UpperCyrillicR = new("Р+");
 
     public override void Initialize()
     {
@@ -20,28 +24,24 @@ public sealed class GrowlingAccentSystem : EntitySystem
         var message = args.Message;
 
         // r => rrr
-        message = Regex.Replace(
+        message = LowerLatinR.Replace(
             message,
-            "r+",
             _random.Pick(new List<string> { "rr", "rrr" })
         );
         // R => RRR
-        message = Regex.Replace(
+        message = UpperLatinR.Replace(
             message,
-            "R+",
             _random.Pick(new List<string> { "RR", "RRR" })
         );
 
         // р => ррр
-        message = Regex.Replace(
+        message = LowerCyrillicR.Replace(
             message,
-            "р+",
             _random.Pick(new List<string> { "рр", "ррр" })
         );
         // Р => РРР
-        message = Regex.Replace(
+        message = UpperCyrillicR.Replace(
             message,
-            "Р+",
             _random.Pick(new List<string> { "РР", "РРР" })
         );
 

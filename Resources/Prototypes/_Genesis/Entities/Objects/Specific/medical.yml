@@ -1,5 +1,5 @@
 - type: entity
-  name: Luxury Medipen 
+  name: Luxury Medipen
   parent: ChemicalMedipen
   id: Luxurymedpen
   description: Contains enough stimulants for you to have the chemical's effect for 30 seconds. Use it when you're sure you're ready to throw down.
@@ -11,26 +11,27 @@
       map: ["enum.SolutionContainerLayers.Fill"]
   - type: Item
     sprite: Genesis/Objects/Specific/Medical/medipen.rsi
-  - type: SolutionContainerManager
-    solutions:
-      pen:
-        maxVol: 34
-        reagents:
-        - ReagentId: Epinephrine
-          Quantity: 15
-        - ReagentId: Ichor
-          Quantity: 15
-        - ReagentId: TranexamicAcid
-          Quantity: 4
+  - type: Solution
+    solution:
+      maxVol: 34
+      reagents:
+      - ReagentId: Epinephrine
+        Quantity: 15
+      - ReagentId: Ichor
+        Quantity: 15
+      - ReagentId: TranexamicAcid
+        Quantity: 4
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     changeColor: false
     emptySpriteName: luxpen_empty
-  - type: Hypospray
-    solutionName: pen
-    transferAmount: 30
+  - type: Injector
+    solutionName: hypospray
+    currentTransferAmount: 30
+    activeModeProtoId: HyposprayInjectMode
+    allowedModes:
+    - HyposprayInjectMode
   - type: StaticPrice
     price: 500
   - type: Tag
     tags: []
-

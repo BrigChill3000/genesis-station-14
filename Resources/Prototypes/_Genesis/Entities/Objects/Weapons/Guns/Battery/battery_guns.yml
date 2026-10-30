@@ -25,7 +25,7 @@
   - type: Battery
     maxCharge: 1000
     startingCharge: 1000
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 50
   - type: EnergyGun
@@ -78,7 +78,7 @@
   - type: Battery
     maxCharge: 1000
     startingCharge: 1000
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 50
   - type: EnergyGun
@@ -138,7 +138,7 @@
   - type: Battery
     maxCharge: 500
     startingCharge: 500
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 50
   - type: EnergyGun
@@ -187,7 +187,7 @@
   - type: Battery
     maxCharge: 800
     startingCharge: 800
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 50
   - type: EnergyGun
@@ -246,7 +246,7 @@
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletEnergyGunLaser
     fireCost: 100
   - type: MagazineVisuals
@@ -282,7 +282,7 @@
   - type: Battery
     maxCharge: 4000
     startingCharge: 4000
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletEMP
     fireCost: 1000
   - type: MagazineVisuals
@@ -307,7 +307,7 @@
         path: /Audio/Genesis/Weapons/Guns/GunShots/plasma_cutter.ogg
     - type: Item
       size: Normal
-    - type: ProjectileBatteryAmmoProvider
+    - type: BatteryAmmoProvider
       proto: BulletCutter
       fireCost: 200
     - type: Battery
@@ -328,7 +328,7 @@
       fireRate: 1
       soundGunshot:
         path: /Audio/Genesis/Weapons/Guns/GunShots/plasma_cutter.ogg
-    - type: ProjectileBatteryAmmoProvider
+    - type: BatteryAmmoProvider
       proto: BulletCutterAdv
       fireCost: 100
     - type: Appearance
@@ -352,7 +352,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 100
   - type: MagazineVisuals
@@ -401,7 +401,7 @@
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 100
   - type: EnergyGun
@@ -451,7 +451,7 @@
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 100
   - type: Appearance
@@ -491,7 +491,7 @@
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
-  - type: ProjectileBatteryAmmoProvider
+  - type: BatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 100
   - type: Appearance

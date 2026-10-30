@@ -7,11 +7,11 @@ using Robust.Shared.Physics.Components;
 
 namespace Content.Server._Genesis.Carrying
 {
-    public sealed class CarryingSystem : EntitySystem
+    public sealed partial class CarryingSystem : EntitySystem
     {
-        [Dependency] private readonly ActionBlockerSystem _actionBlockerSystem = default!;
-        [Dependency] private readonly EscapeInventorySystem _escapeInventorySystem = default!;
-        [Dependency] private readonly SharedCarryingSystem _sharedCarrying = default!;
+        [Dependency] private ActionBlockerSystem _actionBlockerSystem = default!;
+        [Dependency] private EscapeInventorySystem _escapeInventorySystem = default!;
+        [Dependency] private SharedCarryingSystem _sharedCarrying = default!;
 
         public override void Initialize()
         {

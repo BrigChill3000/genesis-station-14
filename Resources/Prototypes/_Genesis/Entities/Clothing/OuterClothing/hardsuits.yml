@@ -150,7 +150,9 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  - type: PNV
+  - type: NightVision
+    relayOverlay: true
+    action: SwitchNightVision
 
 - type: entity
   parent: ClothingOuterHardsuitSyndieElite

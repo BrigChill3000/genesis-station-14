@@ -3,17 +3,17 @@ using Content.Shared.Containers.ItemSlots;
 using Content.Shared._Genesis.Documents;
 using Content.Shared.Lathe;
 using Content.Shared.Paper;
-using Content.Shared.Station;
+using Content.Shared.Station.Systems;
 using Robust.Shared.Timing;
 
 namespace Content.Server._Genesis.Documents;
 
 public sealed partial class DocumentPrinterSystem : EntitySystem
 {
-    [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
-    [Dependency] private readonly PaperSystem _paper = default!;
-    [Dependency] private readonly SharedStationSystem _station = default!;
-    [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private ItemSlotsSystem _itemSlots = default!;
+    [Dependency] private PaperSystem _paper = default!;
+    [Dependency] private StationSystem _station = default!;
+    [Dependency] private IGameTiming _timing = default!;
 
     public override void Initialize()
     {

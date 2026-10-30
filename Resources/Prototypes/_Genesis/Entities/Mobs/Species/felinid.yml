@@ -1,14 +1,12 @@
 - type: entity
   save: false
   name: Urist McFelinid
-  parent: BaseMobHuman
+  parent: [AppearanceFelinid, BaseSpeciesMobOrganic]
   id: MobFelinidBase
   abstract: true
   components:
   - type: Sprite
     scale: 0.8, 0.8
-  - type: HumanoidAppearance
-    species: Felinid
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
@@ -21,8 +19,6 @@
         - MobMask
         layer:
         - MobLayer
-  - type: Body
-    prototype: Felinid
   - type: Damageable
     damageContainer: Biological
   - type: MeleeWeapon
@@ -52,11 +48,6 @@
 #  - type: PseudoItem  - when backmen reborn and fix that xddd
   - type: WoundLicking # ХАХАХААХАХ МИЛЕНСВУЛЬФ УСЛЫШАЛ МЕНЯ Я ВЧЕРА ЗАНИМАЛСЯ СБОРКОЙ А СЕГОДНЯ В 11 ВЫПУСТИЛ ОБНОВУ МИЛЕНСВУЛЬФ ХАХАХАХАХХ
   - type: OwOAccent
-  - type: Vocal
-    sounds:
-      Male: MaleFelinid
-      Female: FemaleFelinid
-      Unsexed: MaleFelinid
   - type: Felinid
   - type: Respirator
     damage:
@@ -80,7 +71,7 @@
 - type: entity
   save: false
   name: Urist McHands
-  parent: MobHumanDummy
+  parent: AppearanceFelinid
   id: MobFelinidDummy
   description: A dummy felinid meant to be used in character setup.
 

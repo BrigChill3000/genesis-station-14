@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import subprocess
+import os
 from typing import Iterable
 
 def main() -> int:
@@ -16,13 +17,13 @@ def main() -> int:
 def get_text_files() -> Iterable[str]:
     # https://stackoverflow.com/a/24350112/4678631
     process = subprocess.run(
-        ["git", "grep", "--cached", "-Il", ""],
+        ["git", "grep", "--cached", "-Ilz", ""],
         check=True,
-        encoding="utf-8",
         stdout=subprocess.PIPE)
 
-    for x in process.stdout.splitlines():
-        yield x.strip()
+    for x in process.stdout.split(b"\0"):
+        if x:
+            yield os.fsdecode(x)
 
 def is_file_crlf(path: str) -> bool:
     # https://stackoverflow.com/a/29697732/4678631

@@ -1,30 +1,23 @@
 - type: entity
   name: epinephrine robot hypospray
-  parent: BaseItem
+  parent: BorgHypo
   description: A borg version of hypospray that automatically regenerates epinephrine.
   id: HyposprayBorgStandard
   categories: [ HideSpawnMenu ]
   components:
-  - type: Sprite
-    sprite: Objects/Specific/Medical/hypospray.rsi
-    state: borghypo
-  - type: Item
-    sprite: Objects/Specific/Medical/hypospray.rsi
-  - type: SolutionContainerManager
-    solutions:
-      hypospray:
-        maxVol: 15
+  - type: Solution
+    solution:
+      maxVol: 15
   - type: SolutionRegeneration
     solution: hypospray
     generated:
       reagents:
       - ReagentId: Epinephrine
         Quantity: 0.1
-  - type: ExaminableSolution
-    solution: hypospray
-  - type: Hypospray
-    onlyAffectsMobs: false
-    injectOnly: true
+  - type: Injector
+    activeModeProtoId: HyposprayInjectMode
+    allowedModes:
+    - HyposprayInjectMode
 
 - type: entity
   name: proto-kinetic robot accelerator

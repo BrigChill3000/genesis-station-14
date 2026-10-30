@@ -233,6 +233,25 @@
    - клац
    - клацает
 
+- type: emote
+  id: Hiss
+  name: chat-emote-name-hiss
+  category: Vocal
+  available: false
+  icon: Interface/Emotes/hiss.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    tags:
+    - SiliconEmotes
+  chatMessages: [chat-emote-msg-hiss]
+  chatTriggers:
+  - hiss
+  - hisses
+  - hissed
+  - hissing
+
 # Vulpkanin
 - type: emote
   id: Bark
@@ -243,9 +262,9 @@
     components:
     - Vocal
   blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [barks.]
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-bark"]
   chatTriggers:
   - bark
   - barks
@@ -261,9 +280,9 @@
     components:
     - Vocal
   blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [snarls.]
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-snarl"]
   chatTriggers:
   - snarl
   - snarls
@@ -279,9 +298,9 @@
     components:
     - Vocal
   blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [whines.]
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-whine"]
   chatTriggers:
   - whine
   - whines
@@ -297,9 +316,9 @@
     components:
     - Vocal
   blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [howls.]
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-howl"]
   chatTriggers:
   - howl
   - howls
@@ -315,14 +334,34 @@
     components:
     - Vocal
   blacklist:
-    components:
-    - BorgChassis
-  chatMessages: [growls.]
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-growl"]
   chatTriggers:
   - growl
   - growls
   - growled
   - growling
+
+#vox
+- type: emote
+  id: Caw
+  name: chat-emote-name-caw
+  category: Vocal
+  icon: Interface/Emotes/caw.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    tags:
+    - SiliconEmotes
+  chatMessages: [chat-emote-msg-caw]
+  chatTriggers:
+  - caw
+  - caws
+  - cawed
+  - cawing
 
 # hand emotes
 - type: emote
@@ -476,6 +515,12 @@
   - deathgasp
 
 - type: emote
+  id: KoboldDeathgasp
+  name: chat-emote-name-deathgasp
+  icon: Interface/Emotes/deathgasp.png
+  chatMessages: ["chat-emote-msg-deathgasp-kobold"]
+
+- type: emote
   id: MonkeyDeathgasp
   name: chat-emote-name-deathgasp
   icon: Interface/Emotes/deathgasp.png
@@ -544,6 +589,41 @@
     - chirping
     - щебет
     - щебечет
+
+- type: emote
+  id: Flap
+  name: chat-emote-name-flap
+  category: Hands # Not really "hands", but how far it to vocal? (moth mimes want to flap too!)
+  available: false
+  icon: Interface/Emotes/flap.png
+  whitelist:
+    components:
+    - Hands
+  blacklist:
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-flap"]
+  chatTriggers:
+   - flap
+   - flaps
+   - flapped
+   - flapping
+   - flutter
+   - flutters
+   - fluttering
+   - fluttered
+   - flap wings
+   - flaps wings
+   - flutter wings
+   - flutters wings
+   - flaps his wings
+   - flaps her wings
+   - flaps their wings
+   - flaps its wings
+   - flutters his wings
+   - flutters her wings
+   - flutters their wings
+   - flutters its wings
 
 # Machine Emotes
 - type: emote

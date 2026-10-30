@@ -15,8 +15,6 @@
         type: CriminalRecordsConsoleBoundUserInterface
   - type: ActivatableUI
     key: enum.CriminalRecordsConsoleKey.Key
-  - type: WirelessNetworkConnection
-    range: 500
   - type: StationLimitedNetwork
   - type: StaticPrice
     price: 500
